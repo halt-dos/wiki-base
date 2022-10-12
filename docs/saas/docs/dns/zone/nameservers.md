@@ -16,7 +16,7 @@ This warning message states that DNS Name Servers doesn’t point to Haltdos.
 
 If you would like to change your DNS Provider over Haltdos DNS, read more to learn.
 
-Steps to Update Name Servers
+**Steps to Update Name Servers**
 
 1. Go to **DNS > Zones > Records**.
 2. Click Gear icon next to the **Add Record** button.
@@ -27,17 +27,21 @@ Steps to Update Name Servers
 7. Paste the new Name Servers to your current registrar.
 8. Click Save.
 
-Note: It will take up to 24 hours to propagate.
+:::note 
+It will take up to 24 hours to propagate.
 If you find any DNS provider instructions need an update, please notify our 24x7 Support Team.
+:::
 
-**Cloudflare DNS**
+  
+
+### **Cloudflare DNS**
 
 1. Login your Cloudflare account
 2. Select Domain from the drop-down menu on the top left.
 3. Click on the DNS settings tab.
 4. Add the CNAME records. In the first field, enter the subdomain that you want to use, such as CDN, and in the second field, enter Edge Address (foo-bar.haltdosdns.com). 
 
-**123reg DNS**
+### **123reg DNS**
 
 1. Login your 123-reg control panel.
 2. Go to Domains section.
@@ -49,7 +53,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 8. Enter CDN in the hostname field (Note: Enter WWW for full site cache). Enter Edge Address in the Destination CNAME field. 
 9. Click Add.
 
-**GoDaddy DNS**
+### **GoDaddy DNS**
 
 1. Login your GoDaddy account.
 2. Go to Product List next to Domains.
@@ -63,7 +67,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
  TTL – Specify how long the server should cache the information.
 8. Click Save.
 
-**Bluehost DNS**
+### **Bluehost DNS**
 
 1. Login your Bluehost Hosting Account.
 2. Go to Domains and click DNS Zone Editor icon.
@@ -75,7 +79,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 8. Enter the Address in the Points To field that you want the record should resolve to.
 9. Click Add Record to create the record.
 
-**DYN DNS**
+### **DYN DNS**
 
 1. Login your Dyn account.
 2. Go to the My Services option.
@@ -91,18 +95,20 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 12. Click Submit.
 
 
-**ClouDNS**
+### **ClouDNS**
 
 1. Go to Control Panel. 
 2. Click “Add new record”
 3. Enter the following:
-   Type: CNAME
-   TTL: 30 Minute
-   Host: Example (www.hostname.com)
-   Points to: Edge Address (e.g., foo-bar.haltdosdns.com)
+```
+Type: CNAME
+TTL: 30 Minute
+Host: Example (www.hostname.com)
+Points to: Edge Address (e.g., foo-bar.haltdosdns.com)
+```
 
 
-**Easy DNS**
+### **Easy DNS**
 
 1. Login your easyDNS account.
 2. Click DNS. It will redirect you to the DNS SETTINGS page.
@@ -110,7 +116,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 4. For the DNS record type that you are trying to click the green wrench tool.
 
 
-**1&1 DNS**
+### **1&1 DNS**
 
 1. Go to https://admin.1and1.com and login your account. 
 2. In case of only one package, go to the Administration page and continue to step 4.
@@ -129,7 +135,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 15. Click OK
 
 
-**Blacknight DNS**
+### **Blacknight DNS**
 
 1. Go to cp.blacknight.com and login your account.
 2. Go to Registered Domains.    
@@ -142,7 +148,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 9. Click Finish.
 
 
-**DNS Park**
+### **DNS Park**
 
 1. Login your DNS Park account.
 2. Click DNS Hosting.
@@ -153,7 +159,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 7. Click Add Alias.
 
 
-**Network Solutions DNS**
+### **Network Solutions DNS**
 
 1. Go to www.networksolutions.com. 
 2. Click Manage Account.
@@ -171,7 +177,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
  
 
 
-**EveryDNS**
+### **EveryDNS**
 
 1. Go to EveryDNS.net and login your account.
 2. Click the domain you want to use with G Suite for your Domain.
@@ -182,7 +188,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 7. Click Add Record.
 
 
-**ENom DNS**
+### **ENom DNS**
 
 1. Go to www.enom.com and login your account. 
 2. Go to Domains, select My Domain from the drop-down menu. It will direct you to the Manage Domains page.
@@ -194,7 +200,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 8. Click Save.
 
 
-**EuroDNS**
+### **EuroDNS**
 
 1. Go to eurodns.com.
 2. Login your account.
@@ -208,9 +214,9 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 10. Click the Save Settings.
 
 
-**Gandi.Net DNS**
+### **Gandi.Net DNS**
 
-1. Go to gandi.net and sign in
+1. Go to https://www.gandi.net/ and sign in
 2. Click the Administration tab > Control Panel link.
 3. Select the domain you wish to manage.
 4. Click Technical Settings > Manage DNS zone file.
@@ -221,7 +227,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 6. Click Submit. It will direct you to the list of entries. 
 7. Click Submit Changes.
 
-**Hover DNS**
+### **Hover DNS**
 
 1. Go to https://www.hover.com/login and sign in.
 2. Choose the domain.
@@ -231,7 +237,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 6. Click Save.
 
 
-**IX Web Hosting DNS**
+### **IX Web Hosting DNS**
 
 1. Sign in your IX Web Hosting account.
 2. Go to the Hosting Account section. Click Manage.
@@ -241,7 +247,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 6. Click Submit.
 
 
-**MyDomain.Com DNS**
+### **MyDomain.Com DNS**
 
 1. Go to www.mydomain.com/ and sign in
 2. Click My Services > Manage Services.
@@ -257,7 +263,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 12. Click Finish.
 
 
-**Myhosting.Com DNS**
+### **Myhosting.Com DNS**
 
 1. Go to http://myhosting.com and sign in.
 2. Go to Domain Name > DNS Management > Manage DNS.
@@ -265,7 +271,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 4. Click Save.
 
 
-**Namecheap DNS**
+### **Namecheap DNS**
 
 1. Go to www.namecheap.com and log in.
 2. Click My Account > Manage Domains 
@@ -275,7 +281,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 6. Click Save.
 
 
-**No-IP DNS**
+### **No-IP DNS**
 
 1. Sign in your account.
 2. Go to Host/Redirects > Manage.
@@ -284,7 +290,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 5. At the host type, choose DNS alias CNAME.
 6. Click Modify.
 
-**Register.Com DNS**
+### **Register.Com DNS**
 
 1. Go to register.com and sign in.
 2. Go to My Accounts > domain you are using with G Suite
@@ -297,7 +303,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 9. Click Continue.
 
 
-**Registo.Br DNS**
+### **Registo.Br DNS**
 
 1. Go to registro.br and sign in 
 2. Choose the domain name. It will help you to get the new DNS record.
@@ -308,7 +314,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 7. Click Save.
 
 
-**Terra DomÃ­nio DNS**
+### **Terra DomÃ­nio DNS**
 
 1. Sign in your main email account
 2. Send a message to suporte.empresas@terra.com.br for new CNAME record creation or to update an existing record.
@@ -318,7 +324,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 6. Wait for a response.
 
 
-**Upperlink DNS**
+### **Upperlink DNS**
 
 1. Go to dns.upperlink.com.ng and sign in.
 2. Select the domain to modify or add CNAME records. 
@@ -334,16 +340,7 @@ If you find any DNS provider instructions need an update, please notify our 24x7
 8. Click Save.
 
 
-**Yahoo!SmallBusiness DNS**
-
-1. Go to smallbusiness.yahoo.com and sign in.
-2. Select the domain you want to use with G Suite.
-3. Click Domain Control Panel > Manage Advanced DNS Settings > Add Record.
-4. Include the CNAME record value related to your use. Ensure name goes in the Source field, and the value goes in the Destination field.
-5. Click Submit.
-
-
-**ZoneEdit DNS**
+### **ZoneEdit DNS**
 
 1. Go to http://www.zoneedit.com and sign in your ZoneEdit account. 
 2. Select the domain for which you like to add a CNAME record.

@@ -6,13 +6,13 @@ sidebar_position: 2
 
 ---
 
-**Overview**
+## **Overview**
 
 Haltdos Scanner supports multiple scan profiles per target application. A user can create a scan profile and use that to run multiple scans on target applications. The scan profile defines the scope of the security scan, authentication parameters for performing scanning as authenticated user and connection related settings to not overwhelm targeted applications.
 
 A scan profile consists of the following specifications:
 
-**Scan Scope**
+### **Scan Scope**
 
  PARAMETER                       | DESCRIPTION                                                                           
 ---------------------------------|---------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ A scan profile consists of the following specifications:
  Scope Restrict Path             | Uses the given paths instead of crawling.                                             
  Scope Extend Path               | Uses the provided list of paths to extend the scope of the crawl                      
 
-**Scan Auth**
+### **Scan Auth**
 
 | PARAMETER                               | DESCRIPTION                                                                                          |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -39,7 +39,7 @@ A scan profile consists of the following specifications:
 | Password                                | Login password of your login module                                                                  |
 | Enter Login Check                       | For example, if a logout link only appears when a user is logged in then it can be a perfect choice. |
 
-**Scan Audit**
+### **Scan Audit**
 
 | PARAMETER                    | DESCRIPTION                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------|
@@ -59,7 +59,7 @@ A scan profile consists of the following specifications:
 | Add Form Key                 | Form key                                                                                       |
 | Add Form Value               | Form value                                                                                     |
 
-**Connection Settings**
+### **Connection Settings**
 
 | PARAMETER              | DESCRIPTION                                          |
 |------------------------|------------------------------------------------------|
@@ -71,7 +71,7 @@ A scan profile consists of the following specifications:
 | Add Cookie Value       | Specify list of cookies to be specified during scan  |
 | Add Header Value       | Specify list of headers to be included during scan   |
 
-**Fingerprinting**
+### **Fingerprinting**
 
 Optimize Scan by restricting the scope to the technologies used by the target application
 
@@ -83,14 +83,14 @@ Optimize Scan by restricting the scope to the technologies used by the target ap
 | Web Frameworks        | Specify the list of web frameworks (if any) used by target application |
 | Programming Languages | Specify the list of programming languages used by target application   |
 
-**Scan Types**
+### **Scan Types**
 
 Specify the types of scans to run. The scans can be of two types:
 
 1. Active Scan
 2. Passive Scan
 
-**Active Scans**
+#### **Active Scans**
 
 Active Scan checks the following vulnerabilities during the scan
 
@@ -108,7 +108,7 @@ Active Scan checks the following vulnerabilities during the scan
 - XSS
 - XML
 
-**Passive Scans**
+#### **Passive Scans**
 
 Passive Scan checks the following vulnerabilities during the scan
 
