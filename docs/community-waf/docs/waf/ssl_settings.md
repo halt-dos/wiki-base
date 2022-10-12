@@ -21,8 +21,6 @@ It provides functionality to support SSL offloading based on configurations. As 
 | SSL Certificate       | Drop-down      | Blank        |
 | SSL Cipher Suites     | Drop-down      | Intermediate |
 | SSL Session Caching   | Integer        | 10           |
-| Enable SSL Stapling   | Boolean        | False        |
-| Verify OCSP Responses | Boolean        | False        |
 | SSL Session Timeout   | Integer        | 5            |
 
 ### Description
