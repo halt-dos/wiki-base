@@ -20,3 +20,27 @@ Operational Setting configure different settings of Listener like the network pr
 3. Click **Save**.
 
 Configure the following parameters to set up the desired settings:
+
+
+
+
+
+#### Description
+
+**Protocols**  
+Specify the resolution on specific Protocols for e.g. UDP, TCP or TLS.  
+
+**DNS Service Type**  
+Specify the DNS Service type  
+
+**Upstream Resolvers**  
+Specify the upstream resolver for Recursive DNS. This option only works when DNS service type is set to Rescursive  
+
+**Addresses**  
+Specify the list of addresses that should be used in Recursive DNS.  
+
+**Refuse Query with no RD flag**  
+Specify to respond with refuse on queries with no RD flag.  
+
+**Domain Filter Files**  
+[Domain Filter Files](../domain-filters.md) is a mechanism to introduce a customized policy in Domain Name System servers, so that recursive resolvers return possibly modified results. By modifying a result, access to the corresponding host can be blocked. User can select which Domain Filter Files should be used.  

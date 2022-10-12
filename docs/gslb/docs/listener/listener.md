@@ -16,3 +16,6 @@ Make GSLB listen on specific ports to accept connections and distribute across o
 5. Under **Operational** > Under **Address**, User can specify the IP of that Listener that has been created
 6. Click on **Save Changes**
 7. Listener IP will be saved.
+
+
+![listener](/img/gslb/listener1.png)
