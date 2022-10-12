@@ -8,7 +8,7 @@ sidebar_position: 6
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](../../adc.md) > [**Listeners**](../../listeners/) > **Rules**.
+1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
 
 2. Select the Rate Limit Rules.
 

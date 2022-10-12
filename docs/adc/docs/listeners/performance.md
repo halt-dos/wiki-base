@@ -12,7 +12,7 @@ Performance settings are designed to increase the performance of the traffic com
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](../adc.md)  > [**Listeners**](../listeners/) > performance
+1. Go to Stack > [**SLB**](/adc/docs)  > [**Listeners**](../listeners/) > performance
 
 2. Configure your settings.
 
