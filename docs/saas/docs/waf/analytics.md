@@ -5,45 +5,47 @@ sidebar_position: 6
 
 ---
 
-**Overview**
+## **Overview**
 
 The Analytics page allows users to monitor the dashboard of all the listeners together or individually. It also allows to view based on different types:
 
-1. WAF Overview
+1. **WAF Overview**
 
-2. WAF Device Fingerprinting
+2. **WAF Device Fingerprinting**
 
-3. WAF Attack Overview
+3. **WAF Attack Overview**
 
-4. Attack Severity
+4. **Attack Severity**
 
-5. Attack Device Fingerprinting
+5. **Attack Device Fingerprinting**
 
-6. WAF HTTP Fingerprinting
+6. **WAF HTTP Fingerprinting**
 
-7. Attack HTTP Fingerprinting
+7. **Attack HTTP Fingerprinting**
 
-8. Real User Monitoring
+8. **Real User Monitoring**
 
-9. Attack Categorization
+9. **Attack Categorization**
 
-10. Report
+10. **Report**
 
-11. SLB
+11. **SLB**
 
-12. User Fingerprint
+12. **User Fingerprint**
 
 You can customize the view based on the date range you want:
 
-1. Today
+1. **Today**
 
-2. Yesterday
+2. **Yesterday**
 
-3. This Week
+3. **This Week**
 
-4. This Month 
+4. **This Month**
 
-5. Custom Range with Custom Date & Time
+5. **Custom Range with Custom Date & Time**
+
+#### Other Features
 
 **Auto Refresh**
 

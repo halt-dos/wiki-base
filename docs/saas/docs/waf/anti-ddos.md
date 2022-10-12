@@ -13,10 +13,10 @@ Distributed denial-of-service (DDoS) attack is self-explanatory. It is a malicio
 
 **Types of DDoS Attacks**
 
-| PARAMETER          | VOLUMETRIC                                                                       | PROTOCOL                                                                                             | APPLICATION                                                                                                          |
-|--------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| PARAMETER| VOLUMETRIC| PROTOCOL| APPLICATION|
+|--------------------|----------------------|--------------------------------|-----------------------------------|
 | What does it mean? | This attack uses an enormous amount of traffic saturating the target’s bandwidth | This attack makes a target inaccessible. It exploits a weakness in Layer 3 and Layer 4 protocol      | It exploits a weakness in Layer 7 protocol stack                                                                     |
-| How it Impact?     | Completely blocks access to the end-resource                                     | Consumes the comprehensive processing ability of intermediate critical resources and attacked target | Creates a connection with the target and exhaust the resources of the server by dominating transaction and processes |
+| How it Impacts?     | Completely blocks access to the end-resource                                     | Consumes the comprehensive processing ability of intermediate critical resources and attacked target | Creates a connection with the target and exhaust the resources of the server by dominating transaction and processes |
 | Add-on Info        | Easy to generate                                                                 | Measured in magnitude as packets per second (pps)                                                    | Most sophisticated/ challenging attack                                                                               |
 
 **Comprehensive DDoS Protection**

@@ -15,10 +15,10 @@ Users can configure below advanced settings for Listener.
 
 2. Configure your settings
 
-3. Click Save
+3. Click **Save**
 
 **Advanced Settings:** 
 
-1. Operational Setting
-2. Bot Settings
-3. Staging Settings
+1. [**Operational Setting**](operational-settings.md)
+2. [**Bot Settings**](bot-settings.md)
+3. [**Staging Settings**](staging-settings.md)
