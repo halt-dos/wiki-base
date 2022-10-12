@@ -5,7 +5,7 @@ sidebar_position: 6
 
 ---
 
-**Overview**
+## **Overview**
 
 It Identifies, stores all the rules matched by WAF and generates match finder details for a specific or all listener so that you can identify all matched rule for the listener by listing of the events.
 
@@ -18,7 +18,7 @@ It Identifies, stores all the rules matched by WAF and generates match finder de
 | Payload      | String          | Blank   |
 | Action       | Button          | Blank   |
 
-**Description**
+#### **Description**
 
 **Event ID**: Displays the event ID logged for the certain request found to malicious.
 

@@ -8,7 +8,7 @@ Zone here refers to the domain name that can be added which will include one or 
 
 ---
 
-### Overview
+## Overview
 
 Zones are basically the domain name which is a unique name that identifies a website and includes one or more subdomains. Users can simply configure the domain name by entering the domain name.
 
@@ -28,7 +28,7 @@ Zones are basically the domain name which is a unique name that identifies a web
 | Download Access Log | Action          | Icon    |
 | Delete              | Action          | Icon    |
 
-### Description:
+#### Description:
 
 **Domain Name**
 

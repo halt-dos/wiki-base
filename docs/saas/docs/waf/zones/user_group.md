@@ -7,7 +7,7 @@ You can create User Group and add users.
 
 ---
 
-**Overview**
+## **Overview**
 
 User Group is a feature that is used for authenticating the APIs. A ‘Group of Users’ are Validated or Identified using specific Authorization like 
 
@@ -21,7 +21,7 @@ User Group is a feature that is used for authenticating the APIs. A ‘Group of 
 
 **LDAP**: LDAP authentication involves verifying provided usernames and passwords by connecting with a directory service that uses the LDAP protocol.
 
-**How to Use:**
+### **How to Use:**
 
 1. Go to **WAF > Zones  > User Group**
 
@@ -33,6 +33,8 @@ User Group is a feature that is used for authenticating the APIs. A ‘Group of 
 |---------------------|-----------------|------------|
 | Group Name          | String          | Blank      |
 | Authentication Type | Dropdown        | Basic Auth |
+
+#### Description
 
 **Settings**
 
