@@ -16,5 +16,5 @@ Settings in Security Profile are used to specify all the settings for your **WEB
 ### How to Use
 
 1. Go to **WAF** > **Zones** > **Listener** > **Security Profiles** > **Settings**.
-2. Configure your **Settings**.
+2. Configure your settings.
 3. Click **Save**.

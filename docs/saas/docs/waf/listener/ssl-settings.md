@@ -17,7 +17,7 @@ It provides functionality to support SSL offloading based on configurations.
 
 2. Configure your settings. 
 
-3. Click Save Changes.
+3. Click **Save Changes**.
 
 **Encrypt Traffic to Upstream**
 
