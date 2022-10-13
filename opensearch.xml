@@ -4,8 +4,8 @@
   <ShortName>Haltdos</ShortName>
   <Description>Search Haltdos</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://halt-dos.github.io/wiki-base/img/logo/icon_light.ico</Image>
-  <Url type="text/html" method="get" template="https://halt-dos.github.io/wiki-base/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://halt-dos.github.io/wiki-base/opensearch.xml" />
-  <moz:SearchForm>https://halt-dos.github.io/wiki-base/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://halt-dos.github.io/img/logo/icon_light.ico</Image>
+  <Url type="text/html" method="get" template="https://halt-dos.github.io/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://halt-dos.github.io/opensearch.xml" />
+  <moz:SearchForm>https://halt-dos.github.io/</moz:SearchForm>
 </OpenSearchDescription>
