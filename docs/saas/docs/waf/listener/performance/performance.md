@@ -19,7 +19,7 @@ Configure compression or decompression of responses
 
 It helps in analyzing website performance (till page metrics) on the client-side.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listener > Performance**
 

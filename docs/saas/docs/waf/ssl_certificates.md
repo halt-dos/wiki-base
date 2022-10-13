@@ -7,11 +7,11 @@ Certificates used for providing security for online communications.
 
 ---
 
-**Overview**
+## Overview
 
 An SSL certificate is a few lines of code on your web server that provides security for online communications. When a web browser contacts your secured website, the SSL certificate enables an encrypted connection. It's kind of like sealing a letter in an envelope before sending it through the mail.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **Stack > Certificates**
 
@@ -29,7 +29,7 @@ Users can either upload a certificate or generate a new certificate for their do
 | Public Key       | String          | Blank   |
 | Private Key      | String          | Blank   |
 
-**Description**
+#### Description
 
 **Certificate Name**: Specify a user-friendly name for the certificate. The name field takes alphanumeric input.
 

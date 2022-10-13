@@ -30,7 +30,7 @@ If a user has defined server group and wants to use different groups depending u
 | Rule Priority  | Integer        | 1       |
 | Server Group   | Drop-Down      | Blank   |
 
-### Description:
+#### Description:
 
 #### Rule Name 
 

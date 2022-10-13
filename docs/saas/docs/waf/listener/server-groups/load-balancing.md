@@ -7,7 +7,7 @@ Load Balancing mechanism used for WAF
 
 ---
 
-**Overview**
+## Overview
 
 Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault‑tolerant configurations.
 
@@ -35,7 +35,7 @@ This field specifies the load balancing algorithm according to the configured we
 
 Note: In hashing-based load balancing,  if a specified value does not exists then the request is served on the basis of client's IP address.
 
-**How to use:**
+### How to use:
 
 1. Go to **WAF > Zones > Listeners > Server Groups > Load Balancing**
 
@@ -54,7 +54,7 @@ Note: In hashing-based load balancing,  if a specified value does not exists the
 | Param                   | String           | None          |
 | Add Location            | String & Integer | None & Src IP |
 
-**Description**
+#### Description
 
 **Web Socket Enabled**
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Antivirus
@@ -21,10 +21,10 @@ Our WAF provides the facility of in-built antivirus. Also, the user can set up t
 ### How to Use:
 
 1. Go to **WAF** > **Zones** > **Listener** > **Security Profiles** > **Antivirus**.
-2. Configure your settings.
-3. Click **Save**.
 
-### Description
+2. Configure your settings.
+
+3. Click **Save**.
 
 Parameter | Description |Accepted Values  | Default Values | 
 | ----------- | ----------- | ----------- | ----------|
@@ -37,7 +37,8 @@ Parameter | Description |Accepted Values  | Default Values |
 | ICAP Header Name | Specify the ICAP header key to search value against it.| HEADER NAME | Blank |
 | ICAP Header Value | Specify ICAP header value regex to scan and drop if the key exists. | HEADER NAME | Blank |
 
-  
+#### Description
+ 
 **Antivirus Mode:**  This field specifies the mode for antivirus scan against all uploaded files (if any). There are three modes for Antivirus: Disabled, Internal, External.  
 
 **ICAP Server IP:**  If we use External Antivirus mode then an ICAP server is configured for antivirus, then it can be used by providing the IP address for the ICAP server to send requests for antivirus scans.  

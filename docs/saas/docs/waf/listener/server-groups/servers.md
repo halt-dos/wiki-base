@@ -7,11 +7,11 @@ Configure the application servers
 
 ---
 
-**Overview**
+## Overview
 
 Configuration of upstream servers in a server group can be modified on-the-fly by using Servers.
 
-**How to use:**
+### How to use:
 
 1. Go to **WAF > Zones > Listeners > Server Groups > Servers**
 
@@ -33,7 +33,7 @@ Configuration of upstream servers in a server group can be modified on-the-fly b
 | Send Timeout       | Integer          | 0       |
 | Read Timeout       | Integer          | 0       |
 
-**Description:**
+#### Description:
 
 **Server**
 

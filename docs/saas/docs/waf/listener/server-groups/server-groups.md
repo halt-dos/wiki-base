@@ -7,7 +7,7 @@ User can select the Load Balancing mechanism and specify Origin Server IPs on th
 
 ---
 
-**Overview**
+## Overview
 
 To load balance HTTP traffic to a group of servers, first, you need to define the group. Servers in the group are configured using the Servers page. To pass requests to a server group, use Upstream Rules.
 
@@ -21,7 +21,7 @@ This is useful for:
 
 - Monitoring, when you get the state of the server or server group with one command.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Server Groups**
 
@@ -37,7 +37,7 @@ This is useful for:
 | Send Timeout    | Integer (Seconds)             | 100     |
 | Read Timeout    | Integer (Seconds)             | 100     |
 
-### Description
+#### Description
 
 **Group Name**
 

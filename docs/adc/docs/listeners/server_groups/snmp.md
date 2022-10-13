@@ -30,7 +30,7 @@ sidebar_position: 3
 | SNMP Security level  | Drop-Down      | No Auth & privacy |
 | SNMP Check Type      | Drop-Down      | CPU Measurement   |
 
-### Description:
+#### Description:
 
 #### Enable Monitoring
 

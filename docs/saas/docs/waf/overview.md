@@ -13,7 +13,7 @@ Deploying a WAF in front of a web application, a shield is placed between the we
 
 A WAF operates through a set of rules often called policies. These policies aim to protect against vulnerabilities in the application by filtering out malicious traffic. The value of WAF is the speed and ease with which policy modification can be implemented, allowing for faster response to varying attack vectors. For example, during a DDoS attack, rate limiting can be quickly implemented by modifying WAF policies.
 
-![Event](/img/saas/wafoverview1.png)
+![wafoverview](/img/saas/wafoverview1.png)
 
 **Benefits**
 
