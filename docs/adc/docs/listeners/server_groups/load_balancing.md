@@ -12,7 +12,7 @@ sidebar_position: 2
 
 2. Configure your settings. 
 
-3. Click Save Changes.
+3. Click **Save Changes**.
 
 ![Load balancing](/img/adc/loadbalancing.png)
 
