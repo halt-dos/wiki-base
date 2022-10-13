@@ -48,7 +48,7 @@ It is a numeric field that specifies the priority of the rule in which the rule 
 Users are allowed to specify the URI. Specify the URI on which the firewall rule will be applied.
 
 #### Method
-Users are allowed to specify the HTTP method on which the rule will be applied i.e. All, GET, POST, PUT, DELETE, HEAD, OPTIONS.
+Users are allowed to specify the HTTP method on which the rule will be applied i.e. ANY, GET, POST, PUT, DELETE, HEAD, OPTIONS.
 
 #### Custom Rule IDs
 Users are allowed to specify the rule/mitigation id that needs to be whitelisted so that action against that request will be allowed.

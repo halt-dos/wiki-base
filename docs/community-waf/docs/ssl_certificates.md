@@ -57,7 +57,7 @@ To upload custom certificates, follow the steps below:
 
 | Parameters  | Accepted value |  Default                    |
 |-------------|----------------|-----------------------------|
-| name        | String         | Blank                       |
+| Name        | String         | Blank                       |
 | Domain      | String         | Blank                       |
 | App Option  | Drop-down      | Generate/upload certificate |
 | Public Key  | String         | Blank                       |

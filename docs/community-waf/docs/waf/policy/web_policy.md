@@ -11,8 +11,6 @@ Configure Web Security Policy for HTML based websites - Static, Dynamic, Wordpre
    
 ![Web Policy](/img/community-waf/web_policy2.png)
 
-![Web Policy](/img/community-waf/web_policy3.png)
-
 ### How to Use:
 1. Go to **WAF** > **Policy** > **Web Policy**.
 2. Configure your settings.

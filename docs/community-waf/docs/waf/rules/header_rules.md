@@ -29,11 +29,11 @@ Specify a rule message containing a detailed description to identify the rule wh
 
 User can define the rule's priority among various other custom error rules.
 
-#### URI
+#### HTTP URI
 
 Specify the URI or regex for which rule will be applied. 
 
-#### Method
+#### HTTP Method
 
 Select the HTTP method for the rule to validate when matched with the request.
 
@@ -78,7 +78,7 @@ The user can specify some request/response-based conditions which can be used as
 
 For adding a condition, the required fields are:
 
-#### Consition Phase
+#### Condition Phase
 
 This field determines that the condition will be checked on request/response parameters.
 

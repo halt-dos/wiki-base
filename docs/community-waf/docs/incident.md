@@ -20,7 +20,7 @@ Further to detailing the incident through Events, users can perform various acti
 
 ![Events](/img/community-waf/incidents.png)
 
-#### Type of Incidents
+#### Type of Incidents  
 - **Drop Incidents**:
 
 - **Recorded Incidents**:
@@ -29,20 +29,20 @@ Further to detailing the incident through Events, users can perform various acti
 
 - **Health Incidents** :
 
-## How to Use:
+### How to Use:
 
 1. Go to **WAF** > **Incidents**.
 2. Choose Type of Incidents that you want to view.
 
-- You may also check the previous incidents by changing the date.
+    - You may also check the previous incidents by changing the date.
 
 
 
-### Filter
+#### Filter
 Users can filter out the events based on type of incidents.
 
-### Refresh
+#### Refresh
 Users can enable auto-refresh in order to refresh the real-time alerts for requests. The details will be displayed in events for the specific type of request.
 
-### Date Range
+#### Date Range
 Users are allowed to select an appropriate date range no longer than 1 month.

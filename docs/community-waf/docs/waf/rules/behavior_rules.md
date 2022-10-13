@@ -12,9 +12,9 @@ The Behavior rule is a feature of Haltdos WAF that that allows application owner
 ### How to Use:
 1. Log onto the Haltdos Community WAF portal.
 2. Go to **WAF** > **Rules** > **Behavior Rules**.
-3. Click on the Add Rule Button and a pop-up box will open.
+3. Click on the **Add Rule**
 4. Configure the fields that are present.
-5. Click on Save Changes and the rule will be reflected.
+5. Click on **Save Changes** and the rule will be reflected.
 
 | Parameters      | Accepted value |  Default       |
 |-----------------|----------------|----------------|
@@ -22,6 +22,7 @@ The Behavior rule is a feature of Haltdos WAF that that allows application owner
 | Rule Message    | String         | Blank          |
 | Rule Priority   | Integer        | 0              |
 | Rule Action     | Drop-down      | Record-request |
+| Redirection URL | String         | /              |
 | Variable Name   | Drop-down      | Blank          |
 | Condition       | Drop-down      | Pattern exist  |
 | Condition Value | String         | Blank          |
@@ -71,9 +72,11 @@ Select if condition value equal value matches for selected variable.
 Select if condition value is not equal for selected variable.
    
 ##### Less Than
+Select if condition value is less than for selected variable.
    
-##### Greater Than
-
+##### Greater Than  
+Select if condition value is greater than for selected variable.
+   
 #### Condition Value
 Users are allowed to specify the condition value for the rule.
 

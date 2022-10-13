@@ -16,8 +16,8 @@ Note: Any parameter from the Request/Response can be stored in a variable.
 ## How to use:
 1. Log onto the Haltdos Community WAF portal.
 2. Go to **WAF** > **Rules** > **Variable Rules**.
-3. Create rules with different conditions.
-4. Click on Save Changes.
+3. Create rules with different conditions.  
+4. Click on **Save Changes**.  
 
 | Parameters       | Accepted value |  Default |
 |------------------|----------------|----------|
@@ -28,7 +28,11 @@ Note: Any parameter from the Request/Response can be stored in a variable.
 | Variable         | Drop-down      | Blank    |
 | Mutation Action  | Drop-down      | SET      |
 | Value            | String         | None     |
-
+| Condition Phase  | Drop-down      | Request        |
+| Find Location    | Drop-Down      | Variable       |
+| Find Parameter   | String         | Blank          |
+| Match Condition  | Drop-Down      | Pattern Exists |
+| Match Value      | String         | Blank          |
 
 ![Variable Rule](/img/community-waf/variablerulescondition.png)
 

@@ -28,12 +28,12 @@ Users are allowed to configure many operational settings for the Listeners confi
 | Enable Logging                  | Boolean        | True              |
 | Enable Static Extension Logging | Boolean        | False             |
 | Enable Error Handling           | Boolean        | True              |
-| Operational Mode                | Drop-down      | Bypass            |
+| Security Mode                   | Drop-down      | Bypass            |
 | Application Type                | Drop-down      | Website           |
 | Connection Pool Size            | Integer        | 0                 |
 | Client Keep-Alive Timeout       | Integer        | 0                 |
 | Upstream Keep-Alive Timeout     | Integer        | 0                 |
-| Listener Operational Mode       | Drop-down      | Reverse-Proxy     |
+| Operational Mode                | Drop-down      | Reverse-Proxy     |
 | Limit Max Connections           | Integer        | 0                 |
 | Client Body Timeout             | Integer        | 300               |
 | Client Header Timeout           | Integer        | 300               |

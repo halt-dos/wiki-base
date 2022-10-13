@@ -23,19 +23,19 @@ It provides functionality to support SSL offloading based on configurations. As 
 | SSL Session Caching   | Integer        | 10           |
 | SSL Session Timeout   | Integer        | 5            |
 
-### Description
+#### Description
 
-#### Enable SSL Offloading
+##### Enable SSL Offloading
 Users are allowed to specify if the solution should offload SSL traffic.
 
-#### SSL Certificate
+##### SSL Certificate
 Users are allowed to specify SSL certificate for Encryption / Decryption.
 
-#### SSL Cipher Suites
+##### SSL Cipher Suites
 Users are allowed to specify the security / compatibility of SSL with modern web browsers.
 
-#### SSL Session Caching
+##### SSL Session Caching
 Users are allowed to specify the ssl session caching
 
-#### SSL Session Timeout
+##### SSL Session Timeout
 Users are allowed to specify the ssl session timeout.

@@ -32,7 +32,7 @@ Users can specify the user-friendly variable name.
 Users can specify the variable type either it is string or integer.
 
 #### Variable Scope
-Users can specify the scope of the variable. Users can select any of the following; GLOBAL, TRANSACTION, SESSION, CUSTOM.
+Users can specify the scope of the variable. Users can select any of the following: **GLOBAL**, **TRANSACTION**, **SESSION**, **CUSTOM**.
 
 #### Default Value
 Users can specify the default value for the variable.

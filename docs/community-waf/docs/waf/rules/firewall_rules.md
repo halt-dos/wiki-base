@@ -35,6 +35,7 @@ The following actions are available to the User :
 | Rule Action     | Drop-down      | Record Request |
 | Find Location   | Drop-Down      | Variable       |
 | Find Parameter  | String         | Blank          |
+| Variable        | Drop-Down      | Blank          |
 | Match Condition | Drop-Down      | Pattern Exists |
 | Match Value     | String         | Blank          |
    
@@ -53,7 +54,7 @@ It is a numeric field that specifies the priority of the rule in which the rule 
 Users are allowed to specify the URI. Specify the URI on which the firewall rule will be applied.
 
 #### Method
-Users are allowed to specify the HTTP method on which the rule will be applied i.e. All, GET, POST, PUT, DELETE, HEAD, OPTIONS.
+Users are allowed to specify the HTTP method on which the rule will be applied i.e. ANY, GET, POST, PUT, DELETE, HEAD, OPTIONS.
 
 #### Rule Action
 Users are allowed to specify the action to be taken for the request matched i.e. No Action, Drop, Record, Bypass, Redirect, Temporary Blacklist, Send Challenge, Skip Learning.

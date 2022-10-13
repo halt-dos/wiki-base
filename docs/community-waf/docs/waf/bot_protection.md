@@ -16,9 +16,9 @@ Bot Protection helps you quickly determine, manage, and mitigate automated reque
 
 | Parameters                 | Accepted value                          |  Default  |
 |----------------------------|-----------------------------------------|-----------|
-| Allowed Crawlers           | User Agent	                             | Blank     |
-| Bad Crawlers               | User Agent	                             | Blank     |
-| Bad Reputation Traffic	    | NO ACTION / SEND CHALLENGE / DROP	 | No Action |
+| Allowed Crawlers           | User Agent	                           | Blank     |
+| Bad Crawlers               | User Agent	                           | Blank     |
+| Bad Reputation Traffic	 | NO ACTION / / DROP	                   | No Action |
 
 
 ### Description
@@ -27,7 +27,7 @@ Bot Protection helps you quickly determine, manage, and mitigate automated reque
 Specify the list of good crawlers by specifying their user agents. Such requests will be allowed.
 
 #### Bad Crawlers
-Users are allowed to specify the list of bad crawlers by specifying their user agents. Such requests will be dropped.This field specifies the list of good crawlers by specifying their user agents. You can add single or multiple user agents. All the user agent mentioned in Allowed Crawlers permits the crawlers to access the protected URL.
+Users are allowed to specify the list of bad crawlers by specifying their user agents. Such requests will be dropped.This field specifies the list of bad crawlers by specifying their user agents. You can add single or multiple user agents. All the user agent mentioned in Bad Crawlers, their requests will be dropped.
 
 #### Bad Reputation Traffic
 Users are allowed to specifies the action to perform on traffic from suspicious IPs reported by Haltdos Threat Stream TM.

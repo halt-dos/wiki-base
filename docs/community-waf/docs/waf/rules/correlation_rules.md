@@ -20,9 +20,10 @@ Correlation rules support using compounding logic to make more advanced rules th
 | Rule Name     | String         | Blank          |
 | Rule Message  | String         | Blank          |
 | Rule Priority | Integer        | 0              |
-| URI           | String         | Blank          |
-| Method        | Drop-down      | ALL            |
-| Action        | Drop-down      | Record-request |
+| HTTP URI      | String         | Blank          |
+| HTTP Method   | Drop-down      | ALL            |
+| Rule Action   | Drop-down      | Record-request |
+| Redirection URL | String       | /              |
 | Rule ID       | String         | Blank          |
 | Match         | String         | Blank          |
    
