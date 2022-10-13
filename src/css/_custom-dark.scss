@@ -40,7 +40,7 @@ html[data-theme='dark'] {
   .card:hover {
     --ifm-card-background-color:var(--color-gray-78) !important;
   }
-
+  
   .header-github-link {
     &:hover {
       opacity: 0.6;
@@ -142,6 +142,9 @@ html[data-theme='dark'] {
     }
   }
 
+  .breadcrumbs__link{
+    color: rgb(255, 255, 255) !important;
+  }
   .admonition {
     &.alert {
       background-color: var(--color-gray-86);

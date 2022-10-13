@@ -34,7 +34,6 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           docItemComponent: require.resolve('./src/components/CustomDocItem/index.tsx'),
           breadcrumbs: true,
-          sidebarCollapsed: false
         },
         blog: false,
         theme: {

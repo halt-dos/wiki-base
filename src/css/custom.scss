@@ -883,13 +883,11 @@
  }
 
  .product1{
-  height: 10vh;
-  width: 5vw;
+  height: 14vh;
 }
 
 .product2{
-  height: 10vh;
-  width: 5vw;
+  height: 14vh;
 }
 
 a:link {
@@ -905,7 +903,6 @@ a:link {
 .product1:focus {
   position: relative;
   transform: translateY(0.25rem)  !important;
-  height: 5%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 5px 0px !important;
 }
 
@@ -913,7 +910,6 @@ a:link {
 .product2:focus {
   position: relative;
   transform: translateY(0.25rem)  !important;
-  height: 5%;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 5px 0px !important;
 }
 
