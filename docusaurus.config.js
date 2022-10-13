@@ -15,7 +15,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   url: 'https://halt-dos.github.io',
-  baseUrl: '/wiki-base/',
+  baseUrl: '/',
   organizationName: 'haltdos', // Usually your GitHub org/user name.
   projectName: 'wiki-base', // Usually your repo name.
 
@@ -34,6 +34,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           docItemComponent: require.resolve('./src/components/CustomDocItem/index.tsx'),
           breadcrumbs: true,
+          sidebarCollapsed: false
         },
         blog: false,
         theme: {
