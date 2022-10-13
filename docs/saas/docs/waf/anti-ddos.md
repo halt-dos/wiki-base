@@ -7,7 +7,7 @@ Bullet-proof DDoS protection to ensure your website remains secure and online - 
 
 ---
 
-### Overview
+## Overview
 
 Distributed denial-of-service (DDoS) attack is self-explanatory. It is a malicious attempt to deny service to legitimate users. How? By overwhelming the targeted server, network or service with a flood of Internet traffic. Here distributed implies multiple sources attacking the same target at the same time. These attacks happen using botnets.
 
@@ -23,9 +23,9 @@ Distributed denial-of-service (DDoS) attack is self-explanatory. It is a malicio
 
 Our advanced global network leverages top-of-the-line, customized servers and networking equipment that protect against Layer 3-4 DDoS attacks at the device. This approach gives our platform simultaneously an exceptionally large and exceptionally deep protection plane.
 
-![Event](/img/saas/antiddos1.png)
+![antiddos](/img/saas/antiddos1.png)
 
-**How Does It Work?**
+### How Does It Work?
 
 **Volumetric Defense built into Infrastructure**
 

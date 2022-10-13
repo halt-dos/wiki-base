@@ -7,11 +7,11 @@ Continually test your upstream servers, avoid the servers that have failed, and 
 
 ---
 
-**Overview**
+## Overview
 
 Monitoring provides a comprehensive overview of the status and performance of the server group and/or individual servers inside the server group. If a monitor is attached to a server group, then it will get applied to all the servers inside that group automatically. If a monitor is attached to a particular server then it will override the configuration of the server-group monitor. Health Checks computes an overall health state for each upstream server in the listener. Backend(upstream) that responds successfully for the configured number of times is considered healthy. Backend(upstream) that fails to respond successfully for a separate number of times is unhealthy.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Monitors**
 
@@ -35,7 +35,7 @@ Monitoring provides a comprehensive overview of the status and performance of th
 | Fail Threshold        | Integer                              | 1        |
 | Pass Threshold        | Integer                              | 1        |
 
-### Description
+#### Description
 
 **Enable Health Check**: Enable to periodically check the health of upstream servers by sending special health‑check requests to each server and verifying the correct response.
 

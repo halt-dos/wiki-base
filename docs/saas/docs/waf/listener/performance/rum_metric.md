@@ -7,11 +7,11 @@ Real User Monitoring (RUM) helps in analyzing website performance (till page met
 
 ---
 
-**Overview**
+## Overview
 
 Haltdos provides the user to monitor performance in real-time on the client-side. When the RUM metric is enabled, WAF monitors performance to a specific URI w.r.t. duration set for collecting information for the request. The performance analysis is displayed in terms of statistics on the Analytics page in Real User Monitoring.
 
-**How to use**
+### How to use
 
 1. Go to **WAF > Zones > Listeners > Performance > Rum Metric**
 2. Add the configuration and **Save Changes**.
@@ -22,7 +22,7 @@ Haltdos provides the user to monitor performance in real-time on the client-side
 | Duration          | Integer          | 3600     |
 | Add URI           | URI              | Blank    |
 
-**Description:**
+#### Description:
 
 **Enable RUM Metric**: To enable RUM metric, enable the toggle button. It starts to monitor the performance for a specific URI at a defined interval.
 

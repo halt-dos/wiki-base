@@ -7,11 +7,11 @@ Configure compression or decompression of responses
 
 ---
 
-**Overview**
+## Overview
 
 Haltdos provides you the ability to compress or decompress the responses which often significantly reduce the size of transmitted data and increase performance. The compression level is defined based on which responses are compressed to an extent. It also allows configuring other settings for compression.
 
-**How to use:**
+### How to use:
 
 1. Go to **WAF > Zones > Listeners > Performance > Compression**
 
@@ -29,7 +29,7 @@ Haltdos provides you the ability to compress or decompress the responses which o
 | Mime Type Filter            | Any mime type                                                       | text/xml , text/plain                                                      |
 | De-Compression              | Enabled/Disabled                                                    | Disabled                                                                   |
 
-**Description:**
+#### Description:
 
 **Enable Compression**: To enable compression, enable the toggle button. It compresses the responses to an extent.
 

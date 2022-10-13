@@ -30,7 +30,7 @@ Performance settings are designed to increase the performance of the traffic com
 | Maximum Response To Compress  | Integer         | 0              |
 | Compression Mime Filter       | String          | File Etensions |
 
-### Description:
+#### Description:
 
 #### Enable Caching
 

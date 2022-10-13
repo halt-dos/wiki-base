@@ -9,7 +9,7 @@ User can specify operational settings on this page for Listener
 
 Users can configure below operational settings for Listener.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Advanced Settings > Operational Settings**
 
@@ -49,7 +49,7 @@ Accepted values: Integer             | 8                   |
 | Add Port                        | Helps you to add HTTP/S ports for Advance Settings.
 Accepted values: Integer                                                | Blank               |
 
-**Description**
+#### Description
 
 **Enable IPv6**: Specify if the WAF should allow IPv6 requests. By default, it supports IPv4 requests.
 

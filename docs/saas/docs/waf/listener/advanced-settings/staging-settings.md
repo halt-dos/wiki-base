@@ -9,7 +9,7 @@ User can specify rule staging settings on this page for Listener
 
 Users can configure below rule staging settings for Listener.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Advanced Settings > Staging Settings**
 
@@ -28,7 +28,7 @@ Accepted values: Integer        | 7       |
 | Maximum Staging Threshold | Specify maximum acceptable match for auto-deploying new signatures.
 Accepted values: Integer | 0       |
 
-**Description**
+#### Description
 
 **Staging Policy**: Specify the staging policy and auto-deployment of new signatures. Accepted values: MANUAL / REQUEST/ DURATION/ REQUEST AND DURATION/ REQUEST OR DURATION. By default, it is MANUAL.
 

@@ -5,7 +5,7 @@ sidebar_position: 6
 
 ---
 
-## **Overview**
+## Overview
 
 The Analytics page allows users to monitor the dashboard of all the listeners together or individually. It also allows to view based on different types:
 

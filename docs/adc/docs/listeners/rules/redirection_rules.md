@@ -32,7 +32,7 @@ Redirection Rules is a feature of Haltdos SLB that allows application owners to 
 | Forward URL    | String         | Blank                   |
 | Response Code  | Drop-Down      | 302 -Temprary Redirect  |
 
-### Description:
+#### Description:
 
 #### Rule Name
 

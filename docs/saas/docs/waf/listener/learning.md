@@ -5,11 +5,11 @@ sidebar_position: 9
 
 ---
 
-### Overview
+## Overview
 
 HaltDos’s security is adaptive through automated learning and can make policy recommendations by learning about application behavior, which can make it easier for security teams to manage policies. Administrators retain full control over the activation and deactivation of each ruleset, with the opportunity to screen for false-positive before committing to production.
 
-**How to Use:**
+### How to Use:
 
 1.    Go to **WAF > Zones > Listeners > Learning**
 
@@ -26,7 +26,7 @@ HaltDos’s security is adaptive through automated learning and can make policy 
 | Drop Rate           | Integer         | 5                 |
 
 
-**Description:**
+#### Description:
 
 **Learning Mode**: Specify the learning mode to enable/disable Machine Learning. When enabled it will start learning the requests and store all the required information and accordingly take action on the request detected malicious.
 

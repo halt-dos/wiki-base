@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 # Geo Filtering
@@ -15,11 +15,19 @@ Geo Filtering is a smart way to limit access to Internet content as per the geog
 ### How to Use:
 
 1. Go to **WAF** > **Zones** > **Listener** > **Security Profiles** > **Geo Filtering**
+
 2. Configure your settings.
+
 3. Click **Save**. 
 
+| Parameters              | Description                                                                                   | Accepted Values | Default |
+|-------------------------|-----------------------------------------------------------------------------------------------|-----------------|---------|
+| Blacklisted Countries   | Specify the list of countries that will be permanently disallowed from accessing the website. | Dropdown        | Blank   |
+| Whitelisted IP Prefixes | Specify the list of IPs that will be permanently allowed for accessing the website.           | IP              | Blank   |
+| Blacklisted IP Prefixes | Specify the list of IPs that will be permanently disallowed from accessing the website.       | IP              | Blank   |
 
-### Description
+
+#### Description
 
 - **Blacklisted Countries**
 To block requests based on country of origin. It enables the request to be filtered based on the countries specified. Countries can be selected by typing the name of the country and any request coming from the specified countries will be dropped.  
@@ -30,7 +38,7 @@ IP whitelisting is when you grant network access only to specific IP addresses. 
 - **Blacklisted IP Prefixes**
 IP blacklisting is a method used to filter out illegitimate or malicious IP addresses from accessing your networks. Blacklists are lists containing ranges of or individual IP addresses that you want to block. This field restricts the requests coming from specified IP Prefixes permanently.  
 
-### Use Case
+**Use Case**
 Your product is single-country based, say, for example, India. You have blocked or blacklisted all the IPs that don't originate within India. Now, you have a website or product that you need to access by IPs originated from multiple countries. In this case, you need to cautious about IP address blocking.  
 
 It is possible that even though you are not dealing with foreign clients, you may be using online services or technology that have a presence outside India like web hosting and webmail. You need to allow such services through the Firewall as well.  

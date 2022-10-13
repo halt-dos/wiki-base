@@ -9,7 +9,7 @@ User can specify advanced bot settings on this page for Listener
 
 Users can configure below advanced bot settings for Listener.
 
-**How to Use:**
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Advanced Settings > Bot Settings**
 
@@ -36,7 +36,7 @@ Accepted values: Drop-down  | Blank            |
 | Fingerprint Expiry          | Specify the duration after which fingerprinting will be re-evaluated.
 Accepted values: Integer | 86400            |
 
-**Description**
+#### Description
 
 **Token Request URI**: Specify the URI for requesting a token. By default, it is /__verify/token/.
 

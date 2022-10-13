@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ---
 
-## **Overview**
+## Overview
 
 Global settings help to configure the settings whose scope is global. Here we have Global Whitelist Rules which would whitelist the mitigations globally irrespective of zone or listener.
 
@@ -13,7 +13,7 @@ Global settings help to configure the settings whose scope is global. Here we ha
 
 These are the whitelist rule which helps in whitelisting mitigations globally for all the zones and listener in the stack.
 
-### **How to Use:**
+### How to Use:
 
 1. Go to **WAF > Global Settings > Global Whitelist Rule**
 
@@ -30,7 +30,7 @@ These are the whitelist rule which helps in whitelisting mitigations globally fo
 | Location  | Dropdown        | Blank   |
 | Value     | Regex           | Blank   |
 
-#### **Description**
+#### Description
 
 **Rule Name**: This field allows the user to give a name to the global whitelist rule.
 

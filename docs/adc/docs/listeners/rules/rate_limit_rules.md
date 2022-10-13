@@ -31,7 +31,7 @@ sidebar_position: 6
 | Track Limit    | Integer        | 20           |
 | Track Duration | Integer        | 1            |
 
-### Description:
+#### Description:
 
 #### Rule Name
 

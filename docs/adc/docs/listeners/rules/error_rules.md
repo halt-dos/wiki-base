@@ -33,7 +33,7 @@ Error Rules is a feature of Haltdos SLB that allows application owners to show c
 | Rule Action         | Drop-down      | Send Custom Response |
 | Custom Error Page   | File upload    | None                 |
 
-### Description:
+#### Description:
 
 #### Rule Name
 
