@@ -17,15 +17,16 @@ This option allows users to add multiple VPN Users. User can be a part of a spec
 
 1. Go to **Stack** > **SSL VPN** > **VPN Groups.**
 2. Click on **Add Group** button.
-3. Fill the details and click on **Save Changes**.
+3. Fill the details and click on **Save Changes**.  
 
-
+  
 | SETTINGS   | ACCEPTED VALUE | DEFAULT |
 |------------|----------------|---------|
 | Group ID   | String         | Blank   |
 | Group Name | String         | Blank   |
+  
 
-#### Description:
+### Description
 
 **Group ID**  
 This option is used to set the unique group ID to unique group.  
