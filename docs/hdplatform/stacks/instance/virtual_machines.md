@@ -20,4 +20,30 @@ Virtual Instances can be resized based to increase / decrease CPU, RAM & Hard Di
 The resources allocated to each virtual instance is dedicated to the virtual instance and cannot be leveraged by another virtual instance. This is done to ensure complete isolation of virtual instances.
 :::
 
+### How to Use:
+
+
 ![virtual_machines](/img/platform/virtual_machines2.png)
+
+1. Go to Stack > Instances > (Select Instance) > Virtual Machines
+2. Click Add
+3. Configure CPU, RAM, OS Template, and Virtual Stack
+4. Click Save
+
+### VM Management
+
+**Resizing VM**
+
+Once created, you can reconfigure the VM by stopping the VM and resizing the CPU, RAM and Hard Disk as per physical availability on the host machine.
+
+**Stopping & Rebooting VM**
+
+The VM can be stopped and rebooted from the GUI / CLI. Do note, changing the state of an actively serving virtual instance may result in downtime. However, changing the state of one virtual instance will not have any effect on other running virtual instance.
+
+**Deleting VM**
+
+The VM can also be deleted if necessary. Do note, deleting an actively serving virtual instance may result in downtime. However, deleting one virtual instance will not have any effect on other running virtual instance.
+
+:::info
+After crearting a VM under this option user can go to stack page and add a virtual stack by clicking on add stack option.
+:::
