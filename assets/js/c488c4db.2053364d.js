@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki_base=self.webpackChunkwiki_base||[]).push([[7375],{6719:e=>{e.exports=JSON.parse('{"title":"WAF Index","slug":"/category/docs","permalink":"/category/docs","navigation":{"previous":{"title":"Web Application Firewall (WAF)","permalink":"/waf/"},"next":{"title":"Machine Learning","permalink":"/waf/docs/machine-learning"}}}')}}]);
