@@ -1,10 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 10
 ---
 
 # Glossary
 
-Glossary for Haltdos
+Glossary for Haltdos Product Documentation
 
 ---
 

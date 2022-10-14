@@ -59,6 +59,12 @@ const config = {
         searchParameters: {},
         searchPagePath: 'search',
       },
+      docs:{
+        sidebar:{
+          hideable: true,
+          autoCollapseCategories: true
+        }
+      },
       navbar: {
         title: 'Haltdos Wiki',
         logo: {
@@ -66,7 +72,7 @@ const config = {
           src: 'img/logo/icon_light.png',
           srcDark: 'img/logo/icon_dark.png'
         },
-        items: [
+        /*items: [
           {
             type: 'dropdown',
             label: 'Products',
@@ -114,7 +120,7 @@ const config = {
               },
             ],
           },
-        ],
+        ],*/
       },
       prism: {
         theme: lightCodeTheme,
