@@ -26,8 +26,6 @@ It is recommended to integrate Haltdos solutions with SMTP for receiving timely 
 
 
 
-
-
 #### Description
 
 **Enable Email Notifications**  
@@ -60,7 +58,7 @@ This feature enables users to get Haltdos technical support on critical alerts.
 **Encryption Protocol**  
 This option allows users to set specific types of encryption protocols to use when connecting to an email Server.  
 
-**DNS Response**
+**DSN Response**
 DNS is a query/response protocol. The client queries information in a single UDP request. This request is followed by a single UDP reply from the DNS server. DNS uses UDP port 53 to connect to the server.  
 
 **Enable EHLO**
