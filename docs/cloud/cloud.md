@@ -1,9 +1,9 @@
 ---
 sidebar_position: 0
-sidebar_label: Haltdos SaaS
+sidebar_label: Haltdos Cloud
 ---
 
-# Haltdos Software as a Service (Haltdos SaaS)
+# Haltdos Cloud
 
 ---
 
