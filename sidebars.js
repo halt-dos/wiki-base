@@ -26,7 +26,7 @@ const sidebars = {
     },
     {
       type: 'html',
-      value: '<br>Commercial Products',
+      value: '<br>Commercial Products<br>',
       defaultStyle: true,
       className: 'sidebar-title', // Use the default menu item styling
     },
