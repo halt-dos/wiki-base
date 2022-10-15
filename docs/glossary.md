@@ -1310,7 +1310,7 @@ Citrix hypervisor that allows to run multiple virtual machines (VMs) on one phys
 
 ## Y
 
-##### **YAML**
+##### **YAML** - Yet Another Markup Language 
 
 A human-readable data serialization language, commonly used for configuration files.
 
