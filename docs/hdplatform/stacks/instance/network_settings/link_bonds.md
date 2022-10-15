@@ -18,3 +18,11 @@ Aggregating two or more links to achieve one fat link brings a number of advanta
 2. Configure your settings
 3. Click Save
 
+| PARAMETERS  | ACCEPTED VALUES                              | DEFAULT |
+|-------------|----------------------------------------------|---------|
+| Name  | String                                       | Empty   |
+| Route To    | String                                       | Empty   |
+| Route Via   | String                                       | Empty   |
+| Route Type  | UNICAST / UNREACHABLE / PROHIBIT / BLACKHOLE | UNICAST |
+| Route Scope | GLOBAL / LINK / HOST                         | GLOBAL  |
+| Metric      | Integer                                      | 0       |
