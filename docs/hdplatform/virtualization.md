@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Virtualization
 
 Support for multi-tenancy in appliance with virtualization technology.

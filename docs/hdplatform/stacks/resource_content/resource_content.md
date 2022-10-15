@@ -8,10 +8,9 @@ sidebar_position: 0
 
 Resources is the option where user can set the resources information which can be used inside the SLB configuration. User will get following options under the resources option.
 
-1. Cache Pools
-2. SSL Certificates
-3. Client Certificates
-4. Revocation List
-5. Web pages
-6. Custom Scripts
+1. [**Cache Pools**](cache_pools.md)
+2. [**SSL Certificates**](ssl_certificates/)
+3. [**Client Certificates**](client_cert.md)
+4. [**Web pages**](web_pages.md)
+5. [**Custom Scripts**](custom_scripts.md)
 

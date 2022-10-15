@@ -1,5 +1,5 @@
 ---
-sidebar_title: Knowledge Base
+sidebar_label: Knowledge Base
 ---
 # Platform
 
