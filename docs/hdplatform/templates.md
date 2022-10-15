@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # OS Templates
 
 Download and Manage pre-built OS templates for virtualization
