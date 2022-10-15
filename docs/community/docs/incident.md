@@ -19,7 +19,7 @@ Depending upon the type of incidents, clicking on any Incident shows details of 
 
 Further to detailing the incident through Incidents, users can perform various actions. For example, virtual patching functionality is implemented through actions in Incident Details. Virtual Patching is the ability to create custom WAF rules from the result of a security scan.
 
-![incidents](/img/community-waf/incidents.png)
+![incidents](/img/community-waf/setup/incidents.jpeg)
 
 #### Type of Incidents  
 - **Drop Incidents**

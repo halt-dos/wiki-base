@@ -77,4 +77,4 @@ Login in to Haltdos Community WAF UI with the credentials provided during the si
 
 ![login](/img/community-waf/setup/login.png)
 
-![overview](/img/community-waf/setup/overview.png)
+![overview](/img/community-waf/setup/overview.jpeg)
