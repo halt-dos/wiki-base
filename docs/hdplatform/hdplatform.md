@@ -1,4 +1,4 @@
-# hdPlatform
+# Haltdos Platform
 
 Overview of Haltdos Platform
 
