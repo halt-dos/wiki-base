@@ -820,6 +820,11 @@
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    grid-gap: 20px;
  }
+
+ .sidebar-title{
+  color: grey !important;
+  font-size: medium;
+ }
  
  // Card
  .card {
