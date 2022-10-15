@@ -48,7 +48,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       algolia: {
@@ -66,61 +66,12 @@ const config = {
         }
       },
       navbar: {
-        title: 'Haltdos Wiki',
+        title: 'Haltdos Docs',
         logo: {
           alt: 'Haltdos',
           src: 'img/logo/icon_light.png',
           srcDark: 'img/logo/icon_dark.png'
         },
-        /*items: [
-          {
-            type: 'dropdown',
-            label: 'Products',
-            position: 'right',
-            items: [
-              {
-                type: 'doc',
-                label: 'Anti-DDoS',
-                docId: 'ddos/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Web Application Firewall',
-                docId: 'waf/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Community Web Application Firewall',
-                docId: 'community-waf/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Application Delivery Controller',
-                docId: 'adc/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Global Server Load Balancer',
-                docId: 'gslb/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Link Load Balancer',
-                docId: 'llb/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'SSL VPN',
-                docId: 'ssl-vpn/docs/docs',
-              },
-              {
-                type: 'doc',
-                label: 'Haltdos SaaS',
-                docId: 'saas/docs/docs',
-              },
-            ],
-          },
-        ],*/
       },
       prism: {
         theme: lightCodeTheme,

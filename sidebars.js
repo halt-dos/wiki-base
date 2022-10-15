@@ -29,7 +29,7 @@ const sidebars = {
       label: 'Community WAF',
       link: {
         type: 'doc',
-        id: 'community-waf/community-waf'
+        id: 'community/community'
       },
       items: [
         {

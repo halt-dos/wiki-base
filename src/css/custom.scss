@@ -813,16 +813,23 @@
      }
    }
  }
+
+ .organization{
+  width: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
  
  // Card gallery
  .gallery {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    grid-gap: 20px;
  }
 
  .sidebar-title{
-  color: grey !important;
+  color: rgb(68, 65, 65) !important;
   font-size: medium;
  }
  
