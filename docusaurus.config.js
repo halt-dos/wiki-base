@@ -51,14 +51,14 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      algolia: {
-        appId: 'IYTTHE6Z6K',
-        apiKey: '89013e04360221d1559a0a4d012fa3b5',
-        indexName: 'dev_haltdos',
-        contextualSearch: true,
-        searchParameters: {},
-        searchPagePath: 'search',
-      },
+      // algolia: {
+      //   appId: 'IYTTHE6Z6K',
+      //   apiKey: '89013e04360221d1559a0a4d012fa3b5',
+      //   indexName: 'dev_haltdos',
+      //   contextualSearch: true,
+      //   searchParameters: {},
+      //   searchPagePath: 'search',
+      // },
       docs:{
         sidebar:{
           hideable: true,
