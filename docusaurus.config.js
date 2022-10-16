@@ -14,7 +14,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  url: 'https://halt-dos.github.io',
+  url: 'https://wiki.haltdos.com',
   baseUrl: '/',
   organizationName: 'haltdos', // Usually your GitHub org/user name.
   projectName: 'wiki-base', // Usually your repo name.
