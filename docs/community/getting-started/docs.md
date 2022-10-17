@@ -5,8 +5,23 @@ sidebar_label: Features
 
 # Haltdos CE Features
 
-- #### **Automated Patches**  
+- #### **GUI Based WAF Configuration**  
+    Simple management and monitoring with web based GUI. Easy to use policy customization supporting SSL management, Web, JSON & XML Policy, Redirection rules, header rules, etc.
 
-    Automated patches is used to detect components and environment settings to adapt the firewall more efficiently. Endpoint WAF is something that is installed inside your application. It is more aware of the environment of your website than a cloud firewall. Haltdos WAFs have the ability to use your scan report to temporarily patch your application for immediate protection.
+- #### **Incidents Management**  
+    Attack visibility with incident logging and reporting. Fine-tune WAF with a simple click of a button. You can whitelist incidents, view Incident Logging from UI, enable Access Logging etc.
 
-**Haltdos WAF** is based on a Negative Security model that protects against known attacks and a Positive Security model that only admits pre-approved traffic. Think of a negative model as a club bouncer instructed to deny admittance to guests who don’t meet the dress code. Now in the positive model, this is like the bouncer at an exclusive party only admitting people who are invited. Both negative and positive have their advantages and drawbacks but when combined together with Artificial Intelligence, **Haltdos WAF** provides comprehensive protection to your website.  
+- #### **Geo Fencing**  
+    Geo Fencing enables website owner to smartly limit access to their web applications as per the geographic location of the user. Geo-location is also useful in content modification.
+
+- #### **Bot Protection**  
+    Users can configure WAF to determine, manage and mitigate automated requests / bot attacks. Enterprise can specify the action to take against this malicious traffic.
+
+- #### **Built-in Signatures**  
+    Haltdos CE Signatures offer protection from many different types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application.  
+
+- #### **Custom Signatures**  
+    Users can configure Haltdos CE by creating rules such as regulations on particular requests, rate limiting, redirecting requests to another site etc. 
+
+- #### **Load Balancing**  
+    Load balancing can be used to optimize resource utilization, maximize throughput, reduce latency, and ensure fault‑tolerant configurations. It reduces load on any single server eliminating a single point of failure. Haltdos CE supports for multiple algorithms to distribute traffic across server farms.  
