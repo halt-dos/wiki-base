@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-sidebar_title: Installation on Server Farm
+sidebar_position: 4
+sidebar_label: Installation
 ---
 
-# Installing Haltdos Community WAF
+# Installation Steps
 
 In this step, you'll pull Haltdos packages from the official software repository. SSH to your server and run the commands below
 
