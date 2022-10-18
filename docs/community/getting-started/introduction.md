@@ -5,7 +5,7 @@ sidebar_label: Introduction
 
 # Introduction
 
-**Web Application Firewall (WAF/ WAAP)** is a [**reverse proxy**](/docs/glossary#reverse-proxy) solution which helps to protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It secure company's Web applications against application layer cyber-attacks such as SQL-Injection, Cross-Site Scripting (XSS), Session Hijacking, and OWASP top 10 vulnerability threats.  
+**Web Application Firewall (WAF/ WAAP)** is a [**reverse proxy**](/glossary#reverse-proxy) solution which helps to protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It secure company's Web applications against application layer cyber-attacks such as SQL-Injection, Cross-Site Scripting (XSS), Session Hijacking, and OWASP top 10 vulnerability threats.  
 
 **WAF** works as the intermediary as well as shield between the user and the app itself, analyzing and securing all communications before they reach the app or the user. A **WAF** operates through a set of rules often called policies. These policies aim to protect against vulnerabilities in the application by filtering out malicious traffic.  
 

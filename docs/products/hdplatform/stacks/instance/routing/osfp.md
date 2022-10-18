@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# osfp
+# OSFP
 
 Support for dynamic routing with Open Shortest Path First (OSFP)
 
