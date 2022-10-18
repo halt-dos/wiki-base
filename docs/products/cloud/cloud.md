@@ -1,6 +1,7 @@
 ---
 sidebar_position: 0
 sidebar_label: Haltdos Cloud
+pagination_prev: null
 ---
 
 # Haltdos Cloud

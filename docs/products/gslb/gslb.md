@@ -1,3 +1,7 @@
+---
+pagination_prev: null
+---
+
 # Global Server Load Balancer
 
 Global Server Load Balancing (**GSLB**) App in Haltdos Platform
