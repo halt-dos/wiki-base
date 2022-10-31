@@ -10,7 +10,7 @@ Customer portal information for license management & ticketing system
 
 ## Overview
 
-All Haltdos customers are provided access to Haltdos Customer Portal. The portal allows users to view and mange their licenses, raise support tickets, get access to knowledge base available in the portal. The portal is accessible [**here**](https://console.haltdos.com/).
+All Haltdos customers are provided access to Haltdos Customer Portal. The portal allows users to view and mange their licenses, raise support tickets, get access to knowledge base available in the portal. The portal is accessible [**here**](https://customer.haltdos.com/).
 Haltdos Support is here to help you configure and manage security for your business 24x7. We are available via email, phone, ticket, and chat. In case of any issue, feel free to reach out to us
 
 ---
