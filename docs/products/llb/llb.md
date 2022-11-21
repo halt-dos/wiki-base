@@ -13,7 +13,7 @@ A Link balancing is designed to balance the load between the local area network 
 
 ![LLB](/img/llb/llb1.jpg)
 
-##### **Benifits**
+### **Benefits**
 
 
 ##### **Improve Network Utilization**
