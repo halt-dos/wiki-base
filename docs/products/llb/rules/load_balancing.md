@@ -38,7 +38,7 @@ A load balancer rule is used to define how incoming traffic is distributed to al
 
 ![load_balancing_rule_condition](/img/llb/llb10.png)
 
-### **Description:**
+### **Description**:
 
 ##### **Rule Name**
 
@@ -74,4 +74,4 @@ This option allows users to set custom protocols for rules. The data packets are
 
 ##### **Criteria**
 
-It specifies the other network-based conditions for load balancing. Users can select from many options to figure out any network flactuation in connectivity. Users can set their packet drop, jitter, latency, etc.
+It specifies the other network-based conditions for load balancing. Users can select from many options to figure out any network fluctuation in connectivity. Users can set their packet drop, jitter, latency, etc.
