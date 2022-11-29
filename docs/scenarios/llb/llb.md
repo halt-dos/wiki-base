@@ -4,7 +4,7 @@ LLB configuration under different Scenarios
 
 ---
 
-Haltdos LLB is designed to manage traffic over multiple internet service providers (ISP) or wide area network (WAN) links. This enables you to subscribe to or provision multiple links, resulting in reduced risk of outages, additional bandwidth for peak events, and potential cost savings if your ISP uses billing tiers based on bandwidth rate or peak/off-peak hours. It roves Internet availability and response times across networks.  
+**Haltdos LLB** is designed to manage traffic over multiple Internet Service Providers (ISP) or Wide Area Network (WAN) links. This enables you to subscribe to or provision multiple links, resulting in reduced risk of outages, additional bandwidth for peak events, and potential cost savings if your ISP uses billing tiers based on bandwidth rate or peak/off-peak hours. It roves Internet availability and response times across networks.  
 
 In most cases, Users configure link load balancing for outgoing traffic. Outbound traffic might be user or server traffic that is routed from your local network through your ISP transit links, leased lines, or other WAN links to destinations on the Internet or WAN. You configure link policies that select the gateway for outbound traffic.
 When the Haltdos LLB system receives outbound traffic that matches a source/destination/service tuple that you configure, it forwards it to an outbound gateway link according to system logic and policy rules that you specify.  
@@ -19,6 +19,6 @@ Here, we have created some scenarios to understand the basic configuration of th
 
 [Scenario 4](scenario-4.md)​: Company ABC is having two ISPs with different service providers. The users want the traffic of some websites should be moved from the WAN 1 connection and some websites traffic should be moved from the WAN 2 connection.  
 
-[Scenario 5](scenario-5.md)​: Company ABC, which is having two ISPs from two different service providers. The first ISP link is having IP from network 2.2.2.0/28 and other is having network ID of 3.3.3.0/28.The ISP link that is having static IP addresses  (2.2.2.2) handle all the DMZ traffic. Both ISPs are connected with LLB then there's one link which is connected to firewall. The connectivity between firewall and LLB have network of 172.16.2.0/16, firewall has IP 172.16.2.10 and 172.16.2.20 which respectively forward traffic to DMZ and LAN.  
+[Scenario 5](scenario-5.md)​: Company ABC, which is having two ISPs from two different service providers. The first ISP link is having IP from network 2.2.2.0/28 and other is having network ID of 3.3.3.0/28.The ISP link that is having static IP addresses  (2.2.2.2) handle all the DMZ traffic. Both ISPs are connected with LLB then there's one link which is connected to firewall. 
 
 [Scenario 6](scenario-6.md)​: Company ABC is having two ISPs from two different service providers. The user wants to use one ISP as primary and second as backup link. The user also has DMZ zone. The user has bonded one public IP from both ISPs to its DMZ servers. User wants to configure SNAT for both ISPs links.  

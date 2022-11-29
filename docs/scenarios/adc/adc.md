@@ -8,7 +8,7 @@ ADC configuration under different Scenarios
 
 ---
 
-Haltdos SLB is a technology that distributes high-traffic sites among several servers. Glossary Server Load Balancing Definition Server Load Balancing (SLB) is a technology that distributes high traffic sites among several servers using network-based hardware or software-defined appliance.  
+**Haltdos SLB** is a technology that distributes high-traffic sites among several servers. Glossary Server Load Balancing Definition Server Load Balancing (SLB) is a technology that distributes high traffic sites among several servers using network-based hardware or software-defined appliance.  
 
 In most cases, users configure the SLB for multiple back-end servers. Users can configure SLB for single as well as multiple back-end listeners.  
 

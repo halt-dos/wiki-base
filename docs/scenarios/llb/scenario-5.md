@@ -7,7 +7,7 @@ LLB configuration under different Scenarios
 Suppose, there is a organization which is having two ISPs from two different service providers. The first ISP link is having IP from network 2.2.2.0/28 and other is having network ID of 3.3.3.0/28.The ISP link that is having static IP addresses  (2.2.2.2) handle all the DMZ traffic.
 Both ISPs are connected with LLB then there's one link which is connected to firewall. The connectivity between firewall and LLB have network of 172.16.2.0/16, firewall has IP 172.16.2.10 and 172.16.2.20 which respectively forward traffic to DMZ and LAN. 
 
-Firewall later connected with DMZ and LAN network which have  their own networks respectively 192.168.100.0/24 and 172.16.10.0/16.
+Firewall later connected with DMZ and LAN network which have their own networks respectively 192.168.100.0/24 and 172.16.10.0/16.
 
 ![Diagram](/img/llb/scenarios/scenario6-1.png)
 
