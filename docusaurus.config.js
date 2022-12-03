@@ -72,6 +72,9 @@ const config = {
           src: 'img/logo/icon_light.png',
           srcDark: 'img/logo/icon_dark.png'
         },
+        items:[
+          {to: 'kb', label: 'Knowledge Base', position: 'left'},
+        ]
       },
       prism: {
         theme: lightCodeTheme,

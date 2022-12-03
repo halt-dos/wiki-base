@@ -2,7 +2,7 @@
 sidebar_position: 0
 ---
 
-# Knowledge Base
+# WAF
 
 This section describes the knowledge base of how to use Haltdos WAF to adequately protect Web & API applications.  
 
