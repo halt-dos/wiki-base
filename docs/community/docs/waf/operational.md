@@ -71,10 +71,10 @@ This option allows user to specify whether to do log requests for static extensi
 This option allows user to specify whether to enable error handling by firewall.
 
 #### Operational Mode
-This option allows user to specify operational mode for every given security profile. Different operational modes are:
-**MITIGATION**:  In this mode, all the mitigations & rule sets will monitor the traffic. If any request matches the criteria, it gets dropped.
-**BYPASSED**: In this mode, all the requests get bypassed without any filtration of mitigations & rule sets.
-**RECORD**: In this mode, all the mitigations & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.
+This option allows user to specify operational mode for every given security profile. Different operational modes are:  
+- **MITIGATION**:  In this mode, all the mitigations & rule sets will monitor the traffic. If any request matches the criteria, it gets dropped.  
+- **BYPASSED**: In this mode, all the requests get bypassed without any filtration of mitigations & rule sets.  
+- **RECORD**: In this mode, all the mitigations & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.  
 
 #### Application Type
 This option allows users to specify the type of application ( i.e. website or web service). A website is a collection of linked web pages (plus their associated resources) that share a unique domain name. A web service is a collection of open protocols and standards used for exchanging data between applications or systems.
