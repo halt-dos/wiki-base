@@ -74,6 +74,11 @@ const config = {
         },
         items:[
           {to: 'kb', label: 'Knowledge Base', position: 'left'},
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+          },
         ]
       },
       prism: {
