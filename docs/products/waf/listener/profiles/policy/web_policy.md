@@ -4,13 +4,15 @@ sidebar_position: 1
 
 # WEB Policy
 
-**Configure Web Security Policy for HTML based websites - Static, Dynamic, Wordpress, etc.**
+**Configure Web Security Policy for HTML based websites - , Dynamic, Wordpress, etc.**
 
 ### Overview
 
 A web policy or policies are constraints or mandates in relation to technical constraints, legal, editorial, and compliance. Configure policies that HTTP(s) requests must conform to when requesting data from the backend web application.
    
-IMAGE
+![webpolicy](/img/waf/v2/profile_webpolicy.png)
+
+![webpolicy](/img/waf/v2/profile_webpolicy.png)
 
 ### How to Use:
 1. Go to **WAF** > **Listener** > **Profiles** > **Policy** > **Web Policy**.

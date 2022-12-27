@@ -9,7 +9,7 @@ User can specify rule staging settings on this page for Listener
 Users can configure below rule staging settings for Listener.
 
 
-![Rule Staging](/img/waf/RuleStaging.png)
+![Rule Staging](/img/waf/v2/rulestaging.png)
 
 ## How to Use:
 

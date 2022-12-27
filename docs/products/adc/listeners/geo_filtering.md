@@ -8,15 +8,15 @@ sidebar_position: 3
 Our solution restricts user's based upon BlackListed IP Prefixes and Countries. It also allows permanently to access website through WhiteListed IP Prefixes.
 
 ---
-![Geo Filtering](/img/adc/geofiltering.png)
+![Geo Filtering](/img/adc/v2/geofiltering.png)
 
 ### How to Use:
 
-1. Go to **Stack** > **SLB** > **listener** > **Geo Filtering** 
+1. Go to **Stack** > **SLB** > **Listener** > **Geo Filtering** 
 
 2. Configure your settings.
 
-3. Click **Save** .
+3. Click **Save**.
 
 **Configure the following parameters to set up the desired settings:**
 

@@ -6,7 +6,7 @@ sidebar_position: 2
 **SSL (Secure Sockets Layer)** and its successor, **TLS (Transport Layer Security)**, are protocols for establishing authenticated and encrypted links between networked computers.
 
 ---
-![SSL Settings](/img/adc/sslsettings1.png)
+![SSL Settings](/img/adc/v2/sslsetting.png)
 
 ### How to Use:
 
@@ -16,7 +16,7 @@ sidebar_position: 2
 
 3. Click Save Changes. 
 
-![SSL Settings2](/img/adc/sslsettings2.png)
+![SSL Settings2](/img/adc/v2/sslsetting1.png)
 
 **Configure the following parameters to set up the desired settings:**
 

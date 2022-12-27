@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Servers
 
-![servers](/img/adc/servers1.png)
+![servers](/img/adc/v2/server.png)
 
 ### How to Use:
 
@@ -28,7 +28,7 @@ sidebar_position: 1
 | Down           | Drop-Down      | False   |
 | Max Connection | Integer        | Integer |
 
-![servers2](/img/adc/servers2.png)
+![servers2](/img/adc/v2/server1.png)
 
 #### Description:
 

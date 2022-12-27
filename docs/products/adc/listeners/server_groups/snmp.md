@@ -18,7 +18,7 @@ sidebar_position: 3
 
 4. Click Save Changes.
 
-![snmp](/img/adc/snmp.png)
+![snmp](/img/adc/v2/snmp.png)
 
 | SETTINGS             | ACCEPTED VALUE | DEFAULT           |
 |----------------------|----------------|-------------------|

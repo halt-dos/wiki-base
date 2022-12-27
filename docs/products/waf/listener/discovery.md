@@ -2,15 +2,16 @@
 sidebar_position: 11
 ---
 
-# Auto Profiling 
+# Discovery 
 
 ## Overview 
-Auto Profiling displays all the parameters learned from the request i.e. headers, cookies, arguments. The learning can be deployed using Deploy Learning. Users can also upload a swagger file.
+Discovery displays all the parameters learned from the request i.e. headers, cookies, arguments. The learning can be deployed using Deploy Learning. Users can also upload a swagger file.
 
-![Auto Profiling](/img/waf/autoprofiling.png)
+![Discovery](/img/waf/v2/discovery1.png)
 
+![Discovery](/img/waf/v2/discovery2.png)
 ## How to Use:
-1.Go to **WAF** > **Listener** > **Auto Profiling**
+1.Go to **WAF** > **Listener** > **Discovery**
 
 2.Configure your settings
 

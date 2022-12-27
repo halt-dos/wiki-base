@@ -25,6 +25,8 @@ A WAF can take two approaches to analyzing and filtering the content contained i
 
 - **Blacklisting**: A blacklisting approach defaults to letting packets through and uses preset signatures to block malicious web traffic and protect vulnerabilities of websites or web applications.  
 
+![](/img/waf/v2/functioningofwaf.png)
+
 ### Benefit of Haltdos WAF  
 
 - **Automated Patches**  

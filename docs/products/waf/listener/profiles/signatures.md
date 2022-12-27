@@ -8,10 +8,10 @@ These are in-built rules of WAF.
 ## Overview 
 Signatures contain rules that are evaluated for each request that passes through WAF. The rules offer protection from many different types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application. The WAF has multiple types of Rules designed to target specific use cases.
 
-![Signatures](/img/waf/signatures.png)
+![Signatures](/img/waf/v2/profile_signatures.png)
 
 ## How to Use :
-1.Go to **WAF** > **Listeners** > **Security Profiles** > **Rules** > **Signatures**
+1.Go to **WAF** > **Listeners** > **Profiles** > **Signatures**
 2.You can change the status of the signature to AUTO, PROD, STAGED, DISABLED.
 3.Configurations will be deployed successfully.
 

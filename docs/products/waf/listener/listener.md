@@ -6,12 +6,12 @@ Make WAF listen on specific ports to accept connections and distribute across on
 ## Overview 
 Listeners are used for configuring websites and servers appropriately that it can help to reduce response time, increase throughput, optimize resource use and overload of any single resource.
 
-![Listener](/img/waf/listener.png)
+![Listener](/img/waf/v2/listeners.png)
 
-![Listener](/img/waf/addlistener.png)
+![Listener](/img/waf/v2/addinglisteners.png)
 
 ## How to Use :
-1. Go to **Stack** > **WAF** > **Listeners**
+1. Go to **Apps** > **WAF** > **Listeners**
 2. Click **Add Listener button.**
 3. Configure your settings.
 4. Click **Save. Changes**

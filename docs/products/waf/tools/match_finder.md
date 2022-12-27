@@ -6,15 +6,15 @@ sidebar_position: 3
 ### Overview
 It Identifies, stores all the rules matched by WAF, and generates match finder details for a specific or all listener so that you can identify all matched, rules for the listener by listing the events.
 
-![matchfinder](/img/waf/match_finder.png)
+![matchfinder](/img/waf/v2/match_finder.png)
 
 ### How to Use:
-1. Go to WAF > Match Finder
+1. Go to **WAF** > **Tool** > **Match Finder**
 2. Click on the Run Query button on the top right side.
 
 ### Description
 
-#### Event ID
+#### Incident ID
 It displays the event ID logged for the certain request found to be malicious.
 
 #### Matched Rule

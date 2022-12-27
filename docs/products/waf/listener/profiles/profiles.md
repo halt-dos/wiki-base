@@ -2,7 +2,7 @@
 Create different security profiles for different sub-sections of your website.
 ### Overview
 Profiles is the default profile that contains most commonly used web application settings served through a virtual service. For customizing a profile, it is highly recommended to create a new profile instead of editing the default profile.  
-![Profiles.png](/img/waf/profileee.png)
+![Profiles.png](/img/waf/v2/profile.png)
    
 ### How to Use:
 1. Go to WAF > Listeners > Profiles

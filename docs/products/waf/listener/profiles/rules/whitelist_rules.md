@@ -8,14 +8,14 @@ A whitelist is "the cybersecurity list," granting only programs, IP, and email a
 Whitelist Rules help to list services that access your site regularly (APIs, crawlers, payment providers, etc.). Whitelists are not one-size-fits-all; whitelists are tailor-made managers based on their particular needs and desires. YouTube, for example, has released a whitelisted YouTube Kids version that goes off of handpicked, age-appropriate videos rather than algorithmic recommendations.
 Here’s another use case: To reduce insider threat, a cyber attack caused behind company doors businesses with BYOL policies whitelist websites, they consider safe for employees to visit when using their private network.
    
-![Whitelist Rule](/img/waf/whitelisting_rule.png)
+![Whitelist Rule](/img/waf/v2/whitelist.png)
 ### How to use
 1. Go to **WAF** > **Listeners** >  **Profiles** > **Rules** > **Whitelist Rules**.
 2. Click on the Add Rule button and a pop-up box will open.
 3. Configure the Fields that are present.
 4. Click on save changes.
    
-![Whitelist Rule](/img/waf/whitelisting_rule2.png)
+![Whitelist Rule](/img/waf/v2/whitelist1.png)
    
 | Parameters      | Accepted value |  Default       |
 |-----------------|----------------|----------------|

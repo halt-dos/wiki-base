@@ -5,7 +5,7 @@ sidebar_position: 8
 # Variables
 
 
-![Variables](/img/waf/variablesss.png)
+![Variables](/img/waf/v2/addvariables.png)
 
 ## How to Use:
 1. Go to **WAF** > **Listener** > **Variable**

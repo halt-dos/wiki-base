@@ -8,12 +8,12 @@ Developer Script strategies will be implemented as a developer script rule. This
    
 For the given URI, the developer script will be executed and if the condition matches the rule the appropriate action will be taken as per the rule. User can define their own logic which may not be present in the WAF rules and thus could mitigate the specific attack.
 
-![Script Rule](/img/waf/Script_rule.png)
+![Script Rule](/img/waf/v2/script_rule.png)
    
 The developer script defines two phases:
 1. Request Phase: This developer script is executed before sending the request to web-servers.
 2. Response Phase: This developer script is executed after getting the response from the webservers and before reaching the web client.
-![Scriot Rule](/img/waf/script_rule2.png)
+
 The script for this rule is written in Lua scripting language. In this, we define the Lua script which will be executed for the required phase. In order to perform the action, the script must return 1 (Numeric) as a value. We also provide some utility methods such as MD5, Base64 encoding, and much more. We can access the Nginx variable too. 
 
 If somehow the script faces a compilation error, the script will fail to perform an action and the request will be processed.

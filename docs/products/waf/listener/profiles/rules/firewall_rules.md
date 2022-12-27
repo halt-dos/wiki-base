@@ -5,7 +5,7 @@ sidebar_position: 3
 
 ### Overview
  A Firewall Rule is used to set up regulations on a particular domain. When a request is made to that domain, the WAF checks for the violation of a rule and carries out the appropriate action that is configured by the User.
-![Firewall Rule](/img/waf/firewall_rules.png)
+![Firewall Rule](/img/waf/v2/firewallrule.png)
 
 The following actions are available to the User :
 1. **DROP  & RECORD REQUEST** - If the Request to the subscribed domain matches the Firewall Rule, an event is generated but the request will not be allowed through the WAF.
@@ -22,7 +22,7 @@ The following actions are available to the User :
 12. **SKIP LEARNING** - If the request satisfies the rule, then no learning will be performed on the current request.
 13. **SEND EMPTY RESPONSE** - If the request satisfies the rule, the end-user will get empty response / blank page in return.
 
-![Firewall Condition](/img/waf/firewall_rules_condition.png)
+![Firewall Condition](/img/waf/v2/firewallrule1.png)
 
 ### How to Use:
 1. Go to **WAF** > **Listener** >  **Profiles** > **Rules** > **Firewall Rules**
