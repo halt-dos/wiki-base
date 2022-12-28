@@ -8,7 +8,7 @@ Load balancing across multiple application instances is a commonly used techniqu
 
 ![Load Balancing](/img/waf/loadbalancing.png)
 
-## Load Balancing Algorithms
+### Load Balancing Algorithms
 This field specifies the load balancing algorithm according to the configured website.
 
 1.**ROUND ROBIN**: 
@@ -34,7 +34,7 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
 
 ![Load Balancing](/img/waf/Add_Location.png)
 
-## How to use:
+### How to use:
 1.Go to **WAF** > **Listeners** > **Server Groups** > **Load Balancing**
 
 2.Set the configurations and **Save Changes**.
@@ -48,7 +48,7 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
      |Sticky Session Cookie| String| Blank
      | Add location | String & Integer | This toggle button allows you to enable the Web-socket support for servers in the server group.None & Src IP
 
-## Description
+### Description
 
 1.**Upstream Retries**
 
