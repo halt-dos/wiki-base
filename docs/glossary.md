@@ -14,9 +14,9 @@ Glossary for Haltdos Product Documentation
 
 A hardware addition to an existing computing device that increases the computer's processing speed and capabilities.
 
-##### **Access Control List**
+##### **ACL - Access Control List**
 
-Also known as: ACL Constrains the flow of traffic by individual IP address or by a range of IP addresses.
+ACL Constrains the flow of traffic by individual IP address or by a range of IP addresses.
 
 ##### **Access Rule**
 
@@ -36,22 +36,22 @@ A piece of software that enhances another software application and usually canno
 
 ##### **Address Mapping**
 
-Also known as: address map Technique that allows different protocols to interoperate by translating addresses from one format to another.
+Technique that allows different protocols to interoperate by translating addresses from one format to another.
 
-##### **Advanced Persistent Threat** Also known as: APT
+##### **APT - Advanced Persistent Threat**
 
 Malicious cyber attacks directed at a specific target, usually over a long period of time. APTs are often run by professional organizations, looking to steal information rather than just money.
 
-##### **AES 256-bit** Also known as: Advanced Encryption Standard
+##### **AES 256-bit - (Advanced Encryption Standard 256-bit)**
 
 A specification for the encryption of electronic data. 256-bit refers to the key length and is the maximum value.
 
-##### **Amazon Web Services**
+##### **AWS - Amazon Web Services**
 Also known as: AWS Amazon's public cloud platform that lets you build, deploy, and manage applications across a global network of datacenters.
 
-##### **AMI**
+##### **AMI - Amazon Machine Image**
 
-Also known as: Amazon Machine Image AWS template that contains configuration, application server, and applications required to launch an EC2 AWS Instance.
+AWS template that contains configuration, application server, and applications required to launch an EC2 AWS Instance.
 
 ##### **Android**
 
@@ -69,13 +69,13 @@ Protection against attacks that involve obfuscated code. Obfuscation may involve
 
 Antivirus software, abbreviated: AV. Used to prevent, detect and remove malicious software.
 
-##### **API**- Also known as: Application Programming Interface
+##### **API - Application Programming Interface**
 
 A set of tools and procedures provided by the programmer of an application so that other programmers can control, exchange data with, or extend the functionality of an application.
 
-##### **APN**
+##### **APN - Access Point Name**
 
-Also known as: Access Point Name Access Point Name provided by an ISP for wireless WAN connections.
+Provided by an ISP for wireless WAN connections.
 
 ##### **Apple iOS**
 
@@ -95,11 +95,11 @@ AWS feature that makes routing decisions at the application layer (HTTP/S), supp
 
 Firewall rule that allows you to block or throttle traffic for detected applications.
 
-##### **ARP**
+##### **ARP - Address Resolution Protocol**
 
-Also known as: Address Resolution Protocol Protocol for mapping IP addresses to physical addresses such as Ethernet or Token Ring.
+Protocol for mapping IP addresses to physical addresses such as Ethernet or Token Ring.
 
-##### **ARP Spoofing**- Also known as: ARP trashing, spoofing
+##### **ARP Spoofing**
 
 Type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network.
 
@@ -117,25 +117,25 @@ Associated with DNS. A section of the domain-name tree for which one name server
 
 ##### **Auto Scaling**
 
-Also known as: Auto Scale A web service designed to launch or terminate AWS instances automatically based on user-defined policies, schedules, and health checks.
+Also known as Auto Scale, it is a web service designed to launch or terminate AWS instances automatically based on user-defined policies, schedules, and health checks.
 
 ##### **Auto Scaling Group**
 
 A representation of multiple EC2 instances that share similar characteristics, and that are treated as a logical grouping for the purposes of instance scaling and management.
 
-##### **Autonomous System**- Also known as: AS
+##### **AS - Autonomous System**
 
 Collection of networks under a common administration sharing a common routing strategy. Autonomous systems are subdivided by areas. An autonomous system must be assigned a unique 16-bit number by the IANA.
 
-##### **Availability Zone**- Also known as: AZ
+##### **AZ - Availability Zone**
 
 A distinct location within an AWS region that is insulated from failures in other Availability Zones, and provides inexpensive, low-latency network connectivity to other Availability Zones in the same region.
 
-##### **AWS Direct Connect**- Also known as: Amazon Web Services
+##### **AWS Direct Connect**
 
 Enables you to use the Internet privately through AWS cloud services by linking your internal network to an AWS Direct Connect location. You can create virtual interfaces directly to the AWS cloud and to Amazon VPC, bypassing Internet service providers in your network path.
 
-##### **AWS IoT**- Also known as: Amazon Web Services Internet of Things   
+##### **AWS IoT - AWS Internet of Things**    
 
 A managed cloud platform that lets connected devices easily and securely interact with cloud applications and other devices.
 ​
@@ -150,7 +150,7 @@ A simple and intuitive web-based user interface to access and manage AWS.
 
 Microsoft's public cloud platform that lets you build, deploy, and manage applications across a global network of datacenters.
 
-##### **Azure Resource Manager** Also known as: ARM Azure deployment mode 
+##### **Azure Resource Manager**
 
 That enables you to work with the resources in your solution as a group. Recommended for new deployments.
 
@@ -173,7 +173,7 @@ Operating mode for Ethernet bundles where the link is chosen by calculating the 
 
 Rate of data transfer, usually expressed in multiples of bits per second (bps).
 
-##### **BIND**- Also known as: Berkeley Internet Name Domain
+##### **BIND - Berkeley Internet Name Domain**
 
 The standard TCP/IP naming service that links network names with IP addresses.
 
@@ -185,9 +185,9 @@ Device that moves data in sequences of bytes or bits (blocks). Example: hard dis
 
 Defines the block devices (instance store volumes and EBS volumes) to attach to an AWS instance.
 
-##### **Blocklist**- Also known as: blacklist, block list, black list
+##### **Blocklist**
 
-List of domains, users, or hosts that are denied access, especially refers to mail and web traffic. Sometimes known as blacklist. Compare to allow list or whitelist.
+Also known as: blacklist, block list, black list, it is the list of domains, users, or hosts that are denied access, especially refers to mail and web traffic. Sometimes known as blacklist. Compare to allow list or whitelist.
 
 ##### **Blowfish** 
 
@@ -205,11 +205,8 @@ The action taken by network equipment to create an aggregate network from either
 
 Protection against a brute-force attack, which consists of systematically checking all possible keys or passwords until the correct one is found. This type of attack uses a large number of attempts to gain access to a system.
 
-##### **Bucket**- Also known as: Amazon Web Services S3 Bucket
 
-In AWS, container for objects that can be stored in Amazon S3.
-
-##### **BYOD**- Also known as: Bring Your Own Device
+##### **BYOD - Bring Your Own Device**
 
 The practice of allowing employees or members of an organization to use their own computers, phones, or other devices for work.
 
@@ -235,13 +232,13 @@ Log of configuration changes on the appliance. Can be found in the release notes
 
 The result of a mathematical operation that uses the binary representation of a group of data as its basis, usually to check the integrity of the data.
 
-##### **CIDR** 
+##### **CIDR - Classless Inter-Domain Routing** 
 
-Also known as: classless interdomain routing Technique supported by BGP4 and based on route aggregation. CIDR allows routers to group routes together in order to cut down on the quantity of routing information carried by the core routers.
+Technique supported by BGP4 and based on route aggregation. CIDR allows routers to group routes together in order to cut down on the quantity of routing information carried by the core routers.
 
-##### **CIFS**
+##### **CIFS - Common Internet File System **
 
-Also known as: Common Internet File System Standard for sharing files across the Internet.
+Standard for sharing files across the Internet.
 
 ##### **Class A|B|C|D Network**
 
@@ -251,9 +248,9 @@ Classes of IP addresses as defined in the Internet Protocol hierarchy.
 
 In AWS, a Classic Load Balancer makes routing decisions at either the transport layer (TCP/SSL) or the application layer (HTTP/HTTPS), and supports either EC2-Classic or a VPC (virtual private cloud).
 
-##### **Clickjack**- Also known as: UI redressing, iframe overlay 
+##### **Clickjack**
 
-Malicious technique where a user is tricked into clicking on a button or link on a website using hidden clickable elements inside an invisible iFrame.
+Also known as UI redressing, iframe overlay, it is a malicious technique where a user is tricked into clicking on a button or link on a website using hidden clickable elements inside an invisible iFrame.
 
 ##### **Cloaking**
 
@@ -279,7 +276,7 @@ A service offered by cloud storage providers whereby data is transformed using e
 
 AWS management tool that lets you create, manage, and update a collection of AWS resources using templates and allowing Json code for template deployment.
 
-##### **CloudFormation**- Stacks Also known as: Amazon Web Services
+##### **CloudFormation**
 
 Host uploaded content and can be deployed in CloudFormation, an AWS feature.
 
@@ -303,15 +300,15 @@ In Ethernet, the network area within which frames that have collided are propaga
 
 Text string that acts as a password and is used to authenticate messages sent between a management station and a router containing an SNMP agent. The community string is sent in every packet between the manager and the agent.
 
-##### **Compression, Data**
+##### **Data Compression**
 
-Also known as: data compression The process of encoding digital information by using fewer bits.
+The process of encoding digital information by using fewer bits.
 
 ##### **Congestion**
 
 Traffic in excess of network capacity.
 
-##### **Connection Draining**- Also known as: Amazon Web Services
+##### **Connection Draining**
 
 AWS feature, lets you scale down EC2 instances to reduce sessions.
 
@@ -319,9 +316,9 @@ AWS feature, lets you scale down EC2 instances to reduce sessions.
 
 A cache of database connections is maintained so those connections can be reused when future requests to the database are required. Connection pools are used to enhance the performance of executing commands on a database and also cuts down on the amount of time a user must wait to establish a connection to the database.
 
-##### **Content Delivery Network**
+##### **CDN - Content Delivery Network**
 
-Also known as: CDN A distributed system consisting of servers in discrete physical locations, configured in a way that clients can access the server closest to them on the network, thereby improving speeds.
+A distributed system consisting of servers in discrete physical locations, configured in a way that clients can access the server closest to them on the network, thereby improving speeds.
 
 ##### **CPU Emulation**
 
@@ -331,7 +328,7 @@ Masks the virtualization environment, so payload can be detonated more effective
 
 Feature of S3 storage class in AWS. Once enabled, every object uploaded to a particular S3 bucket is automatically replicated to a designated destination bucket located in a different AWS region.
 
-##### **Cross-site Scripting**- Also known as: xss, cross site scripting 
+##### **Cross-site Scripting**
 
 A type of computer security vulnerability, typically found in web applications, that enables attackers to inject client-side scripts into web pages viewed by users.
 
@@ -341,11 +338,11 @@ A type of computer security vulnerability, typically found in web applications, 
 
 A facility used to house computer systems and associated components, such as telecommunications and storage systems.
 
-##### **Data Loss Prevention**- Also known as: DLP
+##### **DLP - Data Loss Prevention**
 
 Data Leak Prevention Email filter using pre-defined patterns such as credit card number, social security number, driver's license or HIPAA medical terms, to block, quarantine or encrypt outbound messages.
 
-##### **Data Truncation**- Also known as: Truncate
+##### **Data Truncation
 
 Occurs when data or a data stream is stored in a location too short to hold its entire length. May occur automatically, such as when a long string is written to a smaller buffer, or deliberately, when only a portion of the data is wanted.
 
@@ -353,11 +350,11 @@ Occurs when data or a data stream is stored in a location too short to hold its 
  
 Document that summarizes the performance and other technical characteristics of a product, machine, component (e.g., an electronic component), material, a subsystem (e.g., a power supply) or software in sufficient detail to be used by a design engineer to integrate the component into a system.
 
-##### **DCE-RPC**- Also known as: Distributed Computing Environment Remote Procedure Call
+##### **DCE-RPC - Distributed Computing Environment Remote Procedure Call**
 
 Remote procedure call system that allows programmers to write distributed software without having to worry about the underlying network code.
 
-##### **DDoS**- Also known as: Distributed Denial of Service
+##### **DDoS - Distributed Denial of Service**
 
 A Distributed Denial of Service is a cyber-attack where the perpetrator seeks to make a machine or network resource unavailable to users by temporarily or indefinitely disrupting services of a host connected to the Internet, using more than one, often thousands of, unique IP addresses.
 
@@ -365,7 +362,7 @@ A Distributed Denial of Service is a cyber-attack where the perpetrator seeks to
 
 An Internet hosting option where an organization leases an entire server, fully dedicated to their use. This is also an option in the public cloud. The price for a Dedicated Host varies by instance family, region, and payment option.
 
-##### **Dedicated Instance 
+##### **Dedicated Instance**
 
 Amazon EC2 instance that runs on single-tenant hardware dedicated to a single customer.
 
@@ -377,7 +374,7 @@ An option you can purchase from a cloud vendor to guarantee that sufficient capa
 
 An attack on a website that changes the visual appearance of the site or a web page.
 
-##### **Demilitarized Zone**- Also known as: DMZ
+##### **DMZ - Demilitarized Zone**
 
 A physical or logical sub-network that contains and exposes an organization’s external-facing services to a larger and untrusted network, usually the Internet. The purpose of a DMZ is to add an additional layer of security to an organization’s local area network (LAN). An external network node has direct access only to equipment in the DMZ, rather than to any other part of the network.
 
@@ -389,11 +386,11 @@ Changing the destination address/port in the IP header of a packet. Example: red
 
 A mathematical scheme for demonstrating the authenticity of a digital message or document.
 
-##### **DNS**- Also known as: Domain Name System
+##### **DNS - Domain Name System**
 
-Distributed database that translates domain names, like www.example.com, into unique IP address.
+Distributed database that translates domain names, like google.com, into unique IP address.
 
-##### **DNS Cache**- Also known as: DNS resolver cache
+##### **DNS Resolver Cache**
 
 A temporary database, maintained by a computer's operating system, that contains records of all recent visits and attempted visits to websites and other Internet domains.
 
@@ -409,7 +406,7 @@ Open-source software that automates the deployment of applications inside virtua
 
 A layered file system template that is the basis of a Docker container. Docker images can comprise specific operating systems or applications.
 
-##### **DoS Attack**- Also known as: Denial of Service attack, spoofing
+##### **DoS Attack - Denial of Service attack, spoofing**
 
 A cyber-attack where the perpetrator seeks to make a computer or network resource unavailable to users by temporarily or indefinitely disrupting services of a host connected to the Internet. Denial of Service attacks are typically accomplished by flooding the target with superfluous requests in an attempt to overload systems and prevent legitimate requests from being fulfilled. See also Distributed Denial of Service or DDoS.
 
@@ -427,7 +424,7 @@ A fully managed Amazon NoSQL database service that provides fast and predictable
 
 ## E
 
-##### **EC2**- Also known as: Amazon Elastic Compute Cloud
+##### **EC2 - Elastic Compute Cloud**
 
 Forms a central part of AWS by allowing users to rent virtual computers on which to run their own computer applications.
 
@@ -435,7 +432,7 @@ Forms a central part of AWS by allowing users to rent virtual computers on which
 
 Used by the AWS service CloudFront. Feature that offers content to end users via geographically closer locations to improve their experience.
 
-##### **EGP**- Also known as: Exterior Gateway Protocol 
+##### **EGP - Exterior Gateway Protocol**
 
 Internet protocol for exchanging routing information between autonomous systems.
 
@@ -467,7 +464,7 @@ The use of a master key and a data key to algorithmically protect data. The mast
 
 Local area network technology that uses special twisted pair or fiber optical cables. As per the OSI model, Ethernet provides services up to and including the data link layer.
 
-##### **Eevasion**
+##### **Evasion**
 
 Bypassing an information security device in order to deliver an exploit, attack, or other form of malware to a target network or system, without detection.
 
@@ -509,7 +506,7 @@ The front end is responsible for collecting input in various forms from the user
 
 The front-end server is an extension of the back-end server and is designed to provide scalability.
 
-##### **FTP**- Also known as: File Transfer Protocol 
+##### **FTP - File Transfer Protocol**
 
 Standard network protocol used to transfer files between a client and server on a computer network.
 
@@ -539,7 +536,7 @@ A gigabyte, or 10^9 bytes, or 8000 million bits.
 
 Locating a computer's geographic location based on its IP address.
 
-##### **GHz**- Also known as: gigahertz 
+##### **GHz - Giga Hertz** 
 
 A unit of frequency equal to 10^9 hertz, which is defined as one cycle per second.
 
@@ -557,16 +554,16 @@ A service that enables developers to create and run web applications on Google's
 
 Standard that defines the protocols to provide audio-visual communication sessions on any packet network. H.323 addresses call signaling and control, multimedia transport and control, and bandwidth control for point-to-point and multi-point conferences.
 
-##### **High Availability**- Also known as: HA
+##### **HA - High Availability**
 
 Deployment method that ensures that the services running on the system are always available even if one system is down due to maintenance or a hardware fault.
 
-##### **HTTP**- Also known as: Hypertext Transfer Protocol
+##### **HTTP - Hypertext Transfer Protocol**
 
 Protocol for submitting data over a network, commonly used to load website content in a web browser.
 HTTP referers HTTP header field that identifies the address of the webpage (i.e., the URI or IRI) that links to the resource being requested. (Originally a misspelling of referrer.)
 
-##### **HTTPS**- Also known as: Hypertext Transfer Protocol Secure
+##### **HTTPS - Hypertext Transfer Protocol Secure**
 
 Consists of communication over HTTP within a connection encrypted by TLS or SSL. The main motivation is authentication of the visited website and protection of the privacy and integrity of the exchanged data.
 
@@ -576,11 +573,11 @@ Computer software, firmware, or hardware that creates and runs virtual machines.
 
 ## I
 
-##### **IaaS**- Also known as: Infrastructure as a Service
+##### **IaaS - Infrastructure as a Service**
 
 Cloud infrastructure services in which a virtualized environment is delivered as a service by the cloud provider.
 
-##### **IAM**- Also known as: Identity and Access Management
+##### **IAM - Identity and Access Management**
 
 The Identity and Access Management feature of cloud services (like AWS) that lets you control who can use the provider's services and resources (authentication) and what resources they can use in which ways (authorization).
 
@@ -596,16 +593,17 @@ A "copy" of a virtual appliance/image/machine that is being installed, brought u
 
 Detection System Network security feature that monitors local and forwarding firewall traffic for malicious activities.
 
-##### **IP Address**- Also known as: Internet Protocol address 
+##### **IP Address - Internet Protocol address**
 
 A numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication.
 
 ##### **IPv4, IPv6**
 
-The fourth and sixth versions, respectively, of the Internet Protocol (IP). Following are examples of notation for each type of address:IPv4 192.0.2.235
-IPv6 2001:0db8:0000:0042:0000:8a2e:0370:7334 is also known as: intermediate system Routing node in an OSI network.
+The fourth and sixth versions, respectively, of the Internet Protocol (IP). Following are examples of notation for each type of address:
+- **IPv4:** 192.0.2.235  
+- **IPv6:**  2001:0db8:0000:0042:0000:8a2e:0370:7334  
 
-##### **ISDN**- Also known as: Integrated Services Digital Network 
+##### **ISDN - Integrated Services Digital Network** 
 
 Communication protocol offered by telephone companies that permits telephone networks to carry data, voice, and other source traffic.
 
@@ -615,7 +613,7 @@ Communication protocol offered by telephone companies that permits telephone net
 
 Measure of the difference in packet delay, that is, the difference in the space between packet arrival times. Jitter can be remedied somewhat with a jitter buffer.
 
-##### **JSON**- Also known as: JavaScript Object Notation
+##### **JSON - JavaScript Object Notation**
 
 An open, text-based data exchange format (like XML), that is human-readable and platform-independent. Data formatted according to the JSON standard is lightweight and can be parsed by JavaScript implementations.
 
@@ -637,11 +635,11 @@ Configuration AWS template that an Auto Scaling group uses to launch EC2 instanc
 
 The transport layer from the ISO/OSI model, which provides end-to-end or host-to-host communication services for applications within a layered architecture of network components and protocols.
 
-##### **LDAP**- Also known as: Lightweight Directory Access Protocol
+##### **LDAP - Lightweight Directory Access Protocol**
 
 Application protocol used to manage and access the distributed directory information service.
 
-##### **LDAPS**- Also known as: LDAP over SSL, Secure LDAP
+##### **LDAPS - LDAP over SSL**
 
 Connection protocol used between application and Network Directory or Domain Controller. LDAPS communication is encrypted and secure.
 
@@ -649,17 +647,17 @@ Connection protocol used between application and Network Directory or Domain Con
 
 Latest maintenance release for the previous major firmware version.
 
-##### **Link Aggregation**- Also known as: 802.3ad**
+##### **Link Aggregation**
 
 Link Aggregation, LAG Operating mode for Ethernet bundles that uses the LACPDU protocol to negotiate automatic bundling links.
 
-##### **Link Bonding**- Also known as: multiport link aggregation 
+##### **Link Bonding** 
 
-Allows you to aggregate multiple physical network links into a single logical link. You can use link aggregation to achieve multi-gigabit capacity to services and servers.
+Also known as Multiport link aggregation, it allows you to aggregate multiple physical network links into a single logical link. You can use link aggregation to achieve multi-gigabit capacity to services and servers.
 
 ## M
 
-##### **MacOS**
+##### **Mac OS**
 
 Macintosh Operating System. Formerly known as Mac OS X.
 
@@ -677,7 +675,7 @@ An Internet site that attempts to install malware onto your device, usually to s
 
 A unit of measure used to describe the rate of data transmission equal to one millions bits per second.
 
-##### **MHz**- Also known as: megahertz
+##### **MHz - Megahertz**
 
 A unit of frequency equal to 10^6 hertz, which is defined as one cycle per second.
 
@@ -689,11 +687,11 @@ A web application platform in the Microsoft Office server suite, mainly used for
 
 Type Two-part identifier for file formats and format contents transmitted over the Internet.
 
-##### **MOS**- Also known as: Mean Opinion Score
+##### **MOS - Mean Opinion Score**
 
 Measure representing the overall quality of a system or stimulus, calculated by taking the arithmetic mean of individual values of quality. Often used for, but not limited to, video, audio and audiovisual quality.
 
-##### **MTU**- Also known as: Maximum Transmission Unit
+##### **MTU - Maximum Transmission Unit**
 
 A specification in a data link protocol that defines the maximum number of bytes that can be carried in any one packet on that link.
 
@@ -705,7 +703,7 @@ Switch that filters and forwards packets based on MAC addresses and network addr
 
 Scheme that allows multiple logical signals to be transmitted simultaneously across a single physical channel.
 
-##### **Multitenancy**- Also known as: multitenant
+##### **Multitenancy**
 
 The existence of multiple clients sharing resources (services or applications) on distinct physical hardware. Due to the on-demand nature of cloud, most services are multitenant.
 
@@ -715,7 +713,7 @@ The existence of multiple clients sharing resources (services or applications) o
 
 Server connected to a network that resolves network names into network addresses.
 
-##### **NAT**- Also known as: network address translation 
+##### **NAT - Network Address Translation** 
 
 The process of modifying IP address information in IP packet headers while in transit across a traffic routing device. The simplest type of NAT provides a one to one translation of IP addresses.
 
@@ -723,7 +721,7 @@ The process of modifying IP address information in IP packet headers while in tr
 
 A NAT device, configured by a user, that performs network address translation in a VPC public subnet to secure inbound Internet traffic.
 
-##### **NetBIOS**- Also known as: Network Basic Input/Output System
+##### **NetBIOS - Network Basic Input/Output System**
 
 API used by applications on an IBM LAN to request services from lower-level network processes. These services might include session establishment and termination, and information transfer.
 
@@ -731,7 +729,7 @@ API used by applications on an IBM LAN to request services from lower-level netw
 
 Layer 3 of the OSI reference model. This layer provides connectivity and path selection between two end systems. The network layer is the layer at which routing occurs.
 
-##### **Network Time Protocol**- Also known as: NTP
+##### **NTP - Network Time Protocol**
 
 Networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
 
@@ -761,7 +759,7 @@ Refers to a location other than the subject site.
 
 An Amazon EC2 pricing option that charges you for compute capacity by the hour with no long-term commitment.
 
-##### **ONC-RPC**- Also known as: Open Network Computing Remote Procedure Call
+##### **ONC-RPC - Open Network Computing Remote Procedure Call**
 
 Remote procedure call system based on calling conventions used in Unix and the C programming language.
 
@@ -769,7 +767,7 @@ Remote procedure call system based on calling conventions used in Unix and the C
 
 A deployment option where only one network interface of a device is used to transfer incoming and outgoing traffic.
 
-##### **One-time Password**- Also known as: OTP
+##### **OTP - One-time Password**
 
 An automatically generated numeric or alphanumeric string of characters that authenticates the user for a single transaction or session.
 
@@ -786,21 +784,21 @@ A free and open-source cloud computing software platform used to control pools o
 Orthogonal sparse bigram transformation. In machine learning, a transformation that aids in text string analysis and that is an alternative to the n-gram transformation. 
 OSB transformations are generated by sliding the window of size n words over the text, and outputting every pair of words that includes the first word in the window.
 
-##### **OWA**- Also known as: Outlook Web Access, Outlook Web App
+##### **OWA - Outlook Web Access**
 
 Microsoft provides OWA as part of Exchange Server to allow users to connect to their email accounts via a web browser, without requiring the installation of Microsoft Outlook.
 
-##### **OWASP** Also known as: Open Web Application Security Project
+##### **OWASP - Open Web Application Security Project**
 
 A worldwide, not-for-profit charitable organization focused on improving the security of software. Creator of the OWASP Top 10, a powerful awareness document for web application security, representing a broad consensus about the most critical web application security flaws. https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
 
 ## P
 
-##### **PaaS**- Also known as: Platform as a Service 
+##### **PaaS - Platform as a Service**
 
 Cloud platform services, where the computing platform (operating system and associated services) is delivered as a service over the Internet by the provider.
 
-##### **Packet**- Also known as: pkt
+##### **Packet**
 
 A unit of data routed between an origin and a destination over a network.
 
@@ -812,7 +810,7 @@ Part of the processing of TCP IP traffic that consists of fragmenting, sending, 
 
 Additional, meaningless data adds to a packet to increase its size.
 
-##### **PAYG PCI DSS**- Also known as: Payment Card Industry Data Security Standard, PCI-DSS
+##### **PAYG PCI DSS - Payment Card Industry Data Security Standard**
 
 Standards for security practices when using payment cards (e.g., credit, debit, gift).https://www.pcisecuritystandards.org/security_standards/
 
@@ -826,13 +824,13 @@ A data storage solution where the data remains intact until it is deleted.
 
 ##### **Phishing**
 
-Also known as: phishing attack Attempt to obtain sensitive information such as usernames, passwords, and credit card details (and, indirectly, money), often for malicious reasons, by disguising as a trustworthy entity in an electronic communication. See also spear phishing.
+It is an attempt to obtain sensitive information such as usernames, passwords, and credit card details (and, indirectly, money), often for malicious reasons, by disguising as a trustworthy entity in an electronic communication. See also spear phishing.
 
-##### **PKCS #n**- Also known as: Public Key Cryptography Standards
+##### **PKCS - Public Key Cryptography Standards**
 
 Refers to a group of standards, in the format PKCS #n, where n =1 to 15. For example: Certificates can be downloaded in PKCS #12 format, which includes the private key and certificate.
 
-##### **PKI**- Also known as: Public Key Infrastructure
+##### **PKI - Public Key Infrastructure**
 
 A system for distributing and using public encryption keys, enabling secure data exchange over the Internet.
 
@@ -852,7 +850,7 @@ A tool in the IAM AWS Management Console that helps you test and troubleshoot po
 
 A means of Media Access Control where a device may only transmit information when it is given permission to transmit by a controller device.
 
-##### **PPTP** Also known as: Point-to-Point Tunneling Protocol 
+##### **PPTP - Point-to-Point Tunneling Protocol** 
 
 A network protocol that is used to establish VPN tunnels.
 
@@ -888,9 +886,9 @@ Public Domain Name System (DNS) resolution service.
 
 External IP address, assigned to a computing device to allow direct access over the Internet. For example, a web server, email server or any server device directly accessible from the Internet.
 
-##### **Public key Encryption**- Also known as: asymmetric encryption Encryption
+##### **Public key Encryption**
 
-That uses both a public key and a private key as a pair; one is used for encryption, the other is used for decryption.
+Also known as Asymmetric encryption, it uses both a public key and a private key as a pair; one is used for encryption, the other is used for decryption.
 
 ##### **Public Subnet**
 
@@ -900,11 +898,11 @@ A subnet whose instances can be reached from the Internet.
 
 ## R
 
-##### **RADIUS**- Also known as: Remote Authentication Dial-In User Service
+##### **RADIUS - Remote Authentication Dial-In User Service**
 
 WiFi Access Point Authentication Networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA or Triple A) management for users who connect and use a network service.
 
-##### **RAID**- Also known as: redundant array of independent disks
+##### **RAID - Redundant Array of Independent Disks**
 
 Provides a way of storing the same data in different places (redundantly) on multiple hard disks.
 
@@ -912,7 +910,7 @@ Provides a way of storing the same data in different places (redundantly) on mul
 
 AWS term, managed Relational Database Service
 
-##### **Real Time**- Also known as: realtime, real-time 
+##### **Real Time**
 
 The time in which an action is performed.
 
@@ -924,7 +922,7 @@ A combination of characters or character classes and operators that describe tex
 
 A pricing option for EC2 instances that discounts the on-demand usage charge for instances that meet the specified parameters. Customers pay for the entire term of the instance, regardless of how they use it.
 
-##### **Reserved IP Addresses**- Also known as: RIP
+##### **Reserved IP Addresses**
 
 IP addresses reserved for special purposes. For example, IP addresses reserved and assigned to Azure cloud services.
 
@@ -932,11 +930,11 @@ IP addresses reserved for special purposes. For example, IP addresses reserved a
 
 Group of entities in Azure, that may contain storage accounts for OS disks, source images, application data, and networking resources.
 
-##### **REST**- Also known as: Representational State Transfer, RESTful 
+##### **REST - Representational State Transfer**
 
 A type of HTTP-based request interface that generally uses only the GET or POST HTTP method and a query string with parameters. Enables interoperability between a computer system and the Internet.
 
-##### **REST API**- Also known as: Representational State Transfer API 
+##### **REST API - Representational State Transfer API** 
 
 A software architecture style for building scalable web services. REST gives a coordinated set of constraints to the design of components in a distributed hypermedia system that can lead to a higher performing and more maintainable architecture.An API (Application Programming Interface) is the means by which third parties can write code that interfaces with other code.
 
@@ -948,11 +946,11 @@ Support the secondary function of Domain Name System (DNS) - the resolution of I
 
 The HTTP Proxy directs incoming requests from other servers to clients without providing the origin details.
 
-##### **RMA**- Also known as: Routing Information Protocol
+##### **RMA - Routing Information Protocol**
 
 Numbered authorization provided by a merchant, like Haltdos, to permit the return of a product.
 
-##### **Role-based Administration**- Also known as: Role Based Administration 
+##### **Role-based Administration** 
 
 Gives administrators the ability to assign specific privileges to users and to present the user with only the tools and permissions necessary to perform specific tasks, based on their role within the organization.
 
@@ -980,7 +978,7 @@ In AWS, a set of routing rules that controls the traffic leaving any subnet that
 
 Bridging mode where the router acts as a bridge.
 
-##### **RPC Protocols**- Also known as: Rate Control Protocol, ONC-RPC, DCE-RPC 
+##### **RCP - Rate Control Protocol** 
 
 Congestion control algorithm designed for fast download times such as user response times, or flow-completion times.
 
@@ -998,7 +996,7 @@ A collection of one or more access or application rules.
 
 ## S
 
-##### **S3**- Also known as: Simple Storage Service
+##### **S3 - Simple Storage Service**
 
 Amazon Web Services Object-based, scalable object storage in the AWS cloud.
 
@@ -1010,7 +1008,7 @@ Feature of Google Search that acts as an automated filter of pornography and pot
 
 An online SaaS company that is best known for delivering customer relationship management (CRM) software to companies over the Internet.
 
-##### **SAML 2.0**- Also known as: Security Assertion Markup Language 2.0 
+##### **SAML 2.0 - Security Assertion Markup Language 2.0** 
 A version of the SAML standard for exchanging authentication and authorization data between security domains. SAML 2.0 is an XML-based protocol that uses security tokens containing assertions to pass information about a principal (usually an end user) between a SAML authority (an identity provider) and a SAML consumer (a service provider). SAML 2.0 enables web-based authentication and authorization scenarios including cross-domain single sign-on (SSO), which helps reduce the administrative overhead of distributing multiple authentication tokens to the user.
 
 ##### **Scalability**
@@ -1021,11 +1019,11 @@ The suitability of a network system to operate properly and efficiently when con
 
 In AWS, a description of how Auto Scaling should automatically scale an Auto Scaling group in response to changing demand.
 
-##### **SCCP**- Also known as: Signalling Connection Control Par
+##### **SCCP - Signalling Connection Control Par**
 
 Skinny Network layer protocol that provides extended routing, flow control, segmentation, connection orientation, and error correction facilities in Signaling System 7 telecommunications networks.
 
-##### **SD-WAN**- Also known as: software-defined networking in a wide area network
+##### **SD-WAN - Software-Defined Wide Area Network**
 
 Software-defined WAN A wide area network controlled by software. Control and data are decoupled, simplifying both network hardware and management.
 
@@ -1049,7 +1047,7 @@ The layer in the OSI 7-Layer Model that is concerned with managing the resources
 
 Algorithm that reads its input exactly once, in order, without unbounded buffering. Generally requires O(n) time and less than O(n) storage (typically O), where n is the size of the input.
 
-##### **Single Sign-On**- Also known as: SSO
+##### **SSO - Single Sign-On**
 
 A session and user authentication service that permits a user to use one set of login credentials to access multiple applications.
 
@@ -1061,7 +1059,7 @@ Communications protocol for signaling and controlling multimedia communication s
 
 VPN Securely connects entire networks to each other, for example, connecting a branch office network to a company headquarters network.
 
-##### **SLA**- Also known as: service level agreement, service-level agreement 
+##### **SLA - Service Level Agreement** 
 
 A contractual agreement by which a service provider defines the level of service, responsibilities, priorities, and guarantees regarding availability, performance, and other aspects of the service.
 
@@ -1069,7 +1067,7 @@ A contractual agreement by which a service provider defines the level of service
 
 Occurs when an attacker deliberately sends multiple partial HTTP requests to the server to carry out an HTTP DoS attack on the server. The client attempts to slow the request or response so much that it holds connections and memory resources open on the server for a long time, but without triggering session time-outs.
 
-##### **SMB**- Also known as: SMBv1, SMBv2, SMBv3, Server Message Block
+##### **SMB - Server Message Block**
 
 Operates as an application-layer network protocol mainly used for providing shared access to files, printers, and serial ports and miscellaneous communications between nodes on a network.
 
@@ -1077,7 +1075,7 @@ Operates as an application-layer network protocol mainly used for providing shar
 
 Multi-Factor Authentication (MFA) solution that adds an extra security layer for a broad range of authentication clients.
 
-##### **SNA**- Also known as: Systems Network Architecture 
+##### **SNA - Systems Network Architecture** 
 
 IBM's communications architecture and strategy.
 
@@ -1089,19 +1087,19 @@ IBM's communications architecture and strategy.
 
 The SNMP service is used to remotely monitor the network and system state of a Haltdos products using a network management system (NMS).
 
-##### **SNS**- Also known as: simple notification service 
+##### **SNS - Simple Notification Service** 
 
 Feature to push notifications to mobile services and trigger actions, in Amazon Web Services (AWS).
 
-##### **SNTP**- Also known as: Simple Network Time Protocol 
+##### **SNTP - Simple Network Time Protocol** 
 
 Network package format for time synchronization, similar to NTP, only recommended for simple applications.
 
-##### **SOAP**- Also known as: Simple Object Access Protocol
+##### **SOAP - Simple Object Access Protocol**
 
 Protocol specification for exchanging structured information in the implementation of web services in computer networks.
 
-##### **Social Security Number**- Also known as: SSN
+##### **SSN - Social Security Number**
 
 A nine-digit number issued to U.S. citizens, permanent residents, and temporary (working) residents for social security purposes.
 
@@ -1113,11 +1111,11 @@ Changing the source address/port in the IP header of a packet. Example: changing
 
 Unwanted email messages, usually for advertising purposes and usually sent in bulk.
 
-##### **Spamtrap**- Also known as: honeypot, honeytrap 
+##### **Spamtrap** 
 
-An email address that is set up by an anti-spam entity, not for correspondence, but to monitor unsolicited email.
+Also known as honeypot, honeytrap, a kind of attack by using email address that is set up by an anti-spam entity, not for correspondence, but to monitor unsolicited email.
 
-##### **Spear Phishing**- Also known as: spearphishing 
+##### **Spear Phishing**
 
 A form of phishing that is more targeted. The sender of the fraudulent phishing email knows something about the intended victim, making it more likely that they will divulge personal information, like birth dates and passwords.
 
@@ -1125,7 +1123,7 @@ A form of phishing that is more targeted. The sender of the fraudulent phishing 
 
 Purchasing option that allows a customer to purchase unused Amazon EC2 computer capacity at a highly-reduced rate.
 
-##### **SQL**- Also known as: Structured Query Language 
+##### **SQL - Structured Query Language** 
 
 A standard metalanguage for database access and management.
 
@@ -1133,15 +1131,15 @@ A standard metalanguage for database access and management.
 
 Microsoft SQL Server is a relational database management system (RDBMS) designed for enterprise environments.
 
-##### **SQS**- Also known as: Amazon Simple Queue Service, Amazon SQS 
+##### **SQS - Simple Queue Service**
 
 Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service.
 
-##### **SSD**- Also known as: Solid State drive
+##### **SSD - Solid State Drive**
 
 A solid-state storage device that uses integrated circuit assemblies as memory to store data persistently.
 
-##### **SSL**- Also known as: Secure Sockets Layer
+##### **SSL - Secure Sockets Layer**
 
 A solid-state storage device that uses integrated circuit assemblies as memory to store data persistently.
 
@@ -1149,15 +1147,15 @@ A solid-state storage device that uses integrated circuit assemblies as memory t
 
 A digital certificate that is installed on a web server, authenticates the identity of the website, and encrypts the data that is transmitted.
 
-##### **SSL Encryption**- Also known as: Secure Sockets Layer encryption 
+##### **SSL Encryption** 
 
 The standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.Transport Layer Security (TLS) is the successor to SSL, and is sometimes referred to as "SSL".
 
-##### **SSL Offloading**- Also known as: Secure Sockets Layer 
+##### **SSL Offloading** 
 
 Relieves a web server of the processing burden of encrypting and/or decrypting traffic sent via SSL. The processing is offloaded to a separate device designed specifically to perform SSL acceleration or SSL termination.
 
-##### **SSL Stripping**- Also known as: man in the middle attack 
+##### **SSL Stripping**
 
 A man-in-the-middle attack which changes HTTPS sessions to unencrypted HTTP sessions or makes unencrypted HTTP sessions look like safe HTTPS sessions, even including a padlock icon.
 
@@ -1173,7 +1171,7 @@ Hosting of a static website in Amazon S3. When a bucket is enabled for Static we
 
 Data compression technique used in wireless networks.
 
-##### **Subnet Mask**- Also known as: subnetwork mask, netmask 
+##### **Subnet Mask** 
 
 Helps you know which portion of the IP address identifies the network and which portion identifies the node. You can use subnet masks to divide networks in to subnetworks and to identify the subnetwork an IP address belongs to.
 
@@ -1195,7 +1193,8 @@ An intrusion into a network cable by a connector.
 
 The TCP Proxy is placed between browser and web server and filters requests and responses in TCP streams.
 
-##### **TCP/IP**- Also known as: Transmission Control Protocol/Internet Protocol 
+##### **TCP/IP - Transmission Control Protocol/Internet Protocol**
+
 A Transport and Network Layer Protocol, respectively, used for communication in the Internet and often in private networks.
 
 ##### **Telnet**
@@ -1206,17 +1205,19 @@ A protocol to access a remote computer system, often a Unix system, over the net
 
 Communications processor that connects asynchronous devices such as terminals, printers, hosts, and modems to any LAN or WAN that uses TCP/IP, X.25, or LAT protocols.
 
-##### **TFTP**- Also known as: Trivial File Transfer Protocol 
+##### **TFTP - Trivial File Transfer Protocol** 
 
 A simplified version of FTP (file tranfer protocol).
 
-##### **Timestamp** Also known as: time stamp A date/time string to mark an occurrence of an event.
+##### **Timestamp** 
 
-##### **Transparent Proxy**- Also known as: inline proxy 
+A date/time string to mark an occurrence of an event.
 
-The HTTP Proxy operates transparently to the clients in the network.
+##### **Transparent Proxy**
 
-##### **Transport Layer Security**- Also known as: TLS 
+Also known as Inline Proxy, it is a type of HTTP Proxy that operates transparently to the clients in the network.
+
+##### **TLS - Transport Layer Security**
 
 Cryptographic protocol that provides communications security over a computer network.
 
@@ -1252,23 +1253,23 @@ A cloud computing environment optimized for use and built around the compliance 
 
 Allows multiple guest virtual machines (VM) to run on a host operating system. Guest VMs can run on one or more levels above the host hardware, depending on the type of virtualization.
 
-##### **VLAN**- Also known as: Virtual Local Area Network, VLAN Interface 
+##### **VLAN - Virtual Local Area Network**
 
 Any broadcast domain that is partitioned and isolated in a computer network at the data link layer (OSI layer 2). The physical interface behaves like several interfaces, and the switch behaves like multiple switches.
 
-##### **VLAN Tagging**- Also known as: Virtual Local Area Network 
+##### **VLAN Tagging** 
 
 Method to help identify packets travelling through trunk links. When an Ethernet frame traverses a trunk link, a special VLAN tag is added to the frame and sent across the trunk link. As it arrives at the end of the trunk link, the tag is removed and the frame is sent to the correct access link port according to the switch’s table, so the receiving end is unaware of any VLAN information.
 
-##### **VM**- Also known as: Virtual Machine 
+##### **VM - Virtual Machine** 
 
 An emulation of a computer system that is based on computer architectures and provides functionality of a physical computer. For example, Haltdos virtual WAF can be deployed as a virtual machine in the Microsoft Azure cloud.
 
-##### **VNET**- Also known as: Microsoft Azure Virtual Network 
+##### **VNET - Virtual Network** 
 
 A representation of your own network in the Azure cloud.
 
-##### **VPC**- Also known as: virtual public cloud
+##### **VPC - Virtual Public Cloud**
 
 An elastic network populated by infrastructure, platform, and application services that share common security and interconnection.
 
@@ -1278,19 +1279,19 @@ An enhanced suite of tools for cloud computing utilizing VMware ESX/ESXi. Includ
 
 ## W
 
-##### **WAN**- Also known as: Wide Area Network, WLAN
+##### **WAN - Wide Area Network**
 
 A network connecting devices separated by large geographical distances, often joining multiple local access networks (LANs).
 
-##### **WAN IP Address**- Also known as: wide area network IP
+##### **WAN IP Address**
 
 IP Address used to connect your WAN to the Internet. It is shared by all devices in the WAN.
 
-##### **Web Caching**- Also known as: web cache
+##### **Web Caching**
 
 A core design feature of the HTTP protocol meant to minimize network traffic by storing reusable responses to make subsequent requests faster.
 
-##### **Web Interface**- Also known as: Web UI
+##### **Web Interface**
 
 Web-based user interface.
 
@@ -1310,7 +1311,7 @@ Citrix hypervisor that allows to run multiple virtual machines (VMs) on one phys
 
 ## Y
 
-##### **YAML** - Yet Another Markup Language 
+##### **YAML - Yet Another Markup Language** 
 
 A human-readable data serialization language, commonly used for configuration files.
 
