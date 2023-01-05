@@ -4,8 +4,10 @@ sidebar_position: 2
 # Form Rule 
 ### Overview
 Form Validation offers a positive security model of Application Firewall and allows enforcing specific values or a range of values for various form fields of a web application form.
-![Form Page Screen](/img/waf/form_page.png)
+![Form Page Screen](/img/waf/v2/formrule.png)
  
+ ![Form Page Screen](/img/waf/v2/formrule1.png)
+
  ### How to Use:
 1. Follow the links: **WAF** > **Listener** >  **Profiles** > **Rules** > **Form Rules**.
 2. Click on Add Rule and set relevant parameters described in the table below.

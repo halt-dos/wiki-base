@@ -7,14 +7,13 @@ sidebar_position: 1
 #### Overview 
 Profile Setting specifies all the operational settings for user different application type (i.e. WEBSITE/WEB SERVICE/WEB SOCKET). It provides user protection and invokes signature rules to every configured specific settings for mentioned application type.
 
-![Profile_settings](/img/waf/profilesetting.png)
+![Profile_settings](/img/waf/v2/profile_setting.png)
    
 ### How to Use
-1. Go to WAF > Listener > Security Profiles > Settings.
+1. Go to **WAF** > **Listener** > **Profiles** > **Settings**.
 2. Configure your settings.
 3. Click on Save Changes.
 
-![Profile_settings](/img/waf/profilesetting1.png)
 
    
 | Parameters                   | Accepted Values | Default |

@@ -10,14 +10,17 @@ Configure Operational settings of Listeners.
 Users are allowed to configure many operational settings for the [Listeners](/home/haltdos/wiki-repo/wiki-adc/docs/waf/Listener).  
   
 
-![Listener Operational Settings](/img/waf/settings_operational.png)  
+![Listener Operational Settings](/img/waf/v2/operationalsettings1.png)  
   
 ### How to Use:
 1. Go to **WAF** > **Listener** > **Settings**.  
 2. Configure the settings.
 3. Click on Save changes.  
 
-![Listener Operational Settings](/img/waf/setting_opeartional(2).png)  
+![Listener Operational Settings](/img/waf/v2/operationalsettings2.png)
+
+
+![Listener Operational Settings](/img/waf/v2/operationalsettings3.png)
 
 
 | PARAMETERS                  | ACCEPTED VALUES | DEFAULT       |
@@ -53,7 +56,6 @@ VIRTUAL IPS|Specify assigned virtual IPs for accepting traffic. Accepted Values 
 Add Port|Helps you to add HTTP/S ports for Advance Settings.Accepted values: Integer|Blank
 
 
-   ![setting](/img/waf/setting_opeartional(3).png)
 
 ## Description
 1.**Enable IPv6:**
@@ -148,6 +150,6 @@ This option specify assigned virtual IPs for accepting traffic.
 26.**Add Port:**
 This option helps you to add HTTP/S ports for Advance Settings. Here you can unique port either HTTP  or HTTPS enabled configuration without changing backend server port.
 
-![setting](/img/waf/port_setting.png)
+![setting](/img/waf/v2/addportinsettings.png)
 
 **Note:** Proxy Buffer and Proxy Buffer are sensitive configurations that can affect applications that should be configured with prior knowledge.

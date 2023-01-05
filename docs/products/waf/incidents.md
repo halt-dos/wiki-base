@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Incidents
@@ -22,7 +22,7 @@ Depending upon the type of event, clicking on any Event shows details of the inc
 
 Further to detailing the incident through Events, users can perform various actions. For example, virtual patching functionality is implemented through actions in Event Details. Virtual Patching is the ability to create custom WAF rules from the result of a security scan.
 
-![Events](/img/waf/incidents.png)
+![Events](/img/waf/v2/incidents.png)
 
 ## How to Use:
 
@@ -31,7 +31,7 @@ Further to detailing the incident through Events, users can perform various acti
 
 ## Event Types
 
-**Scan Result** -  Details of security scan results
+**Scan Result** - Details of security scan results
 
 **Download** - Displays all the file download events
 
@@ -47,11 +47,7 @@ Further to detailing the incident through Events, users can perform various acti
 
 **Failed Jobs** - Displays the events for failed jobs
 
-**Report** - Displays the report generated to be downloaded
-
-
-
--Displays detiails of any instance notification
+**Report** - Displays the report generated to be downloaded and detiails of any instance notification
 
 **Filter**
 

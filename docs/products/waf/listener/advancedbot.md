@@ -7,7 +7,7 @@ User can specify advanced bot settings on this page for Listener
 ## Overview
 Bot Protection helps you quickly determine, manage, and mitigate automated requests. You can configure Advance bot settings in order to ensure advanced bot protection.
 
-![advancedbot](/img/waf/advancedbot.png)
+![advancedbot](/img/waf/v2/advancebot1.png)
 
 ## How to Use:
 1.Go to **WAF** > **Listeners** > **Advanced Settings** > **Bot Settings**
@@ -34,7 +34,7 @@ Tarpit Delay|Integer|5
 Tarpit Duration|Integer|300
 Fingerprint Expiry|Integer|86400|
 
-![advancedbot](/img/waf/advancedbotsetting.png)
+![advancedbot](/img/waf/v2/advancebot2.png)
 
 ## Description 
 

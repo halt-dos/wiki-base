@@ -16,7 +16,7 @@ Virtual Patching is a feature of Haltdos WAF to display all the scan results and
 
 
 
-![virtualpatching](/img/waf/virtual_patching.png)
+![virtualpatching](/img/waf/v2/virtualpatching.png)
 
 ## How to Use:
 

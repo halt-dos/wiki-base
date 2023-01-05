@@ -4,7 +4,7 @@ How to enable and configure caching of responses received?
 ## Overview
 When caching is enabled, WAF saves responses in a directory and uses them to respond to clients without having to proxy requests for the same content every time.
 
-![caching](/img/waf/Caching(1).png)
+![caching](/img/waf/v2/performance_caching.png)
 
 ## How to Use :
 
@@ -28,7 +28,7 @@ When caching is enabled, WAF saves responses in a directory and uses them to res
      | Cache Validity | Minutes| 5
      | Browser Cache Expiry | Days | 0
 
-![caching](/img/waf/caching_cont.png)
+![caching](/img/waf/v2/prformance_caching1.png)
 
 
 ## Description 

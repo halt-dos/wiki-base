@@ -12,10 +12,10 @@ Configure XML Security Policy for XML based API web service.
 
 XML Policy is a feature of Haltdos WAF. It allows application owners to block unwanted requests that feature malware XML documents or documents bigger than the allowed size. The owner can set their Minimum & Maximum size limit for the XML document.
 
-IMAGE
+![xmlpolicy](/img/waf/v2/profile_xmlpolicy.png)
 
 ### How to Use:
-1. Go to **WAF** > **Listeners** > **Security Profiles** > **Policy** > **XML Policy**.
+1. Go to **WAF** > **Listeners** > **Profiles** > **Policy** > **XML Policy**.
 2. Configure your settings.
 3. Click on **Save Changes**.
 

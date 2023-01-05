@@ -9,7 +9,7 @@ Make WAF listen on specific ports to accept connections and distribute across on
 ## Overview
 **Users are allowed to configure many operational settings for the Listeners.**
 
-![Listener settings1](/img/adc/listenersettings1.png)
+![Listener settings1](/img/adc/v2/listenersetting.png)
 
 ### How to Use:
 
@@ -19,7 +19,7 @@ Make WAF listen on specific ports to accept connections and distribute across on
 
 3. Click Save Changes.
 
-![Listener settings2](/img/adc/listenersettings2.png)
+![Listener settings2](/img/adc/v2/listenersetting1.png)
 
 | PARAMETERS                   | ACCEPTED VALUES | DEFAULT  |
 |------------------------------|-----------------|----------|
@@ -44,7 +44,7 @@ Make WAF listen on specific ports to accept connections and distribute across on
 | Server Aliases               | String          | Blank    |
 | Virtual IPs                  | String          | Blank    |
 
-![Listener settings3](/img/adc/listenersettings3.png)
+![Listener settings3](/img/adc/v2/listenersetting2.png)
 
 #### Description:
 

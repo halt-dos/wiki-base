@@ -13,7 +13,7 @@ Intercept HTTP responses of the original application and inject fake parameters 
 1. For GET requests, the parameters will be added to existing ```<a href>``` link values.
 2. For POST requests, the parameters will be added as hidden input type parameters of existing forms.
    
-![Deception Rule](/img/waf/deception_rules.png)
+![Deception Rule](/img/waf/v2/deception_rule.png)
    
 ### How to use
 1. Go to **WAF** > **Listener** > ** Profiles** > **Rules** > **Deception Rules**.
@@ -31,8 +31,6 @@ Intercept HTTP responses of the original application and inject fake parameters 
 | Decoy URI     | String         | Blank    |
 | Decoy Method  | Drop-down      | GET      |
 | Fields        | String         | Blank    |
-   
-![Deception Rule](/img/waf/deception_rules2.png)
    
 ### Description
    

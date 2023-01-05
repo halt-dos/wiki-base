@@ -16,7 +16,7 @@ sidebar_position: 5
 
 4. Click Save Changes.
 
-![monitor1](/img/adc/monitor1.png)
+![monitor1](/img/adc/v2/monitor.png)
 
 | SETTINGS              | ACCEPTED VALUES | DEFAULT |
 |-----------------------|-----------------|---------|

@@ -18,7 +18,9 @@ sidebar_position: 6
 
 5. Click Save Changes
 
-![Rate Limit rule](/img/adc/ratelimitrule.png)
+![Rate Limit rule](/img/adc/v2/ratelimit.png)
+
+![Rate limit rule](/img/adc/v2/ratelimit1.png)
 
 | SETTINGS       | ACCEPTED VALUE | DEFAULT      |
 |----------------|----------------|--------------|
@@ -67,7 +69,7 @@ Specify the time duration for which the rule will limit the request.
 
 ### Rule Condition
 
-![Rate Limit rule](/img/adc/ratelimitrule2.png)
+![Rate Limit rule](/img/adc/v2/ratelimit2.png)
 
 | SETTINGS        | ACCEPTED VALUE | DEFAULT   |
 |-----------------|----------------|-----------|

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # User Groups
@@ -11,7 +11,7 @@ User group access management
 
 Haltdos Cloud provides multi-level RBAC access control over Stack. This allows owners to assign users with respective permissions on Haltdos Cloud.
 
-![User Group](/img/waf/usergroup.png)
+![User Group](/img/waf/v2/usergroup.png)
 
 ### How to Use
 

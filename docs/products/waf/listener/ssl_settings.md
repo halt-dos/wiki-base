@@ -11,7 +11,7 @@ It provides functionality to support SSL offloading based on configurations.
 
 As many applications are running over HTTPS, for the WAF / ADC solution to inspect user payload, it is necessary to decrypt SSL/TLS traffic. The following settings allow users to configure SSL offloading based and optional re-encryption in Haltdos solution. The performance of SSL offloading will vary based on chosen model.
 
-![SSL Settings](/img/waf/SSL_Settings.png)
+![SSL Settings](/img/waf/v2/sslsetting1.png)
 
 ### How to Use:
 
@@ -29,7 +29,7 @@ This specifies WAF should re-encrypt traffic before sending it to the back-end w
 
 :::
 
-![SSL Settings](/img/waf/SSL_Settings_pg2.png)
+![SSL Settings](/img/waf/v2/sslsetting2.png)
 
 #### Enable SSL Offloading 
 This option specifies if the WAF should enable HTTPS traffic for the configured website.

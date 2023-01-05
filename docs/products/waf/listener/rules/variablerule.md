@@ -7,7 +7,7 @@ If a user wants to extract or set a custom variable, then it can be done using V
 
 **Note:** Any parameter from the Request/Response can be stored in a variable.
 
-![variable rule](/img/waf/variablerules.png)
+![variable rule](/img/waf/v2/variablerule.png)
 
 ## How to use:
 1.Go to **WAF** > **Listeners** > **Rules** > **Variable Rules**
@@ -26,7 +26,7 @@ Variable|Drop-down|Blank
 Mutation Action|Drop-down|SET
 Value|String|None
 
-![variable rules](/img/waf/variablerulescondition.png)
+![variable rules](/img/waf/v2/variablerule1.png)
 
 ## Description
 1.**Rule Name:** 
