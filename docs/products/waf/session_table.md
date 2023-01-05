@@ -12,7 +12,7 @@ The session table records the connection status of on boarded listeners. It play
 
 ### How to use it
 
-1. Go to **WAF** > **Session Table**
+1. Go to **Apps** > **WAF** > **Session Table**
 
 ### Description
 
