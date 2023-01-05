@@ -8,7 +8,7 @@ sidebar_position: 2
 
 TCP shield is defending mechanism protecting against TCP Flood attacks such as TCP SYN Flood, etc. 
 
-![](\img\ddos\ddos12.png)
+![tcp shield](/img/ddos/v2/tcpsetting.png)
 
 ### **How to Use:**
 
