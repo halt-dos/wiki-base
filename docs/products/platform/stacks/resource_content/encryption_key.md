@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Encryption Key
 
-encryption key generation
+Encryption Key Generation
 
 ---
 

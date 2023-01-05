@@ -30,10 +30,7 @@ Further to detailing the incident through Events, users can perform various acti
 |--------------|-------------------------------------------------------|------|-------|---------------------------------------------------------------------------|
 | Scan Result  | Details of security scan results                      | SCAN | Yes   | Create WAF Rule                                                           |
 | Download     | Displays all the file download events                 | --   | Yes   | --                                                                        |
-| WAF Attack   | Details of blocked HTTP request/response              | WAF  | No    | 1. Whitelist Rule
-2. Deploy Rule to Staging
-3. Deploy Rule to Production
- |
+| WAF Attack   | Details of blocked HTTP request/response              | WAF  | No    | 1. Whitelist Rule  <br /> 2. Deploy Rule to Staging  <br /> 3. Deploy Rule to Production  |
 | Health Alert | Details of healthy and unhealthy upstream web servers | SLB  | No    | No                                                                        |
 | Audit        | Displays the events for Configuration changes         | ALL  | No    | --                                                                        |
 | Server       | Displays details of server error observed.            | WAF  | No    | --                                                                        |

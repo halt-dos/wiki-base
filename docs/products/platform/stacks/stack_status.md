@@ -20,8 +20,8 @@ A sample instance status associated with a stack is shown below:
 
 The status information shows: 
 
-- Last Updated Time: Shows the last time when status was updated for the instance. By default, instance status is updated once every minute.
+- **Last Updated Time:** Shows the last time when status was updated for the instance. By default, instance status is updated once every minute.
 
-- Resource Utilisation: Shows the CPU, RAM and Hard disk utilisation in terms of percentage
+- **Resource Utilisation**: Shows the CPU, RAM and Hard disk utilisation in terms of percentage
 
-- Service Status: Shows the status of various services running on the instance along with their up time.
+- **Service Status**: Shows the status of various services running on the instance along with their up time.

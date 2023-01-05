@@ -30,6 +30,14 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          lastVersion: '6.0',
+          versions:{
+            current: {
+              label: '7.0 RC',
+              path:'rc',
+              banner: 'none'
+            },
+          },
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           docItemComponent: require.resolve('./src/components/CustomDocItem/index.tsx'),

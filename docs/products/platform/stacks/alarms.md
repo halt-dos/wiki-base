@@ -14,11 +14,11 @@ Alarms in Haltdos Platform is a mechanism for raising alerts to the configured u
 
 ![alarms](/img/platform/alarms1.png)
 
-**How to Use:**
+### **How to Use:**
 
-1. Go to Stack >Alarms
+1. Go to **Stack** > **Alarms**
 2. Configure your settings
-3. Click Save
+3. Click **Save Changes**
 
 | PARAMETERS            | DESCRIPTION                                                                | ACCEPTED VALUES                      | DEFAULT      |
 |-----------------------|----------------------------------------------------------------------------|--------------------------------------|--------------|
