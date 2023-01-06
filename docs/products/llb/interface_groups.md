@@ -12,7 +12,7 @@ Interface Group is a grouping mechanism of physical Interfaces configured on Lin
 
 High availability (HA) is the ability of a system to operate continuously without failure for a designated period of time. HA works to ensure a system meets an agreed-upon operational performance level. High availability (HA) is usually required in a system where there is high demand for a little downtime. Haltdos LLB has the option of a logical grouping of physical interfaces for a highly available WAN connectivity structure.
 
-![adding_an_interface](/img/llb/llb4.png)
+![adding_an_interface](/img/llb/v2/interfaces.png)
 
 ### **How to Use:**
 
