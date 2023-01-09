@@ -8,7 +8,7 @@ It helps in stopping different kinds of SMTP flood attack.
 
 ---
 
-![miscellaneous_settimgs](\img\ddos\v2\miscellaneous.png)
+![miscellaneous_settimgs](\img\ddos\v2\mis.png)
 
 ### **How to Go:**
 
