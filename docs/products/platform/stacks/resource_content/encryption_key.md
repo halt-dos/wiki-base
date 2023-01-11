@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
 
 # Encryption Key
@@ -12,14 +12,15 @@ Encryption Key Generation
 
 An encryption key is a random string of bits created explicitly for scrambling and unscrambling data. Encryption keys are designed with algorithms intended to ensure that every key is unpredictable and unique. Encryption keys that can be used as per requirement. The longer the key is built in this manner, the harder it is to crack the encryption code. An encryption key is used to encrypt, decrypt, or carry out both functions, based on the sort of encryption software used.
 
-![encryption key](/img/platform/encryption1.png)
+![encryption key](/img/platform/v2/encryption_key-newui.png)
 
 ### How to Use:
 
-1. Go to WAF > Encryption Key
-2. Click on Generate Key button
-3. Configure your changes.
-4. Click Save Changes.
+1. Go to **Stack > Resources > Encryption Key**
+2.  Select the **Generate New Key**
+3. Configure your settings. 
+4. Click on **Save changes.**
+
 
 #### Description
 

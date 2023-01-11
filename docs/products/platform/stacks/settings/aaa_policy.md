@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # AAA Policy
@@ -22,7 +22,7 @@ Haltdos supports built-in integration AAA solutions such as RADIUS or TACACS+. T
 Depending upon the organization's policy, if AAA is enabled, the same should also be configured for Haltdos appliances
 :::
 
-![aaa_policy](/img/platform/aaa_policy1.png)
+![aaa_policy](/img/platform/v2/aaa_policy_newui.png)
 
 ### How to Use:
 

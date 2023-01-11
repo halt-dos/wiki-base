@@ -24,7 +24,7 @@ Users can enable auto-refresh in order to refresh the real-time analytics for re
 
 Real-time analytics can be customized using the filter. The following filter options are available:
 
-![analytics](/img/platform/analytics1.png)
+![analytics](/img/platform/v2/analytics_newui.png)
 
 | PARAMETERS     | DESCRIPTION                                                                                              | ACCEPTED VALUES                                                         | DEFAULT     |
 |----------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------|
