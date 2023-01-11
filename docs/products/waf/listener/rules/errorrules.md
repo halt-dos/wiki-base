@@ -26,49 +26,50 @@ Rule Action|No Action / Send Response|No Action
 
 ## Description
 
-1**HTTP Response Codes:**
+1. **HTTP Response Codes:**
 
 HTTP error codes for which the custom error page needs to be shown. These are the response codes that the back-end sends in returns.
-2**Error Handling:**
+
+2. **Error Handling:**
 
 If this field is enabled, then the custom error page will be displayed. If it is disabled, then the default server error page will be displayed.
 
-3**Custom Error Page:**
+3. **Custom Error Page:**
 
 Select the desired custom error page which will be displayed when the specified error occurs. Or click the **Add** button which redirects to the custom pages screen to create a custom page and add HTML content and then select it from the drop-down list.
 
 **Note:** We can globally disable error handling from WAF in the operational settings under advanced settings that we will learn later in Operational Settings.
 
-4.**Rule Name:**
+4. **Rule Name:**
 
 Specify a rule name to identify the rule which is to be created. The rule name takes alpha-numeric input.
 
-5.**Rule Message:**
+5. **Rule Message:**
 
 Specify a rule message containing a detailed description to identify the rule which is to be created.
 
-6.**Rule Priority:**
+6. **Rule Priority:**
 
 Specify the priority for the rule for execution when matched with the request.
 
-7.**URI:**
+7. **URI:**
 
 Specify the URI on which the tamper rule will be applied.
 
 Example /login
 
-8.**Method:**
+8. **Method:**
 
 Select the HTTP method for the rule to extract when matched with the request.
 
-9.**HTTP Response Codes:**
+9. **HTTP Response Codes:**
 
 User can mention the HTTP response code based on the custom error rule name.
 
-10.**Rule Action:**
+10. **Rule Action:**
 
 Specifies the action to be executed when this is gets triggered
 
-11.**Custom Error Page**
+11. **Custom Error Page**
 
 User can add custom error page that will be visible to end-users.
