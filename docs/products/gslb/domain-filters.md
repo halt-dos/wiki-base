@@ -10,7 +10,7 @@ sidebar_position: 2
 
 For example, if a computer queries the IP address of a known dangerous site that spreads malware, the DNS resolver can return NXDOMAIN as the DNS response, so the computer can’t connect to the dangerous site. This is the original use case. As such, Domain Filter is also known as **DNS firewall.**  
 
-![domain filters](/img/gslb/domain_filters.png)
+![domain filters](/img/gslb/v2/domainfilters.png)
 
 ### How to Use:
 
@@ -21,7 +21,7 @@ For example, if a computer queries the IP address of a known dangerous site that
 5. Go to Domain Filter Files > Select the file from Drop Down (created at Domain Filter )
 6. Click On **Save Changes** > Domain Filter File will be selected.
 
-![domain filters](/img/gslb/domain_filter_listener.png)
+![domain filters](/img/gslb/v2/domain.png)
 
 
 
@@ -30,7 +30,7 @@ For example, if a computer queries the IP address of a known dangerous site that
 | Name | String | Blank
 | Script Area | String | Blank
 
-![domain filters](/img/gslb/domain_file.png)
+![domain filters](/img/gslb/v2/domain_filter.png)
 
 ### Description:
 

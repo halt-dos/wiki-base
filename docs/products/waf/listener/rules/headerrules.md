@@ -7,7 +7,7 @@ We have introduced Header rules by which application owners can manipulate reque
 ![header rules](/img/waf/v2/header_rule.png)
 
 ## How to Use:
-1.Go to **WAF** > **Listeners** > **Rules** > *Header Rules**.
+1.Go to **WAF** > **Listeners** > **Rules** > **Header Rules**.
 
 2.Click on **Add Rule** and set relevant parameters described below.
 

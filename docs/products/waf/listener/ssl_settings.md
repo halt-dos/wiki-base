@@ -15,7 +15,7 @@ As many applications are running over HTTPS, for the WAF / ADC solution to inspe
 
 ### How to Use:
 
-1. Go To WAF >  Listeners > SSL Settings 
+1. Go To **WAF > Listeners > SSL Settings** 
 2. Configure Your Settings 
 3. Click Save Changes 
 

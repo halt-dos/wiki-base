@@ -8,7 +8,7 @@ sidebar_position: 4
 
 Haltdos GSLB supports various types of rules for users to configure GSLB as per their network requirements. Users can set GSLB Policy Rules to manage traffic and a custom type DNS Resolver.
 
-![rules](/img/gslb/rules.png)
+![rules](/img/gslb/v2/policyrule.png)
 
 ### How to Use:
 1. Go to  **Stack** > **GSLB** > **Listener** > **Monitors**

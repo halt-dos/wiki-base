@@ -17,11 +17,11 @@ Redirection Rules is a feature of Haltdos WAF that allows application owners to 
 | Parameters| Accepted Values | Default
 | ----------- | ----------- |-----------|
 | Rule Name|String|None
-Message|Description for the rule in String format|None
-Rule Priority|Integer|1
-Match URL|Absolute URL path|None
-Forward URL|Absolute URL path|None
-Response Code|301, 302|302 - Temporary Redirect
+| Rule Message|Description for the rule in String format|None
+| Rule Priority|Integer|1
+| Match URL|Absolute URL path|None
+| Forward URL|Absolute URL path|None
+| Response Code|301, 302|302 - Temporary Redirect
 
 ![redirectional rules](/img/waf/v2/redirection_rule1.png)
 

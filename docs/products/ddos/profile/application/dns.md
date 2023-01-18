@@ -8,7 +8,7 @@ This section helps in stopping different kinds of DNS flood attack.
 
 ---
 
-![dns_setting](/img/ddos/v2/dns.png)
+![dns_setting](/img/ddos/v2/dns1.png)
 
 ### **How to Go:**
 

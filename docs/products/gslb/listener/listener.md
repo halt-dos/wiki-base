@@ -6,7 +6,7 @@
 
 Make GSLB listen on specific ports to accept connections and distribute across one or multiple origin servers.
 
-![listener](/img/gslb/listener.png)
+![listener](/img/gslb/v2/listner.png)
 
 ### How to Use:
 1. Go to  **Stack** > **GSLB** > **Listener**
@@ -18,4 +18,4 @@ Make GSLB listen on specific ports to accept connections and distribute across o
 7. Listener IP will be saved.
 
 
-![listener](/img/gslb/listener1.png)
+![listener](/img/gslb/v2/listner1.png)
