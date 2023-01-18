@@ -1,10 +1,11 @@
 ---
-sidebar_position: 9
+sidebar_position: 2
 ---
 
-# Status Page
+# Status  
 
-Overview of System Status
+Overview of Status of resources allocated to a stack.
+
 
 ---
 
@@ -16,4 +17,6 @@ This status page shows the details of all instances, their health, the status of
 
 A sample instance status is shown below:
 
-![stack-page](/img/platform/stackstatus1.png)
+![status_page](/img/platform/v2/status_newui_01.png)
+
+![status_page](/img/platform/v2/status_newui.png)

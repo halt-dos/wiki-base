@@ -14,13 +14,13 @@ Haltdos platform allows users to create custom dashboards. Each dashboard can in
 By default, Haltdos solutions come with pre-build dashboards. This module allows users to extend that functionality as per requirements.
 :::
 
-![dashboards](/img/platform/dashboards1.png)
+![dashboards](/img/platform/v2/dashboard_newui.png)
 
 ### How to Use:
 
-1. Go to Stack > Settings > Dashboard
+1. Go to **Stack > Settings > Dashboard**
 2. Configure your settings
-3. Click Save
+3. Click **Save Changes**
 
 | PARAMETERS           | DESCRIPTION                                             | ACCEPTED VALUES | DEFAULT |
 |----------------------|---------------------------------------------------------|-----------------|---------|
