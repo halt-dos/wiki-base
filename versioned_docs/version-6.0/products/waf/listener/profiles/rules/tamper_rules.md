@@ -14,7 +14,7 @@ The Tamper rule is a feature of Haltdos WAF that provides encryption for the use
 ### How to Use
 1. Follow the links: **WAF** > **Listener** >  **Profiles** > **Rules** > **Tamper Rules**
 2. Click on Add Rule and set relevant parameters described in the table below.
-3. Click on save changes.
+3. Click on Save Changes.
 
 | Parameters       | Accepted value |  Default       |
 |------------------|----------------|----------------|
@@ -29,7 +29,8 @@ The Tamper rule is a feature of Haltdos WAF that provides encryption for the use
 | Extract From     | Drop-down      | Body Name      |
 | Parameter        | String         | Blank          |
 
-![Tamper Rule](/img/waf/tamper_rule2.png)
+![Tamper Rule](/img/waf/tamper_rule2.png)  
+
 ### Description 
 
 #### Rule Name
@@ -45,8 +46,7 @@ It is a numeric field that specifies the priority of the rule in which the rule 
 Users are allowed to specify the tamper action to be taken for the request matched.
 
 #### Rule Action
-pecify the action to be taken for the request matched i.e. Drop & Record Request, Record Request, Bypass Request, Temporary Blacklist Src IP, Redirect, Send Challenge, Send Response, Tarpit Src IP, No Action, Skip Learning, Send Empty Response.
-
+Specify the action to be taken for the request matched i.e. Drop & Record Request, Record Request, Bypass Request, Temporary Blacklist Src IP, Redirect, Send Challenge, Send Response, Tarpit Src IP, No Action, Skip Learning, Send Empty Response.
 
 ### Attribute Extraction
 

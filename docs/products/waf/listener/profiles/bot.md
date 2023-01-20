@@ -4,7 +4,7 @@ sidebar_position: 4
 # Bot Protection 
 Detect and Block malicious bots in real-time
 
-# Overview
+##  Overview
 Bot Protection helps you quickly determine, manage, and mitigate automated requests. You can configure Legitimate/Malicious Crawlers, Tor, Bot Request Rate, and Bad Traffics. HaltDos Threat Stream TM provides a list of malicious IPs, known as bad bots and crawlers. Enterprise can specify the action to take against this malicious traffic.
 
 ![bot](/img/waf/v2/profile_bot_protection.png)
@@ -32,15 +32,14 @@ Configure the following parameters to set up the desired settings:
 1. **Allowed Crawlers**
 This field specifies the list of good crawlers by specifying their user agents. You can add single or multiple user agents. All the user agent mentioned in Allowed Crawlers permits the crawlers to access the protected URL. 
 
-    Accepted values: String  
-    
+    Accepted values: String
+
     Default: Empty  
 
     E.g. Google Crawler  
 
     User-Agent: google  
 
-   
 2. **Bad Crawlers**
 This field specifies the list of bad crawlers by specifying their user agents. You can add single or multiple user agents. All the user agent mentioned in Bad Crawlers does not permit the crawlers to access the protected URL.
 
@@ -66,9 +65,9 @@ This field specifies a list of suspicious crawlers by specifying their user agen
 4. **Maximum Bot Request Rate**
 This field specifies the maximum allowed Bot request rate from a single client IP. In case the request rate of the user is higher than the defined rate, the request gets dropped.
 
-    Accepted values: Numbers  
+    Accepted values: Numbers
 
-    Default: 30  
+    Default: 30
 
 5. **Maximum Bot Request Burst**
 This field specifies the maximum allowed Bot request burst from a single client IP. In case the requested burst of the user is higher than the defined rate, the request gets dropped.
@@ -76,7 +75,7 @@ This field specifies the maximum allowed Bot request burst from a single client 
     Accepted values: Numbers  
     Default: 50  
 
-  
+
 :::note
 Bot Request Burst must be greater than or equal to Bot Request Rate
 :::
@@ -125,8 +124,8 @@ Perform token-based validation. API requests will be authenticated using tokens 
 
 - **ANY**: 
 On the basis of application configuration, the required challenge will be thrown on the requests.
-Note: User can configure Advance Bot Settings in the Advanced settings for the listener by using the link: Advance Bot Settings  
 
-    
-   
 
+:::note
+User can configure Advance Bot Settings in the Advanced settings for the listener by using the link: [Advance Bot Settings](../advancedbot.md)  
+:::
