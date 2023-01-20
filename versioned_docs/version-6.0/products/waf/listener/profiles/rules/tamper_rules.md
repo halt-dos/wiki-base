@@ -38,7 +38,7 @@ Users are allowe to specify the rule name to identify the rule which is to be cr
 #### Rule Message
 Users are allowed to specify a rule message containing a detailed description to identify the rule which is to be created.
 
-#### Rule Pririty
+#### Rule Priority
 It is a numeric field that specifies the priority of the rule in which the rule will be executed while evaluating the request. The lower value of priority means it will be executed first while executing the type of rule. The default value Is 0. 
 
 #### Tamper Action
