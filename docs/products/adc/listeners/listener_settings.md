@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Listener Settings
-Make WAF listen on specific ports to accept connections and distribute across one or multiple origin servers.
+Make SLB listen on specific ports to accept connections and distribute across one or multiple origin servers.
 
 ---
 ## Overview
