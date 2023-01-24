@@ -10,7 +10,7 @@ Monitoring provides a comprehensive overview of the status and performance of th
 
 ![Monitors](/img/waf/v2/addmonitor.png)
 
-### How to you Use:
+### How to use:
 
 1. Go to WAF > Listeners > Monitors
 2. Click on Add Monitor

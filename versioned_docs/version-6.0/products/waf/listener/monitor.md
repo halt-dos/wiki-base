@@ -10,9 +10,9 @@ Monitoring provides a comprehensive overview of the status and performance of th
 
 ![Monitors](/img/waf/Monitors.png)
 
-### How to you Use:
+### How to you use:
 
-1. Go t WAF > Listeners > Monitors
+1. Go to WAF > Listeners > Monitors
 2. Click on Add Monitor
 3. Click on the monitor name to configure the Health Check and click on Save changes
 4. Now go to WAF > Listener > Server Group 
@@ -66,5 +66,5 @@ Health check sends SNMP query, if unable to receive response, then we make that 
  - **Custom Script**: 
 Health check runs custom script (shell script, perl script or Lua script). The script is executed with parameters of server IP and server Port. If the script responds with 1, heath check is passed. If the script responds with 0, we make that server as unhealthy
 
-**Port**: 
+7. **Port**: 
  Specify a new port with the port parameter
