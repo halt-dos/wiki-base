@@ -25,7 +25,7 @@ Haltdos Cloud provides multi-level RBAC access control over Stack. This allows o
 | PARAMETERS       | DESCRIPTION                                              | ACCEPTED VALUES    | DEFAULT  |
 |------------------|----------------------------------------------------------|--------------------|----------|
 | Name             | Enter member name           | String  | Empty  |
-| Login Mode | User can specify whther he want System or LDAP | DropDown| System |
+| Login Mode | User can specify whether he want System or LDAP | DropDown| System |
 | Username       |  User have to specify the username   | String   | Empty    |
 | Email- Id  | Users mail id                          | String            | Blank    |
 | Enable Login      | User have to click the enable login button to access the application                      | Boolean           | Disable    |

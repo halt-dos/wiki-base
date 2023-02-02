@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Certificate Authorities
@@ -23,3 +23,24 @@ A certificate authority (CA) is a trusted entity that issues Secure Sockets Laye
 | Scope       | Drop-down       | Blank   |
 | Organization  | String          | Blank   |
 | Common Name | String          | Blank   |
+
+#### Description:
+
+**CA Name**
+
+Users can specify the name of the certificate name.
+
+**Scope**
+
+It specifies the particular desired resources on which user wants to create certificate. 
+
+**Organization**
+
+Users can specify the name of the organization 
+
+**Common Name**
+
+Users can specify the name of the Domain Name. 
+
+
+**Note** - Under **Content** Public Key and Private Key will be generated. User have configure Certificate Authority details and Click **Generate Certificate**, public and private key (pem format) will be generated.

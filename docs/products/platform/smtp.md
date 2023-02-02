@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# E-Mail Integration (SMTP)
+# E-Mail
 
 Integration with E-Mail Service
 
@@ -60,6 +60,9 @@ This option allows users to set specific types of encryption protocols to use wh
 
 **DSN Response**
 DNS is a query/response protocol. The client queries information in a single UDP request. This request is followed by a single UDP reply from the DNS server. DNS uses UDP port 53 to connect to the server.  
+
+**DSN Notify**
+User can Specify when to send delivery status notification (DSN)
 
 **Enable EHLO**
 The EHLO command initiates the SMTP session conversation. The client greets the server and introduces himself. As a rule, EHLO is attributed with an argument that specifies the domain name or IP address of the SMTP client. This option allows users to enable the EHLO command.  

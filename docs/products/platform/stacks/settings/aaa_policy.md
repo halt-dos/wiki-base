@@ -30,11 +30,11 @@ Depending upon the organization's policy, if AAA is enabled, the same should als
 
 2. Configure your settings
 
-3. Click Save
+3. Click **Save Changes**
 
 | PARAMETERS  | ACCEPTED VALUES | DEFAULT |
 |-------------|-----------------|---------|
-| AAA Enabled | Boolean         | False   |
+| AAA authentication | Boolean         | False   |
 | Service     | Dropdown        | RADIUS  |
 | Allow SSH   | Boolean         | False   |
 | Host Name   | String          | Blank   |
@@ -50,9 +50,9 @@ This option allows the user to enable or disable the AAA feature. By default, it
 
 This option allows the user to select the type of implementation it can be either **TACACS** or **RADIUS**.
 
-**Terminal Access Controller Access Control System (TACACS+)** is a Cisco proprietary protocol that is used for the communication of the Cisco client and Cisco ACS server. It uses TCP port number **49** which makes it reliable.
+1. - **Terminal Access Controller Access Control System** (TACACS+) is a Cisco proprietary protocol that is used for the communication of the Cisco client and Cisco ACS server. It uses TCP port number **49** which makes it reliable.
 
-**Remote Access Dial-In User Service (RADIUS)** is an open standard protocol used for the communication between any vendor AAA client and ACS server. It uses port number **1812** for authentication and authorization and *1813* for accounting.
+2. - **Remote Access Dial-In User Service** (RADIUS) is an open standard protocol used for the communication between any vendor AAA client and ACS server. It uses port number **1812** for authentication and authorization and *1813* for accounting.
 
 **Host Name**
 

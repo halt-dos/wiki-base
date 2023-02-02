@@ -18,7 +18,7 @@ All API requests are **Authorization: Bearer `<TOKEN>`** header. Depending upon 
 ### How to Use:
 
 1. Go to **Stack** > **Integration** > **API Tokens**
-2. Click on the button  Generate API token    |
+2. Click on the button  Generate API token.
 3. Configure your settings
 4. Click **Save Changes**
 

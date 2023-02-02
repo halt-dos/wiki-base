@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 # Analytics
@@ -14,7 +14,11 @@ Haltdos solutions provides a rich set of built-in dashboards detailing real-time
 
 To view real-time analytics through dashboards. 
 
-Go to **Stack -> Analytics**. 
+
+### **How to Use:**
+
+1. Go to **Stack**
+2. Click **Analytics**. 
 
 **Auto Refresh**
 
@@ -28,9 +32,9 @@ Real-time analytics can be customized using the filter. The following filter opt
 
 | PARAMETERS     | DESCRIPTION                                                                                              | ACCEPTED VALUES                                                         | DEFAULT     |
 |----------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------|
-| Dashboard      | Select a dasbhoard consisting of charts and tables on various metrics                                    | Selection                                                               | Empty       |
 | Date Range     | Select an appropriate date range no longer than 1 month                                                  | Past 5 minutes / Past 1 hour / Today / This week / This Month / Custom  | Past 1 Hour |
-| Resource / App | Select desired resource (listener, zone, app) or leave it empty for viewing results across all resources | Selection                                                               | Empty       |
+| Resource / App | Select desired resource (listener, zone, app) or leave it empty for viewing results across all resources | Selection
+| Dashboard      | Select a dasbhoard consisting of charts and tables on various metrics                                    | Selection                                                               | Empty       |
 
 
 
