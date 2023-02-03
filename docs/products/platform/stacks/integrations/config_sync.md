@@ -20,7 +20,7 @@ API Token with READ AND WRITE access is required to sync configurations.
 
 1. Go to **Stack > Integration > Config Sync**
 2. Configure your settings
-3. Click Save
+3. Click **Save Changes**
 
 | PARAMETERS       | DESCRIPTION                                              | ACCEPTED VALUES    | DEFAULT  |
 |------------------|----------------------------------------------------------|--------------------|----------|
