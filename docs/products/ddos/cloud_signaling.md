@@ -6,22 +6,22 @@ sidebar_position: 5
 
 ---
 
-A Faster, Automated Approach to Comprehensive DDoS Mitigation Enterprises need comprehensive, integrated protection from the data center edge to the service provider cloud. For example, when data center operators discover they are under a service-disrupting DDoS attack, they should be able to quickly mitigate the attack in the cloud by triggering a signal to upstream infrastructure of their provider’s network. 
+A faster, automated approach to comprehensive DDoS Mitigation Enterprises need comprehensive, integrated protection from the data center edge to the service provider cloud. For example, when data center operators discover they are under a service-disrupting DDoS attack, they should be able to quickly mitigate the attack in the cloud by triggering a signal to upstream infrastructure of their provider’s network. 
 
 ![signaling_settings](\img\ddos\v2\cloudsignaling.png)
 
-### **How to Use:**
+**How to Use:**
 
-1. **Stack > Resource > DDoS > Signaling**
+1. Go to **Stack > Resource > DDoS > Signaling**
+2. Add **Provider** and Mention the details as per the requirements
+3. Click on **Save Change**
 
-2. Add provider and Mention the details as per the requirements
-
-3. Click on Save Provider
+2.
 
 | Settings                | Accepted Values  | Default |
 |-------------------------|------------------|---------|
-| Provider Name           | String           | Empty   |
 | Enabled                 | Boolean          | False   |
+| Provider Name           | String           | Empty   |
 | Signalling URL          | String           | Empty   |
 | Authentication User     | String           | Empty   |
 | Authentication Password | String           | Empty   |
@@ -31,13 +31,13 @@ A Faster, Automated Approach to Comprehensive DDoS Mitigation Enterprises need c
 
 ### **Description:**
 
-**Provider Name**
-
-Specify the name of the upstream provider
-
 **Enabled**
 
 Enable to allow the signaling to operate.
+
+**Provider Name**
+
+Specify the name of the upstream provider.
 
 **Signaling URL**
 
