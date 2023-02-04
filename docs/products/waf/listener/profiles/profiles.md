@@ -5,10 +5,10 @@ Profiles is the default profile that contains most commonly used web application
 ![Profiles.png](/img/waf/v2/profile.png)
    
 ### How to Use:
-1. Go to WAF > Listeners > Profiles
-2. Click Add Profile.
+1. Go to **WAF** > **Listeners** > **Profiles**
+2. Click **Add Profile**.
 3. Configure your settings.
-4. Click Save Changes.
+4. Click **Save Changes**.
    
 | Parameters         | Accepted Values | Default |
 |--------------------|-----------------|---------|
@@ -24,6 +24,7 @@ Profiles is the default profile that contains most commonly used web application
 
 1.**Profile Name:**
 This option allows user to specify a user-friendly name of security profile. By default, a profile with 'Default' name is already created upon adding a listener.
+
 2.**Profile Priority:**
 
 This option provides priotize feature for deciding which profile want to use first for matching request and taking action.
