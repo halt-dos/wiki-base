@@ -12,24 +12,24 @@ It Identifies, stores all the rules matched by WAF, and generates match finder d
 1. Go to **WAF** > **Tool** > **Match Finder**
 2. Click on the Run Query button on the top right side.
 
-### Description
+## Description
 
-#### Incident ID
+## Incident ID
 It displays the event ID logged for the certain request found to be malicious.
 
-#### Matched Rule
+## Matched Rule
 It displays all matched rule id for the query.
 
-#### URI
+## URI
 It displays the matching URI for the current event.
 
-#### Zone
+## Zone
 It displays the zone/sub-domain name that belongs to it.
 
-#### Payload
+## Payload
 It displays the payload matched for the current event.
 
-#### Action
+## Action
 It specifies the action to be taken. To whitelist current event rules, click on the Whitelist button.
 We can further download all events matched based on the filter from the event page.
 
