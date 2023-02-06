@@ -2,20 +2,20 @@
 
 This section describes the knowledge base of how to use Haltdos Global Server Load Balancing for the various use cases.
 
-1. ##### How to add Monitor to the Zone Record Type "A' or Quad A("AAAA') through Haltdos GSLB Solution?
+1. ##### [How to add Monitor to the Zone Record Type "A' or Quad A("AAAA') through Haltdos GSLB Solution?](https://docs.haltdos.com/kb/gslb/KB-4001)
 
-2. ##### How to configure Blacklist and Whitelist IP addresses through Haltdos GSLB Solution?
+2. ##### [[How to configure Blacklist and Whitelist IP addresses through Haltdos GSLB Solution?](https://docs.haltdos.com/kb/gslb/KB-4002)
 
-3. ##### How to configure Listner and its DNS Service Type throughHaltdos GSLB Solution?
+3. ##### [How to configure Listner and its DNS Service Type throughHaltdos GSLB Solution?](https://docs.haltdos.com/kb/gslb/KB-4003)
 
-4. ##### How to configure DNS resolver to block the access to dangerous websites?
+4. ##### [How to configure DNS resolver to block the access to dangerous websites?](https://docs.haltdos.com/kb/gslb/KB-4004)
 
-5. ##### How to configure Load Balancing for DNS Records?
+5. ##### [How to configure Load Balancing for DNS Records?](https://docs.haltdos.com/kb/gslb/KB-4005)
 
-6. ##### How to configure a Authoritative DNS zone Record?
+6. ##### [How to configure a Authoritative DNS zone Record?](https://docs.haltdos.com/kb/gslb/KB-4006)
 
-7. ##### How to set Policy Rule through GSLB Solution?
+7. ##### [How to set Policy Rule through GSLB Solution?](https://docs.haltdos.com/kb/gslb/KB-4007)
 
-8. ##### How to configure Sites?
+8. ##### [How to configure Sites?](https://docs.haltdos.com/kb/gslb/KB-4008)
 
-9. ##### How to set Alaram for raising alerts to prevent from malware attacks through GSLB Solution?
+9. ##### [How to set Alaram for raising alerts to prevent from malware attacks through GSLB Solution?](https://docs.haltdos.com/kb/gslb/KB-4009)
