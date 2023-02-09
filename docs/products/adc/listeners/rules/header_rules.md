@@ -10,7 +10,7 @@ We have introduced Header rules by which application owners can manipulate reque
 
 ![headerrules](/img/adc/v2/headerrule.png)
 
-### How to Use:
+#### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
 
@@ -20,15 +20,15 @@ We have introduced Header rules by which application owners can manipulate reque
 
 4. Configure your settings. 
 
-5. Click Save Changes.
+5. Click **Save Changes**.
 
 | SETTINGS        | ACCEPTED VALUE | DEFAULT            |
 |-----------------|----------------|--------------------|
 | Rule Name       | String         | Blank              |
 | Rule Message    | String         | Blank              |
-| Rule Enabled    | Boolean        | False              |
+| Rule Enabled    | Boolean        | True               |
 | Rule Priority   | Integer        | 0                  |
-| Rule Action     | Drop-down      | Add Request Header |
+| Rule Action     | Drop-down      | Remove Request Header |
 | Attribute Name  | String         | Blank              |
 | Search Pattern  | String         | Blank              |
 | Attribute Value | String         | Blank              |
@@ -41,11 +41,11 @@ We have introduced Header rules by which application owners can manipulate reque
 |-----------------|----------------|-----------------|
 | Find Location   | Drop-Down      | Source IP       |
 | Find Parameter  | String         | Blank           |
-| Match Condition | Drop-Down      | Match IP Perfix |
+| Match Condition | Drop-Down      | Match IP Prefix |
 | Match Value     | String         | Blank           |
 | Negation        | Drop-Down      | False           |
 
-#### Description:
+### **Description**:
 
 #### Find Location
 
