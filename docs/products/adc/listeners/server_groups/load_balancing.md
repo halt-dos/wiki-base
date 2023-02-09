@@ -27,7 +27,7 @@ This algorithm is a smart approach to distribute client requests across an array
 
 6. **IP HASH**: This algorithm takes the client's and server's source and destination IP address to generate a unique hash key. This key is used to assign the client to a specific server. In the case of a broken session, the key can be regenerated, and the client can be directed to the same server. 
 
-7. **PERSISTENT HASH**: This algorithm takes the user input location within the current request to generate a user-defined custom unique hash key. This key is used to assign the client to a specific server. In the case of a broken session, the key can be regenerated, and the client can be directed to the same server. NOTE: In hashing-based load balancing,  if a specified value does not exists then the request is served on the basis of client's IP address.
+7. **PERSISTENT HASH**: This algorithm takes the user input location within the current request to generate a user-defined custom unique hash key. This key is used to assign the client to a specific server. In the case of a broken session, the key can be regenerated, and the client can be directed to the same server. NOTE: In hashing-based load balancing, if a specified value does not exists then the request is served on the basis of client's IP address.
 
 8. **Least Requests:**
 This algorithm is a dynamic load balancing algorithm. It forwards client requests to the server, which have served the minimum amount of requests.
@@ -60,7 +60,9 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
 | Queue Timeout             | Integer        | 5           |
 | Connection Pool Size      | Integer        | 32          |
 | Server Retries            | Integer        | 1           |
+| Client IP Pool            |String        | Blank          |
 | Algorithm                 | Drop-Down      | Round Robin |
+| Sticky Session Cookie     | String         | Blank           |
 
 ![Load balancing2](/img/adc/v2/loadbalancing2.png)
 
@@ -110,9 +112,17 @@ This option allows users to specify the maximum number of idling connections for
 
 This option allows users to specify the max number of connection retries.
 
-#### Algorithm
+##### **Client IP Pool**
+
+This option allows users to specify list of client IP to use when connecting to upstream. Leave blank for auto.
+
+#### **Algorithm**
 
 This option allows users to specify the Server Group Algorithm.
+
+##### **Sticky Session Cookie**
+
+Users are allowed to specify enabling sticky session based on specified cookie.
 
 ### Adding Location
 
@@ -120,8 +130,9 @@ This option allows users to specify the Server Group Algorithm.
 
 | SETTINGS | ACCEPTED VALUE | DEFAULT |
 |----------|----------------|---------|
-| Priority | String         |         |
-| Location | Drop-Down      |         |
+| Priority | String         |Blank     |
+| Location | Drop-Down      |      SRC IP   |
+| Value    | String         | Blank         |
 
 ### Description:
 
@@ -132,3 +143,7 @@ The user can set the priority.
 #### Location
 
 The user can set the location for which load balancing is done.
+
+##### **Value**
+
+The users are allowed to specify the location value. This option will only visible when location is selected to val fields.

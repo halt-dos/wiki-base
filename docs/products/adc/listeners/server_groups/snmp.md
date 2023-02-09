@@ -9,21 +9,17 @@ sidebar_position: 3
 ### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > [** Server Groups**](../server_groups/).
-
 2. Select the group name.
-
 3. Select the Add Server option.
-
 3. Configure your settings. 
-
-4. Click Save Changes.
+4. Click **Save Changes**.
 
 ![snmp](/img/adc/v2/snmp.png)
 
 | SETTINGS             | ACCEPTED VALUE | DEFAULT           |
 |----------------------|----------------|-------------------|
 | Enable Monitoring    | Boolean        | Disabled          |
-| SNMP port            | Integer        | 80                |
+| SNMP port            | Integer        | 161               |
 | SNMP Version         | Drop-Down      | SNMP v2c          |
 | SNMP Username        | String         | Blank             |
 | SNMP Community       | String         | public            |
