@@ -23,7 +23,7 @@ sidebar_position: 3
 | SETTINGS             | ACCEPTED VALUE | DEFAULT           |
 |----------------------|----------------|-------------------|
 | Enable Monitoring    | Boolean        | Disabled          |
-| SNMP port            | Integer        | 80                |
+| SNMP port            | Integer        | 161                |
 | SNMP Version         | Drop-Down      | SNMP v2c          |
 | SNMP Username        | String         | Blank             |
 | SNMP Community       | String         | public            |

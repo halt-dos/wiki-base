@@ -1,6 +1,6 @@
 # Platform
 
-Haltdos platform level option are very useful in order to configure the platform level configuration such as integration, Instance level configuration and many more. You can find below the required knowledge-base.
+Haltdos platform level option is very useful in order to configure the platform level configuration such as integration, Instance level configuration and many more. You can find below the required knowledge-base.
 
 1. ##### [How to configure NTP through Haltdos solutions?](./kb-3001)
 

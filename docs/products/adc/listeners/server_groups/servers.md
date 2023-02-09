@@ -8,15 +8,15 @@ sidebar_position: 1
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > Server Groups.
+1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Server Groups**.
 
-2. Select the group name.
+2. Select the **Group name**.
 
-3. Select the Add Server option.
+3. Select the **Add Server** option.
 
 4. Configure your settings. 
 
-5. Click Save Changes.
+5. Click **Save Changes**.
 
 | SETTING        | ACCEPTED VALUE | DEFAULT |
 |----------------|----------------|---------|
@@ -25,12 +25,12 @@ sidebar_position: 1
 | Port           | Integer        | 80      |
 | Weight         | Integer        | 1       |
 | Back up        | Drop-Down      | False   |
-| Down           | Drop-Down      | False   |
+| Mode           | Drop-Down      | Ready   |
 | Max Connection | Integer        | Integer |
 
 ![servers2](/img/adc/v2/server1.png)
 
-#### Description:
+### **Description**:
 
 #### Server ID
 
@@ -50,11 +50,15 @@ This option allows users to set the weight value for the server. server with a h
 
 #### Back up
 
-This option allows users to enable or disable the backup server. If the user enables this opton, that server will act as a backup server and after the set threshold limit this backup server will start. If the user disabled this option, that server will act as a normal server in the server group.
+This option allows users to enable or disable the backup server. If the user enables this option, that server will act as a backup server and after the set threshold limit this backup server will start. If the user disabled this option, that server will act as a normal server in the server group.
 
-#### Down
+#### Mode
 
 This option allows users to true or false the down setting for server. If the user has set the true value in this option then server will not take part actively in  
+
+1. Ready 
+2. Down
+3. Gracefully down
 
 #### Max Connection
 

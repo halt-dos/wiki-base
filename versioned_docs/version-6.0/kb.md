@@ -7,7 +7,7 @@
 **Overview**
 
 Haltdos Knowledge Base is about detailed research and analysis of the frequently asked queries and issues, providing manuals, technical information and self explanatory FAQS. 
-Haltdos provide big databases of knowledge bases that organized content in human readable form. If any client is having a query, he can take help of this knowledge base to identify and find a solution for his issue. Knowledge Base provides hundreds od used case and real time scenarios of the production environments.This virtual knowledge base is more client oriented and easily accessible. The main motive of the these artcle is to provide better understanding of the product and its environment.
+Haltdos provide big databases of knowledge bases that organized content in human readable form. If any client is having a query, he can take help of this knowledge base to identify and find a solution for his issue. Knowledge Base provides hundreds of used case and real time scenarios of the production environments.This virtual knowledge base is more client oriented and easily accessible. The main motive of the these article is to provide better understanding of the product and its environment.
 
 ---
 
