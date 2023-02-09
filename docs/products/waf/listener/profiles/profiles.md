@@ -5,7 +5,7 @@ Profiles is the default profile that contains most commonly used web application
 
 ![Profiles.png](/img/waf/v2/profile.png)
    
- **How to Use:**
+###**How to Use:**
 1. Go to **WAF >> Listeners >> Profiles**
 2. Click **Add Profile**.
 3. Configure your settings.
@@ -22,7 +22,8 @@ Profiles is the default profile that contains most commonly used web application
 | Destination Port   | Integer         | Blank   |
 | Reference          | Drop-Down       | None    |
 
-### **Description**
+
+### Description
 
 **Profile Name:**
 
@@ -30,15 +31,16 @@ This option allows user to specify a user-friendly name of security profile. By 
 
 **Profile Priority:**
 
-This option provides priotize feature for deciding which profile want to use first for matching request and taking action.
+This option provides prioritize feature for deciding which profile want to use first for matching request and taking action.
 
 **Application Type:**
 
-This option specifies type of application ( i.e. website or web service or web socket) want to select. A website is defined as a collection of web pages and related content that is identified by a common domain name whereas, a web service is a standardized medium to propagate communication between the client and server applications. And a web socket is a duplex protocol used mainly in the client-server communication channel.
+This option specifies type of application (i.e. website or web service or web socket) want to select. A website is defined as a collection of web pages and related content that is identified by a common domain name whereas, a web service is a standardized medium to propagate communication between the client and server applications. And a web socket is a duplex protocol used mainly in the client-server communication channel.
+
 
 **Protocol:**
 
-This option specify the service type for the subdomain i.e. HTTP, TCP, UDP. Based on the protocol of the backend application, the listener/subdomain can be created with any of the three protocols. 
+This option specifies the service type for the subdomain i.e. HTTP, TCP, UDP. Based on the protocol of the backend application, the listener/subdomain can be created with any of the three protocols. 
 
 **Countries:**
 
@@ -50,7 +52,7 @@ This option specify the source IP Prefixes for the requests coming will be match
 
 **Destination Port:**
 
-This option specify the destination port Prefixes where requests coming will be matched with this profile.
+This option specifies the destination port Prefixes where requests coming will be matched with this profile.
 
 **Reference:**
 
