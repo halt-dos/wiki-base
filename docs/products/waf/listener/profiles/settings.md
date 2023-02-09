@@ -23,7 +23,7 @@ Profile Setting specifies all the operational settings for user different applic
 | Enable Signature Validation  | Boolean         | False   |
 | Enable LibInjection          | Boolean         | False   |
 | Application Type             | Drop-Down       | Other   |
-| Application Framewwork            | Drop-Down       | Other   |
+| Application Framework            | Drop-Down       | Other   |
 | Application Language           | Drop-Down       | Other   |
 | Application Server            | Drop-Down       | Other   |
 | Application Database             | Drop-Down       | Other   |
@@ -33,16 +33,16 @@ Profile Setting specifies all the operational settings for user different applic
    
 ## Description
 
-1.**Operational Mode:**
+##### **Operational Mode**
 This option allows user to specify operational mode for every given security profile. Different operational modes are:
-- **MITIGATION:** In this mode, all the mitigations & rule sets will monitor the traffic. If any request matches the criteria, it gets dropped  
+- **MITIGATION:** In this mode, all the mitigation & rule sets will monitor the traffic. If any request matches the criteria, it gets dropped  
 
-- **BYPASS:** In this mode, all the requests get bypassed without any filtration of mitigations & rule sets.  
+- **BYPASS:** In this mode, all the requests get bypassed without any filtration of mitigation & rule sets.  
 
-- **RECORD:** In this mode, all the mitigations & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.  
+- **RECORD:** In this mode, all the mitigation & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.  
 
-2.**Paranoia Level:** 
-Paranoia level configures the severity in which HTTP requests should be allowed. It lets you disable certain rules to minimize several false positives that they may encounter.  
+##### **Paranoia Level** 
+Paranoia Level configures the severity in which HTTP requests should be allowed. It lets you disable certain rules to minimize several false positives that they may encounter.  
    
 Note: Higher paranoia can also result in false positives.  
 
@@ -55,34 +55,34 @@ Haltdos WAF comes with four Security Paranoia Levels:
 
 - **UNDER ATACK** - The most paranoid defensive security method. It blocks sufficient legitimate requests to your site.  
 
-3.**Enable Signature Validation:**
+##### **Enable Signature Validation**
 Users can specify to enable the signature validation for the present profile.  
 
-4.**Enable LibInjection:**
+##### **Enable LibInjection**
 Users can configure settings related to Specify whether to enable internal libinjection based validations.  
 
-5.**Application Type:**
-Specify the type of application ( i.e. website or web service). A website is a collection of linked web pages (plus their associated resources) that share a unique domain name. A web service is a collection of open protocols and standards used for exchanging data between applications or systems.  
+##### **Application Type**
+Specify the type of application (i.e. website or web service). A website is a collection of linked web pages (plus their associated resources) that share a unique domain name. A web service is a collection of open protocols and standards used for exchanging data between applications or systems.  
 
-6.**Application Framework:**
+##### **Application Framework**
 Specify the framework used for developing the application (if any).
 
-7.**Application Language:**
+##### **Application Language**
 Specify the programming language in which application is developed.
 
-8.**Application Server:**
+##### **Application Server**
 Specify the server on which application is running.
 
-9.**Application  Database**
+##### **Application  Database**
 Specify the database which is being used in the application (if any).
 
-10.**Application OS:**
+##### **Application OS**
 Specify the Operating system on which application is running.
 
-11.**User Groups:**
+##### **User Groups**
 Create a user group for operating the API gateway. Detailed information can be found using this link User Group.  
 
-12.**Temporary Blacklist Duration:**
+##### **Temporary Blacklist Duration**
 The time duration for which a malicious IP is suspended by WAF is specified here. The WAF Rules and Web Policy use this value.
 
 
