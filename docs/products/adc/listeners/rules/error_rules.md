@@ -3,7 +3,6 @@ sidebar_position: 1
 ---
 
 # Error Rules
-Error Rule & Settings
 
 ---
 
@@ -11,29 +10,30 @@ Error Rules is a feature of Haltdos SLB that allows application owners to show c
 
 ![errorrules](/img/adc/v2/errorrules.png)
 
-### How to Use:
+#### How to Use:
 
-1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > Rules.
+1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
 
-2. Select the Error rule.
+2. Select the **Error rules**.
 
 3. Click **Add Rule** button.
 
 4. Configure your settings. 
 
-5. Click Save Changes
+5. Click **Save Changes**
 
 | SETTINGS            | ACCEPTED VALUE | DEFAULT              |
 |---------------------|----------------|----------------------|
 | Rule Name           | String         | Blank                |
 | Rule Message        | String         | Blank                |
-| Rule Enabled        | Boolean        | False                |
+| Rule Enabled        | Boolean        | True                 |
 | Rule Priority       | Integer        | 0                    |
 | HTTP Response Codes | Drop-down      | Blank                |
 | Rule Action         | Drop-down      | Send Custom Response |
 | Custom Error Page   | File upload    | None                 |
 
-#### Description:
+
+### **Description**:
 
 #### Rule Name
 

@@ -6,8 +6,9 @@ sidebar_position: 1
 Make SLB listen on specific ports to accept connections and distribute across one or multiple origin servers.
 
 ---
-## Overview
-**Users are allowed to configure many operational settings for the Listeners.**
+### Overview
+
+Users are allowed to configure many operational settings for the Listeners.
 
 ![Listener settings1](/img/adc/v2/listenersetting.png)
 
@@ -17,7 +18,7 @@ Make SLB listen on specific ports to accept connections and distribute across on
 
 2. Configure your settings
 
-3. Click Save Changes.
+3. Click **Save Changes**.
 
 ![Listener settings2](/img/adc/v2/listenersetting1.png)
 
@@ -46,7 +47,7 @@ Make SLB listen on specific ports to accept connections and distribute across on
 
 ![Listener settings3](/img/adc/v2/listenersetting2.png)
 
-#### Description:
+### **Description**:
 
 #### Enable IPv6
 

@@ -120,8 +120,10 @@ This option allows users to specify the Server Group Algorithm.
 
 | SETTINGS | ACCEPTED VALUE | DEFAULT |
 |----------|----------------|---------|
-| Priority | String         |         |
-| Location | Drop-Down      |         |
+| Priority | String         | Blank   |
+| Location | Drop-Down      | SRC IP  |
+| Value    | Drop-Down      |         |
+
 
 ### Description:
 
@@ -132,3 +134,5 @@ The user can set the priority.
 #### Location
 
 The user can set the location for which load balancing is done.
+
+##### Value 

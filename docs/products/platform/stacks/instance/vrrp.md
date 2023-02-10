@@ -6,14 +6,14 @@ sidebar_position: 3
 
 ---
 
-The Virtual Router Redundancy Protocol (VRRP) is a **computer networking protocol that provides for automatic assignment of available Internet Protocol (IP) routers to participating hosts**. This increases the availability and reliability of routing paths via automatic default gateway selections on an IP sub network.
+The Virtual Router Redundancy Protocol (**VRRP**) is a computer networking protocol that provides for automatic assignment of available Internet Protocol (IP) routers to participating hosts. This increases the availability and reliability of routing paths via automatic default gateway selections on an IP sub network.
 
 ![VRRP](/img/platform/v2/vrrp.png)
 
 ### How to Use:
 
 1. Go to **Stack > Instances > (Select Instance) > VRRP**
-2. Configure your settings
+2. Configure your settings  
 3. Click **Save Changes**
 
 | PARAMETERS           | ACCEPTED VALUES | DEFAULT |

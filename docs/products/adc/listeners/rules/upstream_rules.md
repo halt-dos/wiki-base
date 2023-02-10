@@ -14,23 +14,23 @@ If a user has defined server group and wants to use different groups depending u
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
 
-2. Select the Load Balancing Rule.
+2. Select the **Load Balancing Rules**.
 
 3. Click **Add Rule** button.
 
 4. Configure your settings. 
 
-5. Click Save Changes
+5. Click **Save Changes**.
 
 | SETTINGS       | ACCEPTED VALUE | DEFAULT |
 |----------------|----------------|---------|
 | Rule Name      | String         | Blank   |
 | Rule Message   | String         | Blank   |
-| Rule Enabled   | Boolean        | False   |
+| Rule Enabled   | Boolean        | True    |
 | Rule Priority  | Integer        | 1       |
 | Server Group   | Drop-Down      | Blank   |
 
-#### Description:
+### **Description**:
 
 #### Rule Name 
 
@@ -64,7 +64,7 @@ User can specify which server group to associate with this particular rule.
 | Match Value     | String         | Blank           |
 | Negation        | Drop-Down      | False           |
 
-### Description:
+### **Description**:
 
 #### Find Location
 

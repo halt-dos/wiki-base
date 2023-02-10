@@ -10,13 +10,13 @@ In addition to DDoS mitigation, the Offload mechanism can be used for features l
 
 ![offload_stream](\img\ddos\v2\ssloffloading.png)
 
-### **How to Use:**
+ **How to Use:**
 
-1. **Stack > Resource > DDoS > Profile > Offload**
+1. Go to **Stack > Resource > DDoS > Profile > Offload**
 
 2. Add Offload with specific configuration required.
 
-3. Click on Save Changes
+3. Click on **Save Changes**
 
 | Settings      | Accepted Values | Default |
 |---------------|-----------------|---------|
@@ -26,14 +26,14 @@ In addition to DDoS mitigation, the Offload mechanism can be used for features l
 
 ### **Description:**
 
-##### **Server IP**
+**Server IP**
 
 Specify the IP address
 
-##### **Listening Port**
+**Listening IP**
 
 Specify listening port for offloading
 
-##### **Forwarding Port**
+ **Forwarding IP**
 
 Specify forwarding port for offloading

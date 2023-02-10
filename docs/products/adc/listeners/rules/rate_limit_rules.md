@@ -6,17 +6,17 @@ sidebar_position: 6
 
 ---
 
-### How to Use:
+#### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
 
-2. Select the Rate Limit Rules.
+2. Select the **Rate Limit Rules**.
 
 3. Click **Add Rule** button.
 
 4. Configure your settings. 
 
-5. Click Save Changes
+5. Click **Save Changes**
 
 ![Rate Limit rule](/img/adc/v2/ratelimit.png)
 
@@ -26,10 +26,10 @@ sidebar_position: 6
 |----------------|----------------|--------------|
 | Rule Name      | String         | Blank        |
 | Rule Message   | String         | Blank        |
-| Rule Enabled   | Boolean        | False        |
-| Rule Priority  | Integer        | 1            |
-| Rule Action    | Drop Request   | Drop Request |
-| Rate           | Integer        | 10           |
+| Rule Enabled   | Boolean        | True         |
+| Rule Priority  | Integer        | 0            |
+| Rule Action    | Drop Down      | Drop Request |
+| Max Rate       | Integer        | 10           |
 | Track Limit    | Integer        | 20           |
 | Track Duration | Integer        | 1            |
 
@@ -75,11 +75,11 @@ Specify the time duration for which the rule will limit the request.
 |-----------------|----------------|-----------|
 | Find Location   | Drop-Down      | Source IP |
 | Find Parameter  | String         | Blank     |
-| Match Condition | Drop-Down      | Contains  |
+| Match Condition | Drop-Down      | Match IP Prefix  |
 | Match Value     | String         | Blank     |
-| Negation        | Drop-Down      | True      |
+| Negation        | Drop-Down      | False      |
 
-### Description:
+### **Description**:
 
 #### Find Location
 
