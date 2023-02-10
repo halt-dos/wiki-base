@@ -6,7 +6,6 @@ sidebar_position: 2
 
 Overview of Status of resources allocated to a stack.
 
-
 ---
 
 All stacks have one or more instances associated with them. Each instance may be configured with one or more NIC cards sending and receiving traffic over them.

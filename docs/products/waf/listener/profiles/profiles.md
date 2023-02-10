@@ -4,9 +4,9 @@ Profiles create different security profiles for different sub-sections of your w
 Profiles is the default profile that contains most commonly used web application settings served through a virtual service. For customizing a profile, it is highly recommended to create a new profile instead of editing the default profile. 
 
 ![Profiles.png](/img/waf/v2/profile.png)
-   
-###**How to Use:**
-1. Go to **WAF >> Listeners >> Profiles**
+
+### How to Use:
+1. Go to **WAF** > **Listeners** > **Profiles**
 2. Click **Add Profile**.
 3. Configure your settings.
 4. Click **Save Changes**.
@@ -37,7 +37,6 @@ This option provides prioritize feature for deciding which profile want to use f
 
 This option specifies type of application (i.e. website or web service or web socket) want to select. A website is defined as a collection of web pages and related content that is identified by a common domain name whereas, a web service is a standardized medium to propagate communication between the client and server applications. And a web socket is a duplex protocol used mainly in the client-server communication channel.
 
-
 **Protocol:**
 
 This option specifies the service type for the subdomain i.e. HTTP, TCP, UDP. Based on the protocol of the backend application, the listener/subdomain can be created with any of the three protocols. 
@@ -58,5 +57,7 @@ This option specifies the destination port Prefixes where requests coming will b
 
 This drop-down is used to clone an existing profile with the same configuration to a new profile.
 
-Note: User can clone existing profile with the same configuration to a new profile on the new user-specified URI.
+:::note
+User can clone existing profile with the same configuration to a new profile on the new user-specified URI.
 Following configurations are present under Security Profile.
+:::
