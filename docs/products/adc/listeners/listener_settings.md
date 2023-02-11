@@ -7,8 +7,9 @@ Make SLB listen on specific ports to accept connections and distribute across on
 
 ---
 
-### Overview
-**Users are allowed to configure many operational settings for the Listeners.**
+## Overview
+
+Users are allowed to configure many operational settings for the Listeners.
 
 ![Listener settings1](/img/adc/v2/listenersetting.png)
 

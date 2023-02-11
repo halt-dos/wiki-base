@@ -8,11 +8,11 @@ sidebar_position: 1
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > Server Groups.
+1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Server Groups**.
 
-2. Select the group name.
+2. Select the **Group name**.
 
-3. Select the Add Server option.
+3. Select the **Add Server** option.
 
 4. Configure your settings. 
 

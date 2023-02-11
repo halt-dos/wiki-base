@@ -21,7 +21,7 @@ Error Rules is a feature of Haltdos SLB that allows application owners to show c
 |---------------------|----------------|----------------------|
 | Rule Name           | String         | Blank                |
 | Rule Message        | String         | Blank                |
-| Rule Enabled        | Boolean        | False                |
+| Rule Enabled        | Boolean        | True                 |
 | Rule Priority       | Integer        | 0                    |
 | HTTP Response Codes | Drop-down      | Blank                |
 | Rule Action         | Drop-down      | Send Custom Response |
