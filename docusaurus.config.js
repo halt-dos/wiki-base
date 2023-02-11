@@ -30,11 +30,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          lastVersion: '6.0',
+          lastVersion: 'current',
           versions:{
             current: {
-              label: '7.0 RC',
-              path:'rc',
+              label: '7.0',
               banner: 'none'
             },
           },
@@ -56,7 +55,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       // algolia: {
@@ -81,12 +80,47 @@ const config = {
           srcDark: 'img/logo/icon_dark.png'
         },
         items:[
-          {to: 'kb', label: 'Knowledge Base', position: 'left'},
+          {
+            label: 'Products',
+            position: 'left',
+            items: [
+              {
+                label: 'Haltdos Community WAF',
+                to: 'community',
+              },
+              {
+                label: 'Haltdos Enterprise',
+                to: 'enterprise',
+              }
+            ],
+            className: 'navbar__link--products',
+          },
           {
             type: 'docsVersionDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
           },
+          {
+            label: 'More',
+            position: 'right',
+            items: [
+              {
+                href: 'https://haltdos.com',
+                label: 'Haltdos',
+                target: '_blank',
+                rel: null,
+              },
+              {
+                label: 'Knowledge Base',
+                to: 'kb',
+              },
+              {
+                label: 'Glossary',
+                to: 'glossary',
+              }
+            ],
+            className: 'navbar__link--more',
+          }
         ]
       },
       prism: {
