@@ -13,13 +13,9 @@ Policy rule is the feature of Haltdos SLB that allows application owners to set 
 ### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
-
-2. Select the **Policy Rules**.
-
+2. Select the **Policy Rule**.
 3. Click **Add Rule** button.
-
 4. Configure your settings. 
-
 5. Click **Save Changes**.
 
 | SETTINGS      | ACCEPTED VALUE | DEFAULT      |
@@ -31,17 +27,17 @@ Policy rule is the feature of Haltdos SLB that allows application owners to set 
 | Evaluation Phase | Drop-down        | Request Phase            |
 | Rule Action   | Drop Down      | Drop Request |
 
-### Description:
+### Description
 
 ##### **Rule Name**
 
 User can define the rule name.
 
-#### Rule Message
+##### **Rule Message**
 
 User can define the rule message.
 
-#### Rule Enabled
+##### **Rule Enabled**
 
 Users can enable and disable the rule.
 
@@ -57,7 +53,7 @@ Users are allowed to specify the phase for the rule i.e. Request/Response while 
 
 User can define what action needs to be taken in case this rule is being satisfied.
 
-### Rule Condition
+#### **Rule Condition**
 
 ![Policy rule2](/img/adc/v2/policyrule1.png)
 
