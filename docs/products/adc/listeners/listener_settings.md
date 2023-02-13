@@ -39,8 +39,9 @@ Users are allowed to configure many operational settings for the Listeners.
 | User Session Duration        | Integer         | 60       |
 | Session Cookie               | String          | Blank    |
 | Max Concurrent User Sessions | Integer         | 0        |
-| MAX SESSION EXCEEDED ACTION  | Drop-down       | Redirect |
-| MAX SESSION FORWARD URL      | String          | Blank    |
+| MAX Session Exceeded Action  | Drop-down       | Redirect |
+| Max Session Forward URL      | String          | Blank    |
+| Max Session Exceeded Waiting Page | Drop-down  | Blank
 | Remote IP Header             | String          | Blank    |
 | Server Aliases               | String          | Blank    |
 | Virtual IPs                  | String          | Blank    |
@@ -113,9 +114,13 @@ This option is only applicable in the case of service type HTTP. This option all
 
 Users can specify the action to take when max session count exceeds.
 
-#### MAX Session Forward URL
+#### Max Session Forward URL
 
 Users can specify the redirected URL when max session count exceeds.
+
+#### Max Session Exceeded Waiting Page
+
+Users can specify the waiting room page to show when max session count exceeds.
 
 #### Remote IP Header
 

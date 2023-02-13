@@ -1,5 +1,7 @@
 Profiles create different security profiles for different sub-sections of your website.
 
+---
+
 ### Overview
 Profiles is the default profile that contains most commonly used web application settings served through a virtual service. For customizing a profile, it is highly recommended to create a new profile instead of editing the default profile. 
 
@@ -10,6 +12,8 @@ Profiles is the default profile that contains most commonly used web application
 2. Click **Add Profile**.
 3. Configure your settings.
 4. Click **Save Changes**.
+
+![Profiles.png](/img/waf/v2/profile12.png)
    
 | Parameters         | Accepted Values | Default |
 |--------------------|-----------------|---------|
@@ -18,6 +22,7 @@ Profiles is the default profile that contains most commonly used web application
 | Application Type   | Drop-Down       | Others  |
 | Protocol           | Drop-Down       | Any     |
 | Countries          | Drop-down       | Blank   |
+| URI                | String          | Blank   |
 | Source IP Prefixes | IP Address      | Blank   |
 | Destination Port   | Integer         | Blank   |
 | Reference          | Drop-Down       | None    |
@@ -30,11 +35,11 @@ This option allows user to specify a user-friendly name of security profile. By 
 
 **Profile Priority:**
 
-This option provides priotize feature for deciding which profile want to use first for matching request and taking action.
+This option provides prioritize feature for deciding which profile want to use first for matching request and taking action.
 
 **Application Type:**
 
-This option specifies type of application ( i.e. website or web service or web socket) want to select. A website is defined as a collection of web pages and related content that is identified by a common domain name whereas, a web service is a standardized medium to propagate communication between the client and server applications. And a web socket is a duplex protocol used mainly in the client-server communication channel.
+This option specifies type of application i.e. website or web service or web socket) want to select. A website is defined as a collection of web pages and related content that is identified by a common domain name whereas, a web service is a standardized medium to propagate communication between the client and server applications. And a web socket is a duplex protocol used mainly in the client-server communication channel.
 
 **Protocol:**
 
@@ -42,7 +47,11 @@ This option specify the service type for the subdomain i.e. HTTP, TCP, UDP. Base
 
 **Countries:**
 
-This option specify countries from where request is coming should match with this profile.
+This option specify countries from where request is coming should match with this profile. 
+
+**URI**
+
+This option specify the URI that will be matched with this profile. Once the URI matched, policies configured under this profiles will be implemented.
 
 **Source IP Prefixes:**
 

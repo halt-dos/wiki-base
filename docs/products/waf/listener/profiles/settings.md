@@ -37,7 +37,7 @@ Profile Setting specifies all the operational settings for user different applic
 This option allows user to specify operational mode for every given security profile. Different operational modes are:
 - **MITIGATION:** In this mode, all the mitigations & rule sets will monitor the traffic. If any request matches the criteria, it gets dropped  
 
-- **BYPASS:** In this mode, all the requests get bypassed without any filtration of mitigations & rule sets.  
+- **BYPASS:** In this mode, all the requests get bypassed without any filtration of mitigation & rule sets.  
 
 - **RECORD:** In this mode, all the mitigations & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.  
 
@@ -47,6 +47,7 @@ Paranoia level configures the severity in which HTTP requests should be allowed.
 Note: Higher paranoia can also result in false positives.  
 
 Haltdos WAF comes with four Security Paranoia Levels:  
+
 - **LOW** -Adequate security level to defend almost all web applications from generic exploits. Recommended security level to ensure the least disruption from false positives.  
 
 - **MEDIUM** - A slightly higher level of security to block nearly all web application exploits. It might result in some false positives.  

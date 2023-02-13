@@ -12,7 +12,7 @@ A web policy or policies are constraints or mandates in relation to technical co
    
 ![webpolicy](/img/waf/v2/profile_webpolicy.png)
 
-![webpolicy](/img/waf/v2/profile_webpolicy.png)
+![webpolicy](/img/waf/v2/profile_webpolicy1.png)
 
 ### How to Use:
 1. Go to **WAF** > **Listener** > **Profiles** > **Policy** > **Web Policy**.
