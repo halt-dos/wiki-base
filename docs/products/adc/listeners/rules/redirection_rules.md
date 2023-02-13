@@ -13,13 +13,9 @@ Redirection Rules is a feature of Haltdos SLB that allows application owners to 
 ### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
-
 2. Select the **Redirection Rule**.
-
 3. Click **Add Rule** button.
-
 4. Configure your settings. 
-
 5. Click Save Changes
 
 | SETTINGS       | ACCEPTED VALUE | DEFAULT                 |
@@ -30,30 +26,30 @@ Redirection Rules is a feature of Haltdos SLB that allows application owners to 
 | Rule Priority  | Integer        | 1                       |
 | Match Criteria | String         | Blank                   |
 | Forward URL    | String         | Blank                   |
-| Response Code  | Drop-Down      | 302 -Temprary Redirect  |
+| Response Code  | Drop-Down      | 302 -Temporary Redirect  |
 
-#### Description:
+### Description:
 
-#### Rule Name
+##### **Rule Name**
 
 User can specify the rule name for redirection rule
 
-#### Rule Message
+##### **Rule Message**
 
 User can specify message that specifies the purpose for this particular rule. 
 
-#### Rule Priority
+##### **Rule Priority**
 
 The user can specify the priority for this particular rule.
 
-#### Match Criteria
+##### **Match Criteria**
 
 The user can specify the URL that needs to be redirected.
 
-#### Forward URL
+##### **Forward URL**
 
 The user can specify the URL where the match URL needs to be redirected.
 
-#### Response Code
+##### **Response Code**
 
 The user can specify the response code as temporary or permanent redirect.

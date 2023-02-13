@@ -14,7 +14,7 @@ Make SLB listen on specific ports to accept connections and distribute across on
 
 ### How to Use:
 
-1. Go to [**SLB**](/adc/docs) > [**Listeners**](../listeners/) > **Operational Settings**
+1. Go to [**SLB**](/adc/docs) > [**Listeners**](/docs/products/adc/listeners/listener_settings.md) > **Operational Settings**
 2. Configure your settings
 3. Click **Save Changes**.
 
