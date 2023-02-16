@@ -22,15 +22,16 @@ Server Groups provide user two functionality at a page to add Server Group and V
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > Server groups.
+
+1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Server groups**.
 2. Click **Add Server Group** button.
-4. Configure your settings. 
-5. Click Save Changes.
+3. Configure your settings. 
+4. Click **Save Changes**.
 
 | SETTINGS    | ACCEPTED VALUE | DEFAULT  |
 |-------------|----------------|----------|
 | Group Name  | String         | Blank    |
-| Monitor     | Drop-Down      | Blank    |
+| Monitor     | Drop-Down      | None     |
 | SSL         | Drop-Down      | Disabled |
 
 ### Description:

@@ -7,8 +7,9 @@ Make SLB listen on specific ports to accept connections and distribute across on
 
 ---
 
-### Overview
-**Users are allowed to configure many operational settings for the Listeners.**
+## Overview
+
+Users are allowed to configure many operational settings for the Listeners.
 
 ![Listener settings1](/img/adc/v2/listenersetting.png)
 
@@ -38,8 +39,9 @@ Make SLB listen on specific ports to accept connections and distribute across on
 | User Session Duration        | Integer         | 60       |
 | Session Cookie               | String          | Blank    |
 | Max Concurrent User Sessions | Integer         | 0        |
-| MAX SESSION EXCEEDED ACTION  | Drop-down       | Redirect |
-| MAX SESSION FORWARD URL      | String          | Blank    |
+| MAX Session Exceeded Action  | Drop-down       | Redirect |
+| Max Session Forward URL      | String          | Blank    |
+| Max Session Exceeded Waiting Page | Drop-down  | Blank
 | Remote IP Header             | String          | Blank    |
 | Server Aliases               | String          | Blank    |
 | Virtual IPs                  | String          | Blank    |
@@ -118,7 +120,7 @@ This option is only applicable in the case of service type HTTP. This option all
 
 Users can specify the action to take when max session count exceeds.
 
-##### **MAX Session Forward URL**
+#### **Max Session Forward URL**
 
 Users can specify the redirected URL when max session count exceeds. This option will only visible when user has selected redirect option under 'Max Session Exceeded Action' option.
 

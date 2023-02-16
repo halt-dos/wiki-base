@@ -22,8 +22,9 @@ Policy rule is the feature of Haltdos SLB that allows application owners to set 
 |---------------|----------------|--------------|
 | Rule Name     | String         | Blank        |
 | Rule Message  | String         | Blank        |
-| Rule Enabled  | Boolean        | False        |
+| Rule Enabled  | Boolean        | True         |
 | Rule Priority | Integer        | 0            |
+| Evaluation Phase | Drop-down        | Request Phase            |
 | Rule Action   | Drop Down      | Drop Request |
 
 ### Description
@@ -44,7 +45,11 @@ Users can enable and disable the rule.
 
 User can define the rule priority among various other policy rules.
 
-##### **Rule Action**
+##### **Evaluation Phase**
+
+Users are allowed to specify the phase for the rule i.e. Request/Response while evaluating the request.
+
+#### Rule Action
 
 User can define what action needs to be taken in case this rule is being satisfied.
 
@@ -56,28 +61,28 @@ User can define what action needs to be taken in case this rule is being satisfi
 |-----------------|----------------|-----------|
 | Find Location   | Drop-Down      | Source IP |
 | Find Parameter  | String         | Blank     |
-| Match Condition | Drop-Down      | Contains  |
+| Match Condition | Drop-Down      | Match IP Prefix  |
 | Match Value     | String         | Blank     |
-| Negation        | Drop-Down      | True      |
+| Negation        | Drop-Down      | False      |
 
-### Description:
+### **Description**:
 
 ##### **Find Location**
 
 User can define the source location where this condition needs to be applied.
 
-##### **Find Parameter**
+##### Find Parameter
 
 The user can define the parameter based on the location of the condition.
 
-##### **Match Condition**
+##### Match Condition
 
 The user can define the match condition for the parameter and match value.
 
-##### **Match Value**
+##### Match Value
 
 The user can define what value needs to be matched with the match condition.
 
-##### **Negation**
+##### Negation
 
 The user can define either to negate the condition for this rule or not.

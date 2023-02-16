@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Redirection Rule
+# Redirection Rules
 
 ---
 
@@ -10,19 +10,19 @@ Redirection Rules is a feature of Haltdos SLB that allows application owners to 
 
 ![Redirection rule](/img/adc/v2/redirectionrule.png)
 
-### How to Use:
+#### How to Use:
 
 1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
-2. Select the **Redirection Rule**.
+2. Select the **Redirection Rules**.
 3. Click **Add Rule** button.
 4. Configure your settings. 
-5. Click Save Changes
+5. Click **Save Changes**.
 
 | SETTINGS       | ACCEPTED VALUE | DEFAULT                 |
 |----------------|----------------|-------------------------|
 | Rule Name      | String         | Blank                   |
 | Rule Message   | String         | Blank                   |
-| Rule Enabled   | Boolean        | False                   |
+| Rule Enabled   | Boolean        | True                    |
 | Rule Priority  | Integer        | 1                       |
 | Match Criteria | String         | Blank                   |
 | Forward URL    | String         | Blank                   |

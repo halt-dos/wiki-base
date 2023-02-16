@@ -12,20 +12,20 @@ DDOS Protection support high availability, for two compatible DDoS Protector dev
 
 ![ha_settings](\img\ddos\ddos31.png)
 
-### **How To Use:**
+ **How To Use:**
 
-1. **Stack > Instance > Instance Name > HA**
+1. Go to **Stack > Instance > Instance Name > HA**
 
 2. User can configure as per requirement
 
-3. Click on Save Settings
+3. Click on **Save Change**
 
 ![ha_settings](\img\ddos\ddos32.png)
 
 | Settings                    | Accepted Values | Defaults |
 |-----------------------------|-----------------|----------|
-| Primary Instance            | String          | --       |
 | HA Mode                     | Drop Down       | None     |
+| Primary Instance            | Boolean         | FALSE    |
 | HA Port                     | Integer         | 11211    |
 | Peer check Interval         | Integer         | 2        |
 | Peer failure threshold      | Integer         | 2        |
@@ -39,42 +39,42 @@ DDOS Protection support high availability, for two compatible DDoS Protector dev
 
 ### **Description:**
 
-##### **Primary Instance**
+**Primary Instance**
 
 Specify the default instance from the drop-down that will have an active mode on start-up
 
-##### **HA Mode**
+**HA Mode**
 
 Specify the high availability mode between multiple mitigation instances
 
-##### **HA Port**
+ **HA Port**
 
 Specify port over which mitigation instances communicate with each other
 
-##### **Peer check interval**
+**Peer check interval**
 
 Specify the time (in sec) after which one mitigation instance checks the health of its peer
 
-##### **Peer failure threshold**
+**Peer failure threshold**
 
 Specify the number of failed peer health checks after which a mitigation instance considers its peer unhealthy
 
-##### **Max allowed steps**
+ **Max allowed steps**
 
 In some situations, two mitigation instances may Allowed keep changing their state from active to inactive. A Flaps flap is counted when the instance leaves the active state. This can result in poor network performance and can disrupt normal traffic flows. Specify allowed number of flaps after which the primary instance goes into hardware bypass
 
-##### **Enabled Bandwidth Monitoring**
+ **Enabled Bandwidth Monitoring**
 
 Specify if bandwidth monitoring should be used to trigger fail over in the HA cluster
 
-##### **Minimum Bandwidth**
+**Minimum Bandwidth**
 
 Specify minimum bandwidth (in bps) for a specified interval (in sec) below which fail-over is triggered
 
-##### **Link monitoring interval**
+ **Link monitoring interval**
 
 Specify the interval in milliseconds (ms) for periodic link monitoring between multiple mitigation instance
 
-##### **Minimum Active Links**
+ **Minimum Active Links**
 
 Specify the minimum allowed active link pairs below which the solution will mark itself down
