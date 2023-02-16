@@ -12,7 +12,7 @@ The session table records the connection status of on boarded listeners. It play
 
 ### How to use it
 
-1. Go to **Apps** > 
+1. Go to **Apps**
 2. Select **WAF**  > Click **Session Table**
 3. Here User can view all the connections that has been establish and also about the status of connection and timestamp as well.
 4. From **Resources**, User can select desired resource of listed listener.
