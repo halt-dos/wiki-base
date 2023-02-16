@@ -14,4 +14,6 @@ This section describes the knowledge base of how to use Haltdos WAF Community Ed
 10. [How to configure monitoring on the backend servers?](./kb-9010)
 11. [How to add multiple upstream server for load balancing?](./kb-9011)
 12. [How to configure multiple ports on same server?](./kb-9012)
-13. [How to configure WAF CE when it is running on the backend server?](./kb-9013)
+13. [How to configure WAF CE when it is running on the application server?](./kb-9013)
+14. [How to configure WAF CE when it is running on a separate machine?](./kb-9014)
+15. [What are the feature wise capability difference between Haltdos WAF CE & Haltdos WAF Enterprise edition?](./kb-9015)
