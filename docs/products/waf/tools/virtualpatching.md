@@ -1,6 +1,7 @@
 ---
-sidebar_position: 11
+sidebar_position: 6
 ---
+
 # Virtual Patching 
 Integration with SAST / DAST scanners
 
@@ -20,7 +21,7 @@ Virtual Patching is a feature of Haltdos WAF to display all the scan results and
 
 ### How to Use:
 
-1. Go to **WAF** > **Listener** > **Virtual Patching**
+1. Go to **WAF** > **Virtual Patching**
 2. Configure your settings
 3. Click **Save Changes**.
 

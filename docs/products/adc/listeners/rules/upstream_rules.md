@@ -12,14 +12,10 @@ If a user has defined server group and wants to use different groups depending u
 
 ### How to Use:
 
-1. Go to Stack > [**SLB**](/adc/docs) > [**Listeners**](../../listeners/) > **Rules**.
-
+1. Go to Stack > [**SLB**](../../adc.md) > [**Listeners**](../../listeners/listeners.md) > **Rules**.
 2. Select the **Load Balancing Rules**.
-
 3. Click **Add Rule** button.
-
 4. Configure your settings. 
-
 5. Click **Save Changes**.
 
 | SETTINGS       | ACCEPTED VALUE | DEFAULT |
@@ -30,29 +26,29 @@ If a user has defined server group and wants to use different groups depending u
 | Rule Priority  | Integer        | 1       |
 | Server Group   | Drop-Down      | Blank   |
 
-### **Description**:
+### Description
 
-#### Rule Name 
+##### **Rule Name **
 
 User can specify the rule name.
 
-#### Rule Message
+##### **Rule Message**
 
 User can specify the rule message.
 
-#### Rule Enabled
+##### **Rule Enabled**
 
 Users can enable or disable the rule.
 
-#### Rule Priority
+##### **Rule Priority**
 
 User can specify the rule priority among other created rules in LB rules.
 
-#### Server Group
+##### **Server Group**
 
 User can specify which server group to associate with this particular rule.
 
-### Rule Condition
+#### **Rule Condition**
 
 ![Upstream rule](/img/adc/v2/upstreamrule1.png)
 
@@ -64,24 +60,24 @@ User can specify which server group to associate with this particular rule.
 | Match Value     | String         | Blank           |
 | Negation        | Drop-Down      | False           |
 
-### **Description**:
+### Description
 
-#### Find Location
+##### **Find Location**
 
 User can define the source location where this condition needs to be applied.
 
-#### Find Parameter
+##### **Find Parameter**
 
 The user can define the parameter based on the location of the condition.
 
-#### Match Condition
+##### **Match Condition**
 
 The user can define the match condition for the parameter and match value.
 
-#### Match Value
+##### **Match Value**
 
 The user can define what value needs to be matched with the match condition.
 
-#### Negation
+##### **Negation**
 
 The user can define either to negate the condition for this rule or not.
