@@ -30,13 +30,15 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          lastVersion: '6.0',
+          lastVersion: 'current',
           versions:{
             current: {
-              label: '7.0 RC',
-              path:'rc',
-              banner: 'none'
+              label: '7.0'
             },
+            '6.0': {
+              path:'v6',
+              banner:'none'
+            }
           },
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
