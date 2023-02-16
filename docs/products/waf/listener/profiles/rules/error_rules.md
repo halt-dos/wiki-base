@@ -25,26 +25,26 @@ Error Rules is a feature of Haltdos WAF that allows application owners to show c
 | Custom Error Page  | Drop-Down                                                                                                                                                                                                                                                                                                       | Blank    |
 ### Description
 
-#### Rule Name
+##### **Rule Name**
 Users are allowed to specify a rule name to identify the rule which is to be created. The rule name takes alpha-numeric input.
 
-#### Rule Message
+##### **Rule Message**
 Users are allowed to specify a rule message to understand the purpose of the rule. It can contain a detailed description to identify the rule.
 
-#### Rule Priority
+##### **Rule Priority**
 Users are allowed to specify the priority for the rule for execution when matched with the request.
 
-#### URI
+##### **URI**
 Users are allowed to specify the URI.
 
-#### Method
+##### **Method**
 Users are allowed to specify the method for the rule.
 
-#### HTTP Response Code
+##### **HTTP Response Code**
 Users are allowed to specify the HTTP response code based on the custom error rule name.
 
-#### Rule Action 
+##### **Rule Action**
 Users are allowed to specify the rule action. Users can select either to take no action or send custom response.
 
-#### Custom Error Page
+##### **Custom Error Page**
 Users are allowed to select the custom error page from the drop-down list.

@@ -18,7 +18,10 @@ To view real-time analytics through dashboards.
 ### **How to Use:**
 
 1. Go to **Stack**
-2. Click **Analytics**. 
+2. Click **Analytics**
+3. User can Select from **Dashboard** to obtain different Analytics.
+4. From **Resources**, User can select desired resource of listed listener.
+5. From **Date Range** User can select customize date to obtain Analytics.
 
 **Auto Refresh**
 
@@ -33,8 +36,8 @@ Real-time analytics can be customized using the filter. The following filter opt
 | PARAMETERS     | DESCRIPTION                                                                                              | ACCEPTED VALUES                                                         | DEFAULT     |
 |----------------|----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|-------------|
 | Date Range     | Select an appropriate date range no longer than 1 month                                                  | Past 5 minutes / Past 1 hour / Today / This week / This Month / Custom  | Past 1 Hour |
-| Resource / App | Select desired resource (listener, zone, app) or leave it empty for viewing results across all resources | Selection
-| Dashboard      | Select a dasbhoard consisting of charts and tables on various metrics                                    | Selection                                                               | Empty       |
+| Resource / App | Select desired resource (listener, zone, app) or leave it empty for viewing results across all resources | Dashboard
+| Dashboard      | Select a dasbhoard consisting of charts and tables on various metrics                                    | Dashboard                                                              | Empty       |
 
 
 

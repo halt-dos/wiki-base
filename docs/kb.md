@@ -4,13 +4,13 @@
 
 ----
 
-**Overview**
+## Overview
 
 The Haltdos Knowledge Base is about detailed research and analysis of frequently asked queries and issues, providing manuals, technical information, and self explanatory FAQs. Haltdos provides big databases of knowledge bases that organise content in a human readable form. If any client has a query, he can take advantage of this knowledge base to identify and find a solution for his issue. Knowledge Base provides hundreds od used case and real time scenarios of the production environments.This virtual knowledge base is more client oriented and easily accessible. The main motive of these articles is to provide a better understanding of the product and its environment.
 
 ---
 
-## **Why Knowledge Base is being provided** ##
+## Why Knowledge Base is being provided
 
 **Better & Quick Resolution**
 
@@ -35,4 +35,5 @@ the articles which are being provided for the access of the client are being upd
 2. [WAF](kb/waf/waf.md)
 3. [Application Delivery Controller](kb/adc/adc.md)
 3. [Global Server Load Balancer](kb/gslb/gslb.md)
+
 ----  
