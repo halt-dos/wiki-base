@@ -47,6 +47,7 @@ Paranoia Level configures the severity in which HTTP requests should be allowed.
 Note: Higher paranoia can also result in false positives.  
 
 Haltdos WAF comes with four Security Paranoia Levels:  
+
 - **LOW** -Adequate security level to defend almost all web applications from generic exploits. Recommended security level to ensure the least disruption from false positives.  
 
 - **MEDIUM** - A slightly higher level of security to block nearly all web application exploits. It might result in some false positives.  

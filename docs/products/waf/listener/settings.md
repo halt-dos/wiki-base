@@ -5,10 +5,11 @@ sidebar_position: 1
 # Settings
 Configure Operational settings of Listeners.
 
-### Overview
+---
 
-Users are allowed to configure many operational settings for the [Listeners](/home/haltdos/wiki-repo/wiki-adc/docs/waf/Listener). Users can configure most common settings like timeout settings, operation modes, header/body timeouts, error handling, and request logging. Users can also add server aliases and VIPs to the configured listener with the help of operational settings
-  
+## Overview
+
+Users are allowed to configure many operational settings for the [Listeners](../listener/listener.md). Users can configure most common settings like timeout settings, operation modes, header/body timeouts, error handling, and request logging. Users can also add server aliases and VIPs to the configured listener with the help of operational settings
 
 ![Listener Operational Settings](/img/waf/v2/operationalsettings1.png)  
   
@@ -18,7 +19,6 @@ Users are allowed to configure many operational settings for the [Listeners](/ho
 3. Click on Save changes.  
 
 ![Listener Operational Settings](/img/waf/v2/operationalsettings2.png)
-
 
 ![Listener Operational Settings](/img/waf/v2/operationalsettings3.png)
 
@@ -52,12 +52,10 @@ Log Format | User Define to extract log as per need. Accepted values : String | 
 Client IP Location |Specify the location of the client IP. Accepted values: DropDown|SRC IP
 Host Header|Specify the host header. Accepted values: String|Blank
 Server Aliases| Listener Identity either domain name or IP address | NULL 
-VIRTUAL IPS|Specify assigned virtual IPs for accepting traffic. Accepted Values Integer|NULL
-Add Port|Helps you to add HTTP/S ports for Advance Settings. Accepted values: Integer|Blank
+Virtual IPs|Specify assigned virtual IPs for accepting traffic. Accepted Values Integer|NULL
+Add Port|Helps you to add HTTP/S ports for Advance Settings.Accepted values: Integer|Blank
 
-
-
-## Description
+### Description
 ##### **Enable IPv6**
 This option allows user to enable traffic over IPv6 and applicable in the case of all service types. Internet Protocol version 6 is the most recent version of the Internet Protocol that allows communication to take place over the network.
 
@@ -68,13 +66,11 @@ This option allows user to specify whether the solution supports HTTP 2.0 reques
 ##### **Enable Host Check**
 Enforce host (SNI) validation for incoming request.
 
-
 ##### **Web-socket Enabled**
 This option allows user to enable web-socket support for servers or server group. It is a communication, an upgraded, quick, and seamless protocol to use when one needs to establish constant client-server communication over a single TCP connection.
 
 ##### **Enable Logging**
 This option allows user to enable access logs in the case of service type HTTP & TCP.
-
 
 ##### **Enable Static Extension Logging**
 This option allows user to specify whether to do log requests for static extension.
@@ -115,7 +111,9 @@ This option specify the list of allowed static extensions that don't require sec
 ##### **Maximum HTTP Body Size**
 This field specifies the maximum allowed HTTP body size (in bytes) from a single client IP. If the size exceeds, then the request gets dropped. By default, it is 10485760 bytes.
 
-Note: In the case of HTTP/0.9, no headers get transmitted.
+:::note
+In the case of HTTP/0.9, no headers get transmitted.
+:::
 
 ##### **Maximum HTTP Header Size**
 This field specifies the maximum allowed HTTP Header size (in bytes) from a single client IP. If size exceeds, then the request gets dropped. By default, it is 4096 bytes.
@@ -150,4 +148,6 @@ This option helps you to add HTTP/S ports for Advance Settings. Here you can be 
 
 ![setting](/img/waf/v2/addportinsettings.png)
 
-**Note:** Proxy Buffer and Proxy Buffer are sensitive configurations that can affect applications that should be configured with prior knowledge.
+:::note
+Proxy Buffer and Proxy Buffer are sensitive configurations that can affect applications that should be configured with prior knowledge.
+:::
