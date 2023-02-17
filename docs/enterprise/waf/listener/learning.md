@@ -15,7 +15,7 @@ This module also defends against 0-day attacks by assigning suspicion score to e
 
 ![learning](/img/waf/v2/learning.png)
 
-### How to Use :
+### How to Use:
 
 1. Go to **WAF** > **Listeners** > **Learning**
 2. To configure your settings. 

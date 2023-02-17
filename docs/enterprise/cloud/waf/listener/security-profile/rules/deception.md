@@ -22,7 +22,7 @@ Intercept **HTTP** responses of the original application and inject fake paramet
 1. For **GET** requests, the parameters will be added to existing `<a href>` link values.
 2. For **POST** requests, the parameters will be added as hidden input type parameters of existing forms.
 
-### How to use
+### How to Use:
 
 1. Go to **WAF > Zones > Listener > Security Profiles > Rules > Deception Rules**.
 

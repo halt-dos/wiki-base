@@ -15,7 +15,7 @@ Intercept HTTP responses of the original application and inject fake parameters 
    
 ![Deception Rule](/img/waf/deception_rules.png)
    
-### How to use
+### How to Use:
 1. Go to **WAF** > **Listener** > ** Profiles** > **Rules** > **Deception Rules**.
 2. Click on Add Rule and set relevant parameters described in the table below.
 3. Click on save changes

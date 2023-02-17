@@ -9,13 +9,11 @@ Profile Setting specifies all the operational settings for user different applic
 
 ![Profile_settings](/img/waf/v2/profile_setting.png)
    
-### How to Use
+### How to Use:
 1. Go to **WAF** > **Listener** > **Profiles** > **Settings**.
 2. Configure your settings.
 3. Click on Save Changes.
 
-
-   
 | Parameters                   | Accepted Values | Default |
 |------------------------------|-----------------|---------|
 | Operational Mode             | Drop-Down       | Bypass  |
@@ -47,6 +45,7 @@ Paranoia Level configures the severity in which HTTP requests should be allowed.
 Note: Higher paranoia can also result in false positives.  
 
 Haltdos WAF comes with four Security Paranoia Levels:  
+
 - **LOW** -Adequate security level to defend almost all web applications from generic exploits. Recommended security level to ensure the least disruption from false positives.  
 
 - **MEDIUM** - A slightly higher level of security to block nearly all web application exploits. It might result in some false positives.  

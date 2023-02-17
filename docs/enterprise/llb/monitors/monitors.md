@@ -10,7 +10,7 @@ If any of the links are monitored and marked as down, the traffic will not redir
 
 ![adding_monitor](/img/llb/v2/monitor.png)
 
-### How to Use
+### How to Use:
 
 1. Go to **Stack >LLB > Monitors**.
 

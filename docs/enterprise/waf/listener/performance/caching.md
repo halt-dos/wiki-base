@@ -13,24 +13,23 @@ When caching is enabled, WAF saves responses in a directory and uses them to res
 2. Click on **Add the Caching Setting**
 3. Click on **Save Changes**
 
-| Parameters | Accepted Values | Default |
-| ----------- | ----------- | --------- |
-| Enable Caching | Enabled/Disabled | Disabled
-| Re-validate Cache | Enabled/Disabled | Enabled
-|Enable Background Update | Enabled/Disabled | Disabled
-| Enable Cache Locking| Enabled/Disabled | Disabled
-| Cache Methods | HTTP Methods | GET, HEAD
-| Maximum Request Cache Size | Integer | Blank
-| URI Filter | Regex | Blank
-| Mime Type Filter | String| Blank
-| Use Stale Cache | Type of errors to be cached | HTTP 500 Errors
-| Response Codes | Response Codes| Blank
-| Minimum Use Before Caching | Integer| 3
-| Cache Validity | Minutes| 5
-| Browser Cache Expiry | Days | 0
+ | Parameters | Accepted Values | Default |
+ | ----------- | ----------- | --------- |
+ | Enable Caching | Boolean | Disabled
+ | Re-validate Cache | Boolean | Enabled
+ | Enable Background Update | Boolean | Disabled
+ | Enable Cache Locking| Boolean | Disabled
+ | Cache Methods | HTTP Methods | GET, HEAD
+ | Maximum Request Cache Size | Integer | Blank
+ | URI Filter | Regex | Blank
+ | Mime Type Filter | String| Blank
+ | Use Stale Cache | Type of errors to be cached | HTTP 500 Errors
+ | Response Codes | Integer| Blank
+ | Minimum Use Before Caching | Integer| 3
+ | Cache Validity | Integer| 5
+ | Browser Cache Expiry | Integer | 0
 
-![caching](/img/waf/v2/prformance_caching1.png)
-
+![caching](/img/waf/v2/prformance_caching1.png)  
 
 ### Description 
 

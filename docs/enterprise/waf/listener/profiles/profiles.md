@@ -1,5 +1,7 @@
 Profiles create different security profiles for different sub-sections of your website.
 
+---
+
 ### Overview
 Profiles is the default profile that contains most commonly used web application settings served through a virtual service. For customizing a profile, it is highly recommended to create a new profile instead of editing the default profile. 
 
@@ -10,6 +12,8 @@ Profiles is the default profile that contains most commonly used web application
 2. Click **Add Profile**.
 3. Configure your settings.
 4. Click **Save Changes**.
+
+![Profiles.png](/img/waf/v2/profile12.png)
    
 | Parameters         | Accepted Values | Default |
 |--------------------|-----------------|---------|
@@ -18,6 +22,7 @@ Profiles is the default profile that contains most commonly used web application
 | Application Type   | Drop-Down       | Others  |
 | Protocol           | Drop-Down       | Any     |
 | Countries          | Drop-down       | Blank   |
+| URI                | String          | Blank   |
 | Source IP Prefixes | IP Address      | Blank   |
 | Destination Port   | Integer         | Blank   |
 | Reference          | Drop-Down       | None    |
@@ -43,7 +48,11 @@ This option specifies the service type for the subdomain i.e. HTTP, TCP, UDP. Ba
 
 **Countries:**
 
-This option specify countries from where request is coming should match with this profile.
+This option specify countries from where request is coming should match with this profile. 
+
+**URI**
+
+This option specify the URI that will be matched with this profile. Once the URI matched, policies configured under this profiles will be implemented.
 
 **Source IP Prefixes:**
 

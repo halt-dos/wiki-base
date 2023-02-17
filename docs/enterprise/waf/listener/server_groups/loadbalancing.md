@@ -38,7 +38,7 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
 
 ![Load Balancing](/img/waf/v2/loadbalancing1.png)
 
-### How to use:
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Server Groups** > **Load Balancing**
 
 2. Set the configurations and **Save Changes**.

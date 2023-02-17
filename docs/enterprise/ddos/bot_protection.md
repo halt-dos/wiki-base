@@ -4,15 +4,15 @@ sidebar_position: 3
 
 # Bot Protection
 
-Overview
-
 ---
+
+## Overview 
 
 Bot protection protects your device from external malicious activities, authenticate from human activity and protect the customer from brute force login attempt and probing the applications.
 
 ![bot_protection](\img\ddos\v2\botprotection.png)
 
-**How to Use:**
+### How to Use:
 
 1. Go to **Stack > DDOS > Bot Protection**
 2. Configure **Settings**
@@ -25,7 +25,7 @@ Bot protection protects your device from external malicious activities, authenti
 | Tor Traffic                  | Drop Down        | No Action |
 | Bad Reputation Traffic       | Drop Down        | No Action |
 
-### **Description:**
+### Description
 
 **Temporary Blacklist Duration**
 

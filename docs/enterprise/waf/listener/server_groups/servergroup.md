@@ -20,7 +20,7 @@ Monitoring, when you get the state of the server or server group with one comman
 
 ![Server Group](/img/waf/v2/servergroup.png)
 
-### How to Use :
+### How to Use:
 
 1. Go to **WAF** > **Listeners** > **Server Groups**
 2. Click **Add Server Group** and Configure details.

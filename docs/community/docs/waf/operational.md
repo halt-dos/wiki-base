@@ -13,7 +13,7 @@ Users are allowed to configure many operational settings for the Listeners confi
    
 ![Operational Settings](/img/community-waf/Lsettings3.png)
    
-### How to Use
+### How to Use:
 
 1. Go to **WAF** > **Operational**.
 2. Configure the settings.

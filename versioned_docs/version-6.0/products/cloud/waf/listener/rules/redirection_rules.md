@@ -11,7 +11,7 @@ These rules allow you to configure redirection for your application pages
 
 Redirection Rules is a feature of Haltdos WAF that allows application owners to redirect a request to another site or URL, temporarily or permanently on matching a particular URL pattern.
 
-### How to Use
+### How to Use:
 
 1. Follow the links: **WAF > Zones > Listeners > Rules > Redirection Rules**.
 

@@ -9,7 +9,7 @@ Rate Limiting is a feature of Haltdos WAF that allows application owners to enfo
 
 **Warning** Manual configuration of rate limit rules is risky for administrators without the relevant training and experience. Badly conceived or misconfigured rate limit rules can result in loss of performance, incorrect behavior.
 
-### How to Use
+### How to Use:
 
 1. Log onto the Haltdos Community WAF portal.
 2. Go to **WAF** > **Rules** > **Rate Limit Rule**

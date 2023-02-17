@@ -26,32 +26,32 @@ sidebar_position: 3
 | SNMP Security level  | Drop-Down      | No Auth & privacy |
 | SNMP Check Type      | Drop-Down      | CPU Measurement   |
 
-#### Description:
+### Description:
 
-#### Enable Monitoring
+##### **Enable Monitoring**
 
 This option allows users to specify enabling SNMP monitoring.
 
-#### SNMP port
+##### **SNMP port**
 
 This option allows users to specify the SNMP port.
 
-#### SNMP Version
+##### **SNMP Version**
 
 This option allows users to specify the SNMP version for monitoring.
 
-#### SNMP Username
+##### **SNMP Username**
 
 This option allows users to specify SNMP usernames.
 
-#### SNMP Community
+##### **SNMP Community**
 
 This option allows users to specify SNMP Community.
 
-#### SNMP Security level 
+##### **SNMP Security level **
 
 This option allows users to specify the SNMP security level.
 
-#### SNMP Check Type
+##### **SNMP Check Type**
 
 This option allows users to specify SNMP checks.

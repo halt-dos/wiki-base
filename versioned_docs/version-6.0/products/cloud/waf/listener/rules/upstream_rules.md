@@ -11,7 +11,7 @@ You can switch between your server groups by creating upstream rules.
 
 If a user has defined **server groups** and wants to use different groups depending upon different conditions then he can make use of Upstream Rules. For example, if a user wants its /API calls to be served by server-group "API" and console by "DEFAULT" then he can create a rule with a search pattern and search location as URL/Header/Cookie/Body/Arguments.
 
-### How to use:
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Rules > Upstream Rules**
 

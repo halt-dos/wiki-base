@@ -9,7 +9,7 @@ Whitelist Rules help to list services that access your site regularly (APIs, cra
 Here’s another use case: To reduce insider threat, a cyberattack caused behind company doors businesses with BYOL policies whitelist websites, they consider safe for employees to visit when using their private network.
    
 ![Whitelist Rule](/img/waf/v2/whitelist.png)
-### How to use
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Profiles** > **Rules** > **Whitelist Rules**.
 2. Click on the Add Rule button and a pop-up box will open.
 3. Configure the Fields that are present.

@@ -12,7 +12,7 @@ VPN group feature is used to add a VPN group. A user can be a part of one VPN gr
 
 ![vpnusers](/img/gslb/vpnusers2.png)  
 
-### How to use
+### How to Use:
 
 1. First go to **Stack** > **SSL VPN** > **VPN Users**.
 2. Click on **Add User** and fill all the information.

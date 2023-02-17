@@ -1,4 +1,4 @@
-# Knowledge Base
+# Knowledge Bas
 
  Knowledge Base is a centralized repository of information of the Haltdos Solution.It is available publicly, which provides users  a particular product of the server side product.
 

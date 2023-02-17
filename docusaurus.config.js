@@ -33,9 +33,12 @@ const config = {
           lastVersion: 'current',
           versions:{
             current: {
-              label: '7.0',
-              banner: 'none'
+              label: '7.0'
             },
+            '6.0': {
+              path:'v6',
+              banner:'none'
+            }
           },
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
