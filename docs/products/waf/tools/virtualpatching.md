@@ -8,14 +8,7 @@ Integration with SAST / DAST scanners
 ---
 
 ### Overview
-Virtual Patching is a feature of Haltdos WAF to display all the scan results and showcase the graph and statistics of the application scanned. Some of the supported scanners include:
-
-
-:black_circle: Burp(XML)
-
-:black_circle: OWASP Zap(Json)
-
-:black_circle: Acunetix(Json)
+Virtual Patching is a feature of Haltdos WAF to display all the scan results and showcase the graph and statistics of the application scanned.
 
 ![virtualpatching](/img/waf/v2/virtualpatching.png)
 
