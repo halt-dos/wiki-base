@@ -13,7 +13,7 @@ User can set security related configuration under the security tab.
 ![security](/img/gslb/security.png)  
 
 
-### How to use:
+### How to Use:
 1. Go to **Stack** > **VPN** > **Settings** > **Security**.  
 2. Configure the settings as per requirement.  
 3. Click on **Save Changes**  

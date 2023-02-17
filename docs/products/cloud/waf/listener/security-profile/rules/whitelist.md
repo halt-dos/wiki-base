@@ -16,7 +16,7 @@ Whitelist Rules help to list services that access your site regularly (APIs, cra
 
 Here’s another use case: To reduce insider threat, a cyberattack caused behind company doors businesses with BYOL policies whitelist websites, they consider safe for employees to visit when using their private network.
 
-### How to use
+### How to Use:
 
 Follow the Steps Given Below to configure a Whitelist Rule:
 

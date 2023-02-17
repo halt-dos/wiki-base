@@ -12,7 +12,7 @@ Since the security enforcement layer analyzes transactions and intercepts attack
 
 ![Scan Importer](/img/waf/v2/scanimporter.png)
 
-### How to use:
+### How to Use:
 
 1. Go to **WAF** > **Tools** > **Scan Importer**
 2. Configure your scanner settings.

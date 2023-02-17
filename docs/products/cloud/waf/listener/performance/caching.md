@@ -11,7 +11,7 @@ How to enable and configure caching of responses received?
 
 When caching is enabled, WAF saves responses in a directory and uses them to respond to clients without having to proxy requests for the same content every time.
 
-### How to use
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Performance > Caching**
 

@@ -11,7 +11,7 @@ Any parameter from the Request/Response can be stored in a variable.
 
 ![variable rule](/img/waf/v2/variablerule.png)
 
-### How to use:
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Rules** > **Variable Rules**
 2. Create rules with different conditions
 3. Click on **Save Changes**

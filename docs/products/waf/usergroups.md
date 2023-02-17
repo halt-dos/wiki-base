@@ -13,7 +13,7 @@ Haltdos Cloud provides multi-level RBAC access control over Stack. This allows o
 
 ![User Group](/img/waf/v2/usergroup.png)
 
-### How to Use
+### How to Use:
 
 1. Go to **WAF** > **User Group**
 2. Click on **Add Group** 

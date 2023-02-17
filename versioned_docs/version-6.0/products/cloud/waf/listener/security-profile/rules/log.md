@@ -14,7 +14,7 @@ These rules prevent Haltdos WAF from logging sensitive information like password
 
 Log Rules provide the user with the functionality to hide certain fields or sensitive data from the access logs to avoid misuse and sensitive data leakage.
 
-### How to Use
+### How to Use:
 
 1. Follow the links: **WAF > Zones > Listeners > Security Profiles > Rules > Access Log** 
 2. Click on **Add Rule** and set relevant parameters described in the table below.

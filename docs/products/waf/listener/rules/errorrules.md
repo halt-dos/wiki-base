@@ -8,7 +8,7 @@ Error Rules is a feature of Haltdos WAF that allows application owners to show c
 
 ![error rules](/img/waf/v2/error_rule.png)
 
-### How to Use :
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Rules** > **Error Rules**.
 2. Click on **Add Rule** and set relevant parameters described in the table below.
 3. Click on **Save Changes**.

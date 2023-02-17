@@ -17,7 +17,7 @@ Our WAF provides the facility of in-built antivirus. Also, the user can set up t
 
 **External**: If an ICAP (Internet Content Adaptation Protocol) server is already configured for antivirus, then it can be used by providing the details on this screen.
 
-### How To Use 
+### How To Use:
 1. Go to **WAF** > **Listener** > **Profiles** > **Antivirus**
 2. Configure your setting 
 3. Click on **Save Changes**

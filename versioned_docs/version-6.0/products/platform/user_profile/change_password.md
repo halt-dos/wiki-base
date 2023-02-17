@@ -14,7 +14,7 @@ Changing your password through the Haltdos Cloud is a simple process. This artic
 
 If you are unable to log into the Haltdos Cloud, follow below steps to Change Password
 
-### How to Use
+### How to Use:
 
 1. Login to the console.
 2. Select Profile from the User drop-down in the top right corner.

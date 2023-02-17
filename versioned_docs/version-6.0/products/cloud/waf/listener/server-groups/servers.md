@@ -11,7 +11,7 @@ Configure the application servers
 
 Configuration of upstream servers in a server group can be modified on-the-fly by using Servers.
 
-### How to use:
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Server Groups > Servers**
 

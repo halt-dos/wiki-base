@@ -12,7 +12,7 @@ These rules filter responses from applications and prevent sensitive data leaks
 
 Response Filtering is a feature of Haltdos WAF that allows application owners to filter responses from backend application servers for HTTP requests on matching specified URL patterns.
 
-### How to Use
+### How to Use:
 
 1. Follow the links: **WAF > Zones > Listener > Security Profiles > Rules > Response Filtering**.
 

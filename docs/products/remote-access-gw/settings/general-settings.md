@@ -14,7 +14,7 @@ General settings are used to set configure settings like authentications, TCP an
 
 ![settings](/img/gslb/general2.png)  
 
-### How to use: 
+### How to Use: 
 1. First go to **Stack** > **VPN** > **Settings** > **General**.
 2. Configure the settings as per your requirements.
 3. Click on **Save Changes**.

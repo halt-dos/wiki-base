@@ -9,13 +9,11 @@ Profile Setting specifies all the operational settings for user different applic
 
 ![Profile_settings](/img/waf/v2/profile_setting.png)
    
-### How to Use
+### How to Use:
 1. Go to **WAF** > **Listener** > **Profiles** > **Settings**.
 2. Configure your settings.
 3. Click on Save Changes.
 
-
-   
 | Parameters                   | Accepted Values | Default |
 |------------------------------|-----------------|---------|
 | Operational Mode             | Drop-Down       | Bypass  |

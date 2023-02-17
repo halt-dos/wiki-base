@@ -17,16 +17,15 @@ It is recommended to integrate Haltdos solutions with SMTP for receiving timely 
 ![E-Mail](/img/platform/v2/emaill.png)
 
 ### How to Use:
-1. Go to  **Administrator** (Present at the Top Right Side)
-2. Click **System**
-3. Select **Email**
-4. Configure E-Mail Settings
-5. Click **Save Changes**
+1. Go to **System** (Present at the Top Right Side)
+2. Select **E-Mail**
+3. Configure E-Mail Settings
+4. Click **Save Changes**
 
 ![E-Mail](/img/platform/v2/emailll.png)
 
 
-#### Description
+### Description
 
 **Enable Email Notifications**  
 This feature allows users to enable notification via emails. By default, this option is set to disable.  

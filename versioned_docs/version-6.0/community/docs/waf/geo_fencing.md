@@ -9,7 +9,7 @@ Geo Fencing is a smart way to limit access to Internet content as per the geogra
 
 ![Geo Fencing](/img/community-waf/geo_filtering.png)
 
-### How to Use
+### How to Use:
 1. Log onto the Haltdos console then go to **WAF** > **Geo Fencing** 
 2. Configure the settings.
 3. Click on save.

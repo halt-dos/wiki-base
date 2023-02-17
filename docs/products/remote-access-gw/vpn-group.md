@@ -13,7 +13,7 @@ This option allows users to add multiple VPN Users. User can be a part of a spec
   
 ![vpngroup](/img/gslb/usergroups2.png)  
 
-### How to use  
+### How to Use:
 
 1. Go to **Stack** > **SSL VPN** > **VPN Groups.**
 2. Click on **Add Group** button.

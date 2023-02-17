@@ -4,21 +4,21 @@ sidebar_position: 2
 
 # Geo Inspection
 
-Overview
-
 ---
+
+## Overview
 
 Geo Filtering is an ability to filter out request coming from different geographical locations and taking actions to block the Country & IP address if required. In the Geo-filtering settings, we can configure Blacklisted Countries, Blacklisted IP Prefixes, and Whitelisted IP Prefixes.
 
 ![geo_filtering](/img/ddos/v2/geofiltering.png)
 
-**How to Use:**
+### How to Use:
 
-1. Go to **Stack > Resource > DDoS > Geo Filtering**
+1. Go to **App > DDoS > Geo Filtering**
 
 2. Configure the settings as per requirement.
 
-3. Click on **Save** to change the settings.
+3. Click on **Save Changes** to change the settings.
 
 | Settings                | Accepted Values      | Default   |
 |-------------------------|----------------------|-----------|
@@ -26,7 +26,7 @@ Geo Filtering is an ability to filter out request coming from different geograph
 | Blacklisted IP Prefixes | IP Address with CIDR | Blank     |
 | Whitelisted IP Prefixes | IP Address with CIDR | Blank     |
 
-### **Description:**
+### Description:
 
 **Blacklisted Countries**
 

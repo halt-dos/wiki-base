@@ -9,7 +9,7 @@ Haltdos audit trail is a sequence of recorded computer events that involves any 
 -----
 Audit trails (or audit logs) act as record-keepers that document evidence of certain events, procedures or operations, so their purpose is to reduce fraud, material errors, and unauthorized use
 
-### How to use
+### How to Use:
 
 1. Go to **Stack > Settings > Audit Trail**
 2. Configure your settings

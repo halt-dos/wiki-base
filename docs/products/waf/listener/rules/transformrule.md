@@ -14,7 +14,7 @@ Transform Rule allow user to do HTML encoding beacause it ensures that text will
 
 ![transformrule](/img/waf/v2/transformrule.png)
 
-### How to use:
+### How to Use:
 
 1.Go to **WAF** > **Listeners** > **Rules** > **Tranform Rule**
 

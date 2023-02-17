@@ -11,7 +11,7 @@ The Tamper rule is a feature of Haltdos WAF that provides encryption for the use
    
 ![Tamper Rule](/img/waf/v2/temper_rule.png)
    
-### How to Use
+### How to Use:
 1. Follow the links: **WAF** > **Listener** >  **Profiles** > **Rules** > **Tamper Rules**
 2. Click on Add Rule and set relevant parameters described in the table below.
 3. Click on save changes.

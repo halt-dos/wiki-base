@@ -7,7 +7,7 @@ sidebar_position: 7
 
 Signatures contain rules that are evaluated for each request that passes through WAF. The rules offer protection from many different types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application. The WAF has multiple types of Rules designed to target specific use cases.
 
-### How to Use
+### How to Use:
 1. Log onto the Haltdos console then go to **WAF** > **Signatures**
 2. You can change the status of the signature to **PROD**, **STAGED**.
 3. Configurations will be deployed successfully.

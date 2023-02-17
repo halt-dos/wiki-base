@@ -35,7 +35,7 @@ This field specifies the load balancing algorithm according to the configured we
 
 Note: In hashing-based load balancing,  if a specified value does not exists then the request is served on the basis of client's IP address.
 
-### How to use:
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Server Groups > Load Balancing**
 

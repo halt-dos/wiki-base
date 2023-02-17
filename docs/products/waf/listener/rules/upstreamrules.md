@@ -12,7 +12,7 @@ If a user has defined server groups and wants to use different groups depending 
 
 ![upstream rules](/img/waf/v2/upstream1.png)
 
-### How to use:
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Rules** > **Upstream Rules**
 2. Create rules with different conditions
 3. Click on **Save Changes**

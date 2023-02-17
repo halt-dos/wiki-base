@@ -8,7 +8,7 @@ Response Filtering is a feature of Haltdos WAF that allows application owners to
    
 ![Response Rule](/img/waf/v2/responserule.png)
    
-### How to Use
+### How to Use:
 1. Follow the links: **WAF** > **Listener** >  **Profiles** > **Rules** > **Response Rule**.
 2. Click on Add Rule and set relevant parameters described in the table below.
 3. Click on save changes.

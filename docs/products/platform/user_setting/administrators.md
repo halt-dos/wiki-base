@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Admin Users
+# Administrators
 
 Managing Administrators on Haltdos Platform
 
@@ -14,9 +14,9 @@ Haltdos supports having multiple administrators for managing Haltdos appliances.
 
 **How to Use:**
 
-1. Go to Administrators
+1. Go to **Administrators** under **User Settings**
 2. Configure your settings
-3. Click Save
+3. Click **Save Changes**
 
 | PARAMETERS   | DESCRIPTION                         | ACCEPTED VALUES | DEFAULT |
 |--------------|-------------------------------------|-----------------|---------|

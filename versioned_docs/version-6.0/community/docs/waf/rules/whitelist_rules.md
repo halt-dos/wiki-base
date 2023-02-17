@@ -11,7 +11,7 @@ Here’s another use case: To reduce insider threat, a cyber attack caused behin
    
 ![Whitelist Rule](/img/community-waf/whitelisting_rule.png)
 
-### How to use
+### How to Use:
 1. Log onto the Haltdos Community WAF portal.
 2. Go to **WAF** > **Rules** > **Whitelist Rules**.
 3. Click on the Add Rule button and a pop-up box will open.
