@@ -18,11 +18,15 @@ SNMP relies on the concept of an MIB to organize how information about device me
 
 SNMP uses a blend of pull and push communications between network devices and the network management system. Haltdos devices that communicate through SNMP respond to it by delivering protocol data units, commonly known as SNMP GET requests. All of these communications are recorded, and network monitoring software uses them to obtain SNMP data. Network admins can track the data value they specify using these queries.
 
-![snmp](/img/platform/snmp1.png)
+![snmp](/img/platform/v2/snmp.png)
+
+![snmp](/img/platform/v2/snmp1.png)
+
+![snmp](/img/platform/v2/snmp2.png)
 
 ### How to Use:
 
-1. Go to **Stack > Instances > (Select Instance) > Network > SNMP**
+1. Go to **System > Instances > (Select Instance) > Network > SNMP**
 2. Configure your settings.
 3. Click on save changes.
 

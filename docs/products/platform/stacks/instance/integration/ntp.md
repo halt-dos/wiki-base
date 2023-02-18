@@ -8,11 +8,11 @@ sidebar_position: 2
 
 Network Time Protocol (NTP) is a protocol that provides a very reliable way of transmitting and receiving an accurate time source over TCP/IP-based networks.
 
-![ntp](/img/platform/ntp1.png)
+![ntp](/img/platform/v2/ntp.png)
 
 ### How to Use:
 
-1. Go to **Stack > Instances > (Select Instance) > Network > NTP**
+1. Go to **System > Instances > (Select Instance) > Network > NTP**
 2. Configure your settings.
 3. Click on save changes.
 

@@ -11,11 +11,11 @@ Border Gateway Protocol (BGP) is a standardized exterior gateway protocol design
 
 Haltdos solution supports dynamic routing over BGP protocol. This section details how to configure Haltdos to support BGP.
 
-![bgp](/img/platform/bgp1.png)
+![bgp](/img/platform/v2/bgp.png)
 
 ### How to Use:
 
-1. Go to Stack > Instances > Instance > Routing > BGP
+1. Go to **System > Instances > Instance > Routing > BGP**
 2. Configure your settings
 3. Click Save Changes
 

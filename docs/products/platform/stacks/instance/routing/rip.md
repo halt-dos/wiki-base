@@ -14,11 +14,11 @@ RIPv2 suffers from scalability issues due to a relatively low maximum hop count 
 
 For compatibility, Haltdos solution supports RIP v1 and RIP v2. This section details how to configure Haltdos to support RIP v1/2.
 
-![rip](/img/platform/rip.png)
+![rip](/img/platform/v2/rip.png)
 
 ### How to Use:
 
-1. Go to **Stack > Instances > Instance > Routing > RIP**
+1. Go to **System > Instances > Instance > Routing > RIP**
 2. Configure your settings
 3. Click Save Changes
 

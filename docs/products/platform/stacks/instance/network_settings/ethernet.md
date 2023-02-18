@@ -10,15 +10,17 @@ Listing of ethernet cards (NIC) on the hardware / VM
 
 This section allows you to configure Ethernet settings on available NIC cards on the physical or virtual instance. You can configure IP addresses, gateway, routes and routing policies per interface.  
 
-![Ethernet](/img/platform/ethernet1.png)
+![Ethernet](/img/platform/v2/nw_ethernet.png)
 
 ### How to Use:
 
-1. Go to **Stack > Instances > Instance > Network > Ethernet**
+1. Go to **Ethernet > Instances > Instance > Network > Ethernet**
 2. Configure your settings
 3. Click Save
 
-![Ethernet](/img/platform/ethernet2.png)
+![Ethernet](/img/platform/v2/nw_ethernet1.png)
+
+![Ethernet](/img/platform/v2/nw_ethernet2.png)
 
 | PARAMETERS           | ACCEPTED VALUES       | DEFAULT              |
 |----------------------|-----------------------|----------------------|

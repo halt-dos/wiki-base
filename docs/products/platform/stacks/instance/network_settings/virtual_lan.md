@@ -10,7 +10,11 @@ Creating and managing multiple VLANs on Haltdos appliance
 
 This section shows how users can create and maintain multiple VLANs on Haltdos appliance / virtual instance. Apart from creating VLANs, users can also configure custom routing and route policies on traffic coming on VLANs.
 
-![vlan](/img/platform/vlan1.png)
+![vlan](/img/platform/v2/virtual_lan.png)
+
+![vlan](/img/platform/v2/virtual_lan1.png)
+
+![vlan](/img/platform/v2/virtual_lan2.png)
 
 ### How to Use:
 

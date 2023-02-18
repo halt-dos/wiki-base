@@ -13,3 +13,11 @@ Haltdos GUI allows users to finely control and configure network settings for al
 Advanced options such as DHCP or configuring advanced routing such as BGP, OSFP, etc. can also be done through GUI.
 
 For more information, go to individual options inside Network Settings.
+
+##### 1. Ethernet
+
+##### 2. Virtual Lan
+
+##### 3. Link Bonds
+
+##### 4. Routing 

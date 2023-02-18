@@ -24,11 +24,11 @@ Haltdos platform supports multiple modes of operations of various Apps depending
     - Netflow / IPFIX / SFlow
     - Parsing access logs
 
-![Operational setting](/img/platform/operational_settings1.png)
+![Operational setting](/img/platform/v2/instance_operation.png)
 
 ### How to Use:
 
-1. Go to **Stack > Instances > Instance > Operational**
+1. Go to **System > Instances > Instance > Operational**
 2. Configure your settings
 3. Click Save
 

@@ -10,11 +10,13 @@ Link Aggregating of Ethernet NICs for high throughput and reliability
 
 Aggregating two or more links to achieve one fat link brings a number of advantages, in short more bandwidth. Haltdos appliances (physical or virtual instanes) support Link bonding that combines multiple NICs that are running in Active-Active or Active-Passive scenarios.
 
-![linkbonds](/img/platform/linkbonds1.png)
+![linkbonds](/img/platform/v2/link_bond.png)
+
+![linkbonds](/img/platform/v2/link_bond1.png)
 
 ## How to Use:
 
-1. Go to **Stack > Instances > Instance > Network > Link Bonds**
+1. Go to **System > Instances > Instance > Network > Link Bonds**
 2. Configure your settings
 3. Click Save
 
