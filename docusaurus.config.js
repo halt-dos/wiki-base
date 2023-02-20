@@ -83,46 +83,14 @@ const config = {
           srcDark: 'img/logo/icon_dark.png'
         },
         items:[
-          {
-            label: 'Products',
-            position: 'left',
-            items: [
-              {
-                label: 'Haltdos Community WAF',
-                to: 'community',
-              },
-              {
-                label: 'Haltdos Enterprise',
-                to: 'enterprise',
-              }
-            ],
-            className: 'navbar__link--products',
-          },
+          {to: 'kb', label: 'Knowledge Base', position: 'left'},
+          {to: 'glossary', label: 'Glossary', position: 'left'},
+          {href: 'https://haltdos.com/blogs',label: 'Blogs',target: '_blank', rel: null},
+          {href: 'https://haltdos.com',label: 'Haltdos',target: '_blank', rel: null},
           {
             type: 'docsVersionDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
-          },
-          {
-            label: 'More',
-            position: 'right',
-            items: [
-              {
-                href: 'https://haltdos.com',
-                label: 'Haltdos',
-                target: '_blank',
-                rel: null,
-              },
-              {
-                label: 'Knowledge Base',
-                to: 'kb',
-              },
-              {
-                label: 'Glossary',
-                to: 'glossary',
-              }
-            ],
-            className: 'navbar__link--more',
           }
         ]
       },

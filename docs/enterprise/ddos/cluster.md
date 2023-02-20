@@ -8,11 +8,13 @@ For High Availability
 
 ---
 
+## Overview
+
 DDOS Protection support high availability, for two compatible DDoS Protector devices to operate in Active – Active, Active – Passive, Cluster mode.
 
 ![ha_settings](\img\ddos\ddos31.png)
 
- **How To Use:**
+### **How To Use:**
 
 1. Go to **Stack > Instance > Instance Name > HA**
 
