@@ -8,22 +8,22 @@ Suppose company ABC is having a listener Test.com which is having a back-end ser
 
 ![Diagram](/img/adc/scenarios/scenario1-1.png)
 
-**Step 1: Configuration of the management port**
+1. Configuration of the management port**
    
-![Diagram](/img/adc/scenarios/scenario1-2.png)
+![Diagram](/img/adc/scenarios/v2/scenarios1_2.png)
 
-**Step 2: Configuration of VLAN**
+2. Configuration of VLAN**
 Users need to mention the VLAN ID and mention the backend server IP address.
 
-![Diagram](/img/adc/scenarios/scenario1-3.png)
+![Diagram](/img/adc/scenarios/v2/scenarios1_3.png)
 
-**Step 3: Configuration of Listener**
+3. Configuration of Listener**
 
-![Diagram](/img/adc/scenarios/scenario1-4.png)
+![Diagram](/img/adc/scenarios/v2/scenarios1_4.png)
 
-**Step 4: Verification of backend Server**
+4. Verification of backend Server**
 
-![Diagram](/img/adc/scenarios/scenario1-5.png)
+![Diagram](/img/adc/scenarios/v2/scenarios1_5.png)
 
 
 
