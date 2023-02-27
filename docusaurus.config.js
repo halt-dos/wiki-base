@@ -84,6 +84,7 @@ const config = {
         },
         items:[
           {to: 'kb', label: 'Knowledge Base', position: 'left'},
+          {to: 'api', label: 'API', position: 'left'},
           {
             type: 'docsVersionDropdown',
             position: 'right',
