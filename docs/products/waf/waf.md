@@ -5,14 +5,6 @@ pagination_prev: null
 
 # Web Application Firewall (WAF)
 
----
-
-Application delivery controllers(ADC) are networking appliances that manage traffic flow to servers. The function of ADC is to improve the performance, security and resiliency of applications delivered over the web. Application Delivery Controller (ADC) comprises Server Load Balancer (SLB), Link Load Balancer (LLB), Global Server Load Balancer (GSLB), API Gateway and Web Application Firewall (WAF / WAAP) features.
-
----
-
-## Web Application Firewall
-
 Web Application Firewall (WAF/ WAAP) is a reverse proxy solution which helps to protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It secures a company's Web applications against application layer cyber-attacks such as SQL-Injection, Cross-Site Scripting (XSS), Session Hijacking, and OWASP top 10 vulnerability threats.  
 
 WAF works as the intermediary as well as shield between the user and the app itself, analyzing and securing all communications before they reach the app or the user. A WAF operates through a set of rules often called policies. These policies aim to protect against vulnerabilities in the application by filtering out malicious traffic.  
