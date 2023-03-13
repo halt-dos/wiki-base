@@ -3,6 +3,8 @@ sidebar_position: 7
 ---
 # Signatures
 
+---
+
 ## Overview
 
 Signatures contain rules that are evaluated for each request that passes through WAF. The rules offer protection from many different types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application. The WAF has multiple types of Rules designed to target specific use cases.
@@ -22,17 +24,17 @@ Signatures contain rules that are evaluated for each request that passes through
 
 ### Description
 
-##### Rule Id
+#### Rule Id
 Predefined rule id for the signatures. The Id is unique for each rule.
 
-##### Type
+#### Type
 It specifies the type of signature like Firewall, Response, etc.
 
-##### Name
+#### Name
 
 It specifies the name of the signatures. The name describes the identity of the rule which helps the user understand what is the use of that rule.
 
-##### Status
+#### Status
 
 It specifies the status of the signature and can be set accordingly to PROD / STAGED.
 

@@ -39,24 +39,24 @@ In order to generate a certificate, it's a three-step based process i.e.
 Let's Encrypt certificate are valid for 3 months only. In order to renew, we have to re-issue the certificate with the same steps as mentioned above.
 :::
    
-#### **Step 1: Order Certificate**
+##### **Step 1: Order Certificate**
 1. Select the domain that we are aiming to issue for it.
 2. Click on Generate.
    
-#### **Step 2: Verify Challenge**
+##### **Step 2: Verify Challenge**
 1. Select appropriate challenge option i.e. **HTTP Challenge** or **DNS Challenge**.
 2. Click on **Verify Challenge**.
 3. We have to wait at least 5 minutes duration in order to re-verify the certificate to change the status to update status.  
 4. After 5 minutes, click on **Verify Challenge**.
    
-#### Step 3: Issue/Renew Certificate
+##### Step 3: Issue/Renew Certificate
 1. Click on Issue/Renew Certificate.
    
 :::note 
 Certificate verification can fail if verification is not completed within stipulated time.
 :::
    
-### Upload Certificate
+#### Upload Certificate
 To upload custom certificates, follow the steps below:
 
 | Parameters  | Accepted value |  Default                    |

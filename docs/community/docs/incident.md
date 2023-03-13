@@ -34,7 +34,6 @@ Further to detailing the incident through Incidents, users can perform various a
 
 1. Go to **WAF** > **Incidents**.
 2. Choose Type of Incidents that you want to view.
-
     - You may also check the previous incidents by changing the date.
 
 ### Description

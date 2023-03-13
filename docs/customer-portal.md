@@ -15,18 +15,18 @@ Haltdos Support is here to help you configure and manage security for your busin
 
 ---
 
-## License Management
+### License Management
 
 Customer Portal allows licensed users to view their allotted licenses, information regarding the capability enabled for each license, the expiry, deployed version, etc.
 
 ---
 
-## Guides & Knowledge Base
+### Guides & Knowledge Base
 The portal also provide extensive user guide, installation & deployment guide, knowledge base & glossary, EULA, etc. for helping customers optimally utilise Haltdos solution to its full capacity.
 
 ---
 
-## Ticketing System
+### Ticketing System
 
 To raise ticket through customer portal ticketing system for queries and issues related to the product, please follow the steps below:
 
@@ -50,7 +50,7 @@ In the **Description** field, the user can describe the ticket information.
 
 ---
 
-## View tickets
+### View tickets
 If a user wants to see the details of the ticket then the user should click on the ticket title. After click on the ticket title following details should be displayed:  
 
 - **Title**
@@ -66,7 +66,7 @@ If a user wants to see the details of the ticket then the user should click on t
 
 ---
 
-## Updating Tickets
+### Updating Tickets
 
 Users can update the ticket. When the user updates the ticket then the mail regarding ticket update is sent to the user mail id. On the Update Ticket page user can see the following details:
 
@@ -80,13 +80,13 @@ When the support team makes any response on the tickets then notification mail i
 
 ---
 
-## Re-opening tickets
+### Re-opening tickets
   
 If the solution provided by the support team does not resolve the problem, then the user can re-open the ticket.  
 
 ---
 
-## Add Response  
+### Add Response  
 
 Users can send messages on the tickets using this option. The Support team can then respond back on the same ticket.
 Closed tickets are also visible to the users on the support module.  

@@ -4,7 +4,9 @@ sidebar_position: 6
 
 # Variables
 
-### Overview
+---
+
+## Overview
 Under varaibles user can create user defiend variable by configuring it's scope and value, these variable can be further use in the WAF solution like in variable rule, behavior rule.  
 
 ![Variable](/img/community-waf/variable.png)  

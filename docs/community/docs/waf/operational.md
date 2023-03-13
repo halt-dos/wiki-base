@@ -4,7 +4,9 @@ sidebar_position: 0
 
 # Operational Settings
 
-### Overview
+---
+
+## Overview
 Users are allowed to configure many operational settings for the Listeners configured under the WAF. These setting specifies all the operational configuration for user different application type (i.e. WEBSITE/WEB SERVICE/WEB SOCKET). 
 
 ![Operational Settings](/img/community-waf/Lsettings.png)
