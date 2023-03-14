@@ -17,3 +17,4 @@ This section describes the knowledge base of how to use Haltdos WAF Community Ed
 13. [How to configure WAF CE when it is running on the application server?](./kb-9013)
 14. [How to configure WAF CE when it is running on a separate machine?](./kb-9014)
 15. [What are the feature wise capability difference between Haltdos WAF CE & Haltdos WAF Enterprise edition?](./kb-9015)
+16. [How to customize management port to listen on custom port?](./kb-9016.md)
