@@ -29,7 +29,7 @@ Almost all the features of product are mentioned in discriptive way and the issu
 the articles which are being provided for the access of the client are being updated time to time for bettter experience and usability. Any new feature in the product and issues respectively get it's update on knowledge base. the content provided in knowledge base is **Archived Content**.
 
 
-#### Users can find the below knowledge bases links to explore further;
+#### Users can find the below knowledge bases links to explore further:
 
 1. [Platform](kb/platform/platform.md)
 2. [WAF](kb/waf/waf.md)

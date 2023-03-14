@@ -18,4 +18,4 @@ This section describes the knowledge base of how to use Haltdos Global Server Lo
 
 8. [How to configure Sites?](./kb-4008)
 
-9. [How to set Alaram for raising alerts to prevent from malware attacks through GSLB Solution?](./kb-4009)
+9. [How to set Alarm for raising alerts to prevent from malware attacks through GSLB Solution?](./kb-4009)
