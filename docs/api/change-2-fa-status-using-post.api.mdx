@@ -1,0 +1,50 @@
+---
+id: change-2-fa-status-using-post
+title: "change2FaStatus"
+description: "change2FaStatus"
+sidebar_label: "change2FaStatus"
+hide_title: true
+hide_table_of_contents: true
+api: {"tags":["user-api-controller"],"operationId":"change2FaStatusUsingPOST","parameters":[{"name":"isEnabled","in":"query","description":"isEnabled","required":true,"schema":{"type":"boolean"}}],"responses":{"200":{"description":"OK","content":{"*/*":{"schema":{"type":"object","properties":{"args":{"type":"array","items":{"type":"object"}},"code":{"type":"integer","format":"int32"},"message":{"type":"string"},"valid":{"type":"boolean"}},"title":"SimpleResponse"}}}},"201":{"description":"Created"},"401":{"description":"Unauthorized"},"403":{"description":"Forbidden"},"404":{"description":"Not Found"}},"description":"change2FaStatus","method":"post","path":"/api/user/enable-2fa/otp","servers":[{"url":"//localhost:8080"}],"info":{"description":"API Endpoint Decoration","version":"1.0.0","title":"NAME OF SERVICE","contact":{"name":"Dev-Team","url":"https://www.dev-team.com/","email":"dev-team@gmail.com"},"license":{"name":"Apache 2.0","url":"http://www.apache.org/licenses/LICENSE-2.0.html"}},"postman":{"name":"change2FaStatus","description":{"type":"text/plain"},"url":{"path":["api","user","enable-2fa","otp"],"host":["{{baseUrl}}"],"query":[{"disabled":false,"description":{"content":"(Required) isEnabled","type":"text/plain"},"key":"isEnabled","value":""}],"variable":[]},"header":[{"key":"Accept","value":"*/*"}],"method":"POST"}}
+sidebar_class_name: "post api-method"
+info_path: api/name-of-service
+custom_edit_url: null
+---
+
+import ApiTabs from "@theme/ApiTabs";
+import MimeTabs from "@theme/MimeTabs";
+import ParamsItem from "@theme/ParamsItem";
+import ResponseSamples from "@theme/ResponseSamples";
+import SchemaItem from "@theme/SchemaItem";
+import SchemaTabs from "@theme/SchemaTabs";
+import DiscriminatorTabs from "@theme/DiscriminatorTabs";
+import TabItem from "@theme/TabItem";
+
+## change2FaStatus
+
+
+
+change2FaStatus
+
+<details style={{"marginBottom":"1rem"}} data-collapsed={false} open={true}><summary style={{}}><strong>Query Parameters</strong></summary><div><ul><ParamsItem className={"paramsItem"} param={{"name":"isEnabled","in":"query","description":"isEnabled","required":true,"schema":{"type":"boolean"}}}></ParamsItem></ul></div></details><div><ApiTabs><TabItem label={"200"} value={"200"}><div>
+
+OK
+
+</div><div><MimeTabs schemaType={"response"}><TabItem label={"*/*"} value={"*/*"}><SchemaTabs><TabItem label={"Schema"} value={"Schema"}><details style={{}} data-collapsed={false} open={true}><summary style={{"textAlign":"left"}}><strong>Schema</strong></summary><div style={{"textAlign":"left","marginLeft":"1rem"}}></div><ul style={{"marginLeft":"1rem"}}><SchemaItem collapsible={false} name={"args"} required={false} schemaName={"object[]"} qualifierMessage={undefined} schema={{"type":"array","items":{"type":"object"}}}></SchemaItem><SchemaItem collapsible={false} name={"code"} required={false} schemaName={"int32"} qualifierMessage={undefined} schema={{"type":"integer","format":"int32"}}></SchemaItem><SchemaItem collapsible={false} name={"message"} required={false} schemaName={"string"} qualifierMessage={undefined} schema={{"type":"string"}}></SchemaItem><SchemaItem collapsible={false} name={"valid"} required={false} schemaName={"boolean"} qualifierMessage={undefined} schema={{"type":"boolean"}}></SchemaItem></ul></details></TabItem><TabItem label={"Example (from schema)"} value={"Example (from schema)"}><ResponseSamples responseExample={"{\n  \"args\": [\n    {}\n  ],\n  \"code\": 0,\n  \"message\": \"string\",\n  \"valid\": true\n}"} language={"json"}></ResponseSamples></TabItem></SchemaTabs></TabItem></MimeTabs></div></TabItem><TabItem label={"201"} value={"201"}><div>
+
+Created
+
+</div><div></div></TabItem><TabItem label={"401"} value={"401"}><div>
+
+Unauthorized
+
+</div><div></div></TabItem><TabItem label={"403"} value={"403"}><div>
+
+Forbidden
+
+</div><div></div></TabItem><TabItem label={"404"} value={"404"}><div>
+
+Not Found
+
+</div><div></div></TabItem></ApiTabs></div>
+      

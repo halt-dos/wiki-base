@@ -1,0 +1,46 @@
+---
+id: get-component-using-get
+title: "getComponent"
+description: "getComponent"
+sidebar_label: "getComponent"
+hide_title: true
+hide_table_of_contents: true
+api: {"tags":["update-controller"],"operationId":"getComponentUsingGET","parameters":[{"name":"component","in":"query","description":"component","required":true,"schema":{"type":"string"}},{"name":"version","in":"query","description":"version","required":true,"schema":{"type":"integer","format":"int64"}}],"responses":{"200":{"description":"OK"},"401":{"description":"Unauthorized"},"403":{"description":"Forbidden"},"404":{"description":"Not Found"}},"description":"getComponent","method":"get","path":"/v1/update/component","servers":[{"url":"//localhost:8080"}],"info":{"description":"API Endpoint Decoration","version":"1.0.0","title":"NAME OF SERVICE","contact":{"name":"Dev-Team","url":"https://www.dev-team.com/","email":"dev-team@gmail.com"},"license":{"name":"Apache 2.0","url":"http://www.apache.org/licenses/LICENSE-2.0.html"}},"postman":{"name":"getComponent","description":{"type":"text/plain"},"url":{"path":["v1","update","component"],"host":["{{baseUrl}}"],"query":[{"disabled":false,"description":{"content":"(Required) component","type":"text/plain"},"key":"component","value":""},{"disabled":false,"description":{"content":"(Required) version","type":"text/plain"},"key":"version","value":""}],"variable":[]},"method":"GET"}}
+sidebar_class_name: "get api-method"
+info_path: api/name-of-service
+custom_edit_url: null
+---
+
+import ApiTabs from "@theme/ApiTabs";
+import MimeTabs from "@theme/MimeTabs";
+import ParamsItem from "@theme/ParamsItem";
+import ResponseSamples from "@theme/ResponseSamples";
+import SchemaItem from "@theme/SchemaItem";
+import SchemaTabs from "@theme/SchemaTabs";
+import DiscriminatorTabs from "@theme/DiscriminatorTabs";
+import TabItem from "@theme/TabItem";
+
+## getComponent
+
+
+
+getComponent
+
+<details style={{"marginBottom":"1rem"}} data-collapsed={false} open={true}><summary style={{}}><strong>Query Parameters</strong></summary><div><ul><ParamsItem className={"paramsItem"} param={{"name":"component","in":"query","description":"component","required":true,"schema":{"type":"string"}}}></ParamsItem><ParamsItem className={"paramsItem"} param={{"name":"version","in":"query","description":"version","required":true,"schema":{"type":"integer","format":"int64"}}}></ParamsItem></ul></div></details><div><ApiTabs><TabItem label={"200"} value={"200"}><div>
+
+OK
+
+</div><div></div></TabItem><TabItem label={"401"} value={"401"}><div>
+
+Unauthorized
+
+</div><div></div></TabItem><TabItem label={"403"} value={"403"}><div>
+
+Forbidden
+
+</div><div></div></TabItem><TabItem label={"404"} value={"404"}><div>
+
+Not Found
+
+</div><div></div></TabItem></ApiTabs></div>
+      
