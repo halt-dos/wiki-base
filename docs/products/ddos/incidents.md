@@ -23,8 +23,8 @@ Users can customize the date range for the incident details & check incident det
 | RULE       |
 | SRC IP     |
 | SRC PORT   |
-| DST IP    |
-| DST PORT  |
+| DST IP     |
+| DST PORT   |
 | PROTOCOL   |
 | FLAG       |
 | DIRECTION  |

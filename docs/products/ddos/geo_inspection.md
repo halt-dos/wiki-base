@@ -12,13 +12,13 @@ Geo Filtering is an ability to filter out request coming from different geograph
 
 ![geo_filtering](/img/ddos/v2/geofiltering.png)
 
-### How to Use:
+### How to Use
 
 1. Go to **Apps > DDoS > Geo Filtering**
 
 2. Configure the settings as per requirement.
 
-3. Click on **Save Changes** to change the settings.
+3. Click on **Save Changes**.
 
 | Settings                | Accepted Values      | Default   |
 |-------------------------|----------------------|-----------|
@@ -26,16 +26,16 @@ Geo Filtering is an ability to filter out request coming from different geograph
 | Blacklisted IP Prefixes | IP Address with CIDR | Blank     |
 | Whitelisted IP Prefixes | IP Address with CIDR | Blank     |
 
-### Description:
+### Description
 
-**Blacklisted Countries**
+#### Blacklisted Countries
 
 Select the list of countries from the drop-down list that will be permanently disallowed
 
- **Blacklisted IP Prefixes**
+#### Blacklisted IP Prefixes
 
 Specify multiple IP prefixes that will be permanently disallowed
 
-**Whitelisted IP Prefixes**
+#### Whitelisted IP Prefixes
 
 Specify multiple IP prefixes. Traffic to / from these IPs will permanently bypass all configured mitigations

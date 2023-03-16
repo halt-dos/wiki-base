@@ -12,10 +12,10 @@ Bot protection protects your device from external malicious activities, authenti
 
 ![bot_protection](\img\ddos\v2\botprotection.png)
 
-### How to Use:
+### How to Use
 
 1. Go to **Apps > DDoS > Bot Protection**
-2. Configure the settings as per needed.
+2. Configure the settings as per requirement.
 3. Click on **Save Changes**
 
 | Parameters                   | Accepted Values  | Type      |

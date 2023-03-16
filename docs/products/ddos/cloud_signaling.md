@@ -10,10 +10,10 @@ A faster, automated approach to comprehensive DDoS Mitigation Enterprises need c
 
 ![signaling_settings](\img\ddos\v2\cloudsignaling.png)
 
-**How to Use**
+### How to Use
 
-1. Go to **Stack > Resource > DDoS > Signaling**
-2. Add **Provider** and mention the details as per the requirements
+1. Go to **Apps > DDoS > Cloud Signaling**
+2. Add **Provider** and configure the details as per the requirement.
 3. Click on **Save Changes**
 
 
