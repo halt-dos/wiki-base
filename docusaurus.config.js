@@ -1,6 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -12,13 +9,10 @@ const config = {
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/logo/icon_light.ico',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   url: 'https://docs.haltdos.com',
   baseUrl: '/',
-  organizationName: 'haltdos', // Usually your GitHub org/user name.
-  projectName: 'wiki-base', // Usually your repo name.
-
+  organizationName: 'haltdos',
+  projectName: 'wiki-base',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -61,14 +55,6 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
-      // algolia: {
-      //   appId: 'IYTTHE6Z6K',
-      //   apiKey: '89013e04360221d1559a0a4d012fa3b5',
-      //   indexName: 'dev_haltdos',
-      //   contextualSearch: true,
-      //   searchParameters: {},
-      //   searchPagePath: 'search',
-      // },
       docs:{
         sidebar:{
           hideable: true,

@@ -25,7 +25,7 @@ Policy rule is the feature of Haltdos DDOS that allows application owners to set
 | Rule Priority | Integer        | 0            |
 | Rule Action   | Drop Down      | Drop Request |
 
-#### Description:
+### Description:
 
 #### Rule Name
 

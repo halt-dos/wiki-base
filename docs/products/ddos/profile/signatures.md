@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Signature
+# Signatures
 
 ---
 
@@ -12,33 +12,33 @@ These are in-built rules for DDoS. These are the inbuilt DDoS signatures which h
 
 ### **How to Use:**
 
-1. **Stacks > Resource > DDoS > Profiles > Signatures**.
+1. Go to **Apps > DDoS > Profiles > Signatures**
 
-2. Change the action of the signature to Enabled, Disabled accordingly.
+2. Change the action of the signature to Enabled / Disabled accordingly.
 
-3. Configurations will be deployed successfully.
+3. Changes will be deployed successfully.
 
 | Settings    | Accepted Values | Default |
 |-------------|-----------------|---------|
 | Rule ID     | String          | --      |
 | Name        | Integer         | --      |
 | Description | Integer         | --      |
-| Action      | Drop Down       | Disable |
+| Action      | Drop Down       | Disabled |
 
-### **Description:**
+### Description
 
-##### **Rule ID**
+#### Rule ID
 
 Predefined rule id for the signatures
 
-##### **Name**
+#### Name
 
 It specifies the name of the signatures
 
-##### **Description**
+#### Rule Description
 
-Specify the description for the signature
+Specify the description of the signature
 
-##### **Action**
+#### Action
 
-It specifies the status of the signature and can be set accordingly to ENABLED, DISABLED
+It specifies the status of the signature and can be set accordingly to ENABLED / DISABLED

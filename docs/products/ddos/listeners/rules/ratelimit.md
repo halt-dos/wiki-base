@@ -28,11 +28,11 @@ sidebar_position: 6
 | Rule Message   | String         | Blank        |
 | Rule Priority  | Integer        | 1            |
 | Rule Action    | Drop Request   | Drop Request |
-| Max Rate           | Integer        | 10           |
+| Max Rate       | Integer        | 10           |
 | Track Limit    | Integer        | 20           |
 | Track Duration | Integer        | 1            |
 
-#### Description:
+### Description
 
 #### Rule Name
 
@@ -73,7 +73,7 @@ Specify the time duration for which the rule will limit the request.
 | Match Condition | Drop-Down      | Contains  |
 | Match Value     | String         | Blank     |
 
-### Description:
+### Description
 
 #### Find Location
 

@@ -13,13 +13,15 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web a
 
 ![http_settings](\img\ddos\v2\http.png)
 
-### **How to go to HTTP:**
+### How to use
 
-1. **Stack > Resource > DDoS > Profile > Application > HTTP**
+1. Go to **Apps > DDoS > Profile > Application Layer**
 
-2. Configure the settings 
+2. Scroll to **HTTP Settings**
 
-3. Click on Save Changes.
+3. Configure the settings.
+
+4. Click on **Save Changes**.
 
 | Settings                              | Accepted Values | Default |
 |---------------------------------------|-----------------|---------|

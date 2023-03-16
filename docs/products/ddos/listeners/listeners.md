@@ -8,15 +8,15 @@ Listeners are used for configuring websites and servers appropriately that it ca
 
 ![listner](/img/ddos/v2/listner.png)
 
-## How to Use :
+### How to Use
 
 1. Go to **Apps** > **DDos** > **Listeners**
 
 2. Click **Add Listener button.**
 
-3. Configure your settings.
+3. Configure listener as per requirement.
 
-4. Click **Save. Changes**
+4. Click on **Save Changes**
 
 ![add-listner](/img/ddos/v2/add_listner.png)
 
@@ -26,13 +26,13 @@ Listeners are used for configuring websites and servers appropriately that it ca
 |Service Type|Drop-down|HTTP
 |Origin Servers & port|Server IP’s with listening port(Ex. 8.8.8.8:80)|Blank
 
-## Description 
+### Description 
 
-1.**Sub Domain** :
+#### Sub Domain
 This option allows user to specify fully qualified domain name of the website. Whenever adding the root domain, ensure it is empty.
 
-2.**Service Type**:
+#### Service Type
 This option allows user to specify service type based on the protocol of backend application. The listener/subdomain can be created service type with any of the three protocols i.e. HTTP, TCP.
 
-3.**Origin Servers**:
+#### Origin Servers
 This option allows user to specify IP and listening port of the backend server wherein load balancing occurs. There can be combination of multiple IP and listening port.

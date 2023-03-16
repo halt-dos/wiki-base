@@ -14,9 +14,9 @@ Bot protection protects your device from external malicious activities, authenti
 
 ### How to Use:
 
-1. Go to **Stack > DDOS > Bot Protection**
-2. Configure **Settings**
-3. Click on **Save**
+1. Go to **Apps > DDoS > Bot Protection**
+2. Configure the settings as per needed.
+3. Click on **Save Changes**
 
 | Parameters                   | Accepted Values  | Type      |
 |------------------------------|------------------|-----------|
@@ -27,18 +27,18 @@ Bot protection protects your device from external malicious activities, authenti
 
 ### Description
 
-**Temporary Blacklist Duration**
+#### Temporary Blacklist Duration
 
 That time for which misbehaving IP addresses will be suspended.
 
- **Failed DNS Request Rate**
+#### Failed DNS Request Rate
 
 If the rate exceeds this threshold, HaltDos will suspend the source IP for the time specified in Temporary Blacklist Duration.
 
- **Tor Traffic**
+#### Tor Traffic
 
 Specify the action from the drop-down menu to be performed on incoming TOR Network traffic.
 
-**Bad Reputation Traffic**
+#### Bad Reputation Traffic
 
 Specify the action from the drop-down menu on incoming traffic coming from suspicious IPs.

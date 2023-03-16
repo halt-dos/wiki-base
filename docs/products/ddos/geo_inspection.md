@@ -14,7 +14,7 @@ Geo Filtering is an ability to filter out request coming from different geograph
 
 ### How to Use:
 
-1. Go to **App > DDoS > Geo Filtering**
+1. Go to **Apps > DDoS > Geo Filtering**
 
 2. Configure the settings as per requirement.
 

@@ -8,15 +8,13 @@ sidebar_position: 5
 
 Network Rules are user-configured rules performed on network interfaces like IP, Port, Domain, etc in order to take action based on the conditions set in the rule.
 
-### **How to Use:**
+### How to Use
 
-1. **Go to Stack > Resource > DDoS > Profile > Network Rules**
+1. Go to **Apps > DDoS > Profile > Network Rules**
 
 2. Add network rules with the specific configuration required.
 
-3. Click on Save Condition
-
-4. Save the file.
+3. Click on **Save Changes**
 
 ![network_rukes](/img/ddos/v2/network_rules.png)
 
@@ -28,23 +26,24 @@ Network Rules are user-configured rules performed on network interfaces like IP,
 | Direction   | Drop Down        | Any     |
 | Action      | Drop down        | Count   |
 
-### **Description:**
+### Description
 
-##### **Name**
+#### Name
 
 Specify the name of the rule
 
-##### **Description**
+#### Rule Description
 
 Specify the description for the rule
 
-##### **Priority**
+#### Priority
 
 Specify the priority of the rule
-##### **Direction**
+
+#### Direction
 
 Specify the direction of the rule i.e. Any, Inbound, Outbound
 
-##### **Action**
+#### Action
 
 Select the action of the rule

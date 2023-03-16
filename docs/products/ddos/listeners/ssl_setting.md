@@ -7,26 +7,26 @@ It provides functionality to support SSL offloading based on configurations.
 
 ---
 
-### Overview
+## Overview
 
 As many applications are running over HTTPS, for the WAF / ADC solution to inspect user payload, it is necessary to decrypt SSL/TLS traffic. The following settings allow users to configure SSL offloading based and optional re-encryption in Haltdos solution. The performance of SSL offloading will vary based on chosen model.
 
 ![ssl_setting](/img/ddos/v2/ssl.png)
 
-### How to Use:
+### How to Use
 
-1. Go To **DDos >  Listeners > SSL Settings** 
-2. Configure Your Settings 
-3. Click Save Changes 
+1. Go To **Apps > DDoS > Listeners > SSL Settings** 
+2. Configure the Settings as per requirement.
+3. Click on **Save Changes**.
+
+### Description
 
 #### Encrypt Traffic to Upstream
 
 This specifies DDOS should re-encrypt traffic before sending it to the back-end application. 
 
 :::note
-
 **We can listen to non-HTTPS traffic and send it as HTTPS traffic to the back end server.**
-
 :::
 
 #### Enable SSL Offloading 
