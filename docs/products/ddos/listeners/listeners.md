@@ -1,4 +1,4 @@
-# Listener 
+# Listeners
 Make DDOS listen on specific ports to accept connections and mitigate the attacks.
 
 ---
@@ -10,7 +10,7 @@ Listeners are used for configuring websites and servers appropriately that it ca
 
 ### How to Use
 
-1. Go to **Apps** > **DDos** > **Listeners**
+1. Go to **Apps** > **DDoS** > **Listeners**
 
 2. Click **Add Listener button.**
 
