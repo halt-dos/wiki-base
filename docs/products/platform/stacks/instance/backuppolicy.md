@@ -37,35 +37,35 @@ How to Use:
 
 ## Description
 
-**Log Retention Period**
+##### **Log Retention Period**
 
 This policy allows users to set the retention period for backups. This policy refers to the number of days for which logs retain locally on the device.
 
-**Backup Enabled**
+##### **Backup Enabled**
 
 This option allows users to enable or disable the backup settings.
 
-**Cleanup Enabled**
+##### **Cleanup Enabled**
 
 This option allows users to enable or disable the backup settings.
 
-**Backup Host Name**
+##### **Backup Host Name**
 
 This option allows users to specify the hostname or IP address of the backup server. 
 
-**Use SFTP**
+##### **Use SFTP**
 
-This option helps to choose if the user wants data transfer is over SFTP (Port 22), otherwise data will transfer using FTP (Port 21). Users can enable or disable the settings as per their chioce. By default, it is set to disable.
+This option helps to choose if the user wants data transfer is over SFTP (Port 22), otherwise data will transfer using FTP (Port 21). Users can enable or disable the settings as per their choice. By default, it is set to disable.
 
-**Authentication**
+##### **Authentication**
 
-This option allows users to set a user authentication method to access the backup server. By default, this is set to disable.
+This option allows users to enable user authentication method to access the backup server. By default, this is set to disable.
 
-**Username**
+##### **Username**
 Users can only use this option when Authentication is set to enable. This option allows users to set a username to authenticate the people
 
-**Password**
+##### **Password**
 This option allows users to set the desired password to authenticate the user. This option will only be available when authentication is set to enable.
 
-**Backup Directory**
+##### **Backup Directory**
 This option allows users to specify the directory on the backup server where they can use credential information to access the backup server.

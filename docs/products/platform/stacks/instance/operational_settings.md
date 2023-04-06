@@ -27,24 +27,56 @@ Haltdos platform supports multiple modes of operations of various Apps depending
 ![Operational setting](/img/platform/v2/operational_img.png)
 
 ### How to Use:
-
-1. Go to **Stack > Instances  > Operational**
+1. Users need to log into the Haltdos Web UI console.
+2. Click on User icon on top right of the screen.
+3. Go to **Instances> Operational**
 2. Configure your settings
 3. Click **Save Changes**
 
-| PARAMETERS      | DESCRIPTION                                     | ACCEPTED VALUES | DEFAULT         |
-|------------------|--------------------------------------|---------------------------------|----------|
-| Management IP | Management IP address         | Integer  | Blank
-| SSL Engine     | Engine to be used for SSL Offloading  | Drop Down | Software Engine 
-| Operational Mode    | Mode of operation     | Drop Don | Inline Mode    |
-| CPU Affinity     | CPU affinity for opimization | Integer |Blank | 
-| Huge Pages     | Configure Huge Pages for optimization | Integer |Blank | 
+| Parameter                     | Accepted Value | Default Values  |
+|-------------------------------|----------------|-----------------|
+| Management IP                 | IP adress      | Blank           |
+| Management Port               | Integer        | 9000            |
+| SSL Engine                    | drop-down      | Software Engine |
+| Operational Mode              | drop-down      | Inline mode     |
+| CPU affinity                  | Integer        | Blank           |
+| Huge pages                    | Integer        | Blank           |
+| Public Certificate File       | File upload    | Blank           |
+| Intermediate Certificate File | File upload    | Blank           |
+| CA Bundle File                | File upload    | Blank           |
+| Private Key File              | File upload    | Blank           |
+
+### Description
+
+##### **Management IP**
+Users are allowed to configure instance management IP address.
+
+##### **Management Port**
+Users are allowed to configure instance management port.
+
+##### **SSL Engine**
+Users are allowed to specify the engine to be used for SSL Offloading. Requires reboot.
+
+##### **Operational Mode**
+Users are allowed to choose the instance mode of operation. Requires reboot.
+
+##### **CPU Affinity**
+Users are allowed to configure CPU affinity for optimization. Requires reboot.
+
+##### **Huge Pages**
+Users are allowed to configure Huge Pages for optimization. Requires reboot.
+
+##### **Public Certificate File**
+Users are allowed to upload public file.
+
+##### **Intermediate Certificate File**
+Users are allowed to upload intermediate file.
+
+##### **CA Bundle File**
+Users are allowed to upload CA bundle.
+
+##### **Private Key File**
+Users are allowed to upload private file.
 
 
-**High Watermark Threshold**
 
-| PARAMETERS     | ACCEPTED VALUES  | DEFAULT  |
-|----------------|------------------|----------|
-| Resource       | CPU / RAM / DISK | CPU      |
-| Low Watermark  | Integer          | No Value |
-| High Watermark | Integer          | No Value |
