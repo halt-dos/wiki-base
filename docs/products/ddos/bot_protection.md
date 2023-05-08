@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ---
 
-## Overview 
+### Overview 
 
 Bot protection protects your device from external malicious activities, authenticate from human activity and protect the customer from brute force login attempt and probing the applications.
 

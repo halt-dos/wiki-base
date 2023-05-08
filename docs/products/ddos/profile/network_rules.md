@@ -5,7 +5,7 @@ sidebar_position: 5
 # Network Rules
 
 ---
-
+### Overview
 Network Rules are user-configured rules performed on network interfaces like IP, Port, Domain, etc in order to take action based on the conditions set in the rule.
 
 ### How to Use
@@ -28,22 +28,22 @@ Network Rules are user-configured rules performed on network interfaces like IP,
 
 ### Description
 
-#### Name
+#### **Name**
 
 Specify the name of the rule
 
-#### Rule Description
+#### **Rule Description**
 
 Specify the description for the rule
 
-#### Priority
+#### **Priority**
 
 Specify the priority of the rule
 
-#### Direction
+#### **Direction**
 
 Specify the direction of the rule i.e. Any, Inbound, Outbound
 
-#### Action
+#### **Action**
 
-Select the action of the rule
+Select the action of the rule.

@@ -7,7 +7,7 @@ sidebar_position: 5
 Traffic shaping is a powerful and flexible way to ensure quality of service and defend against bandwidth-abusing distributed denial-of- service (DDoS) attacks.
 
 ---
-
+### Overview 
 Traffic shaping is a computer network bandwidth management technique that delays some or all data-gram in line with a traffic profile to improve latency, optimize performance, or increase usable bandwidth for certain types of packets by delaying other types.
 
 It support protocols IPv4, IPv6, TCP, UDP, ICMP, IGMP, DNS, SIP, SNMP, NTP, SMTP, IRC, FTP.
@@ -31,18 +31,18 @@ It support protocols IPv4, IPv6, TCP, UDP, ICMP, IGMP, DNS, SIP, SNMP, NTP, SMTP
 
 ### Description
 
-#### Inbound Rate
+#### **Inbound Rate**
 
 Specify allowed overall inbound traffic rate
 
-#### Inbound Burst
+#### **Inbound Burst**
 
 Specify allowed overall inbound traffic burst
 
-#### Outbound Rate
+#### **Outbound Rate**
 
 Specify allowed overall outbound traffic rate
 
-#### Outbound Burst
+#### **Outbound Burst**
 
 Specify allowed overall outbound traffic burst
