@@ -39,4 +39,4 @@ It specifies the particular scope for which the revocation list works. By defaul
 
 **Content**
 
-It specifies the content area where the list is to be provided.
+User must provide the content in this specific field.
