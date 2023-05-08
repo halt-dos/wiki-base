@@ -7,7 +7,7 @@ It provides functionality to support SSL offloading based on configurations
 
 ---
 
-## Overview
+### Overview
 
 It provides functionality to support SSL offloading based on configurations.
 
@@ -95,5 +95,5 @@ This option allows user to specify the action to be performed when client certif
 - **REDIRECT** - This will perform request redirection to URL specified in the Redirection URL field on the failure.
 
 :::note
-For BYPASS mode in the security profile, No action will be taken on the failure. For RECORD and MITIGATION, specified action will be performed on client authentication failure.
+For **BYPASS** mode in the security profile, No action will be taken on the failure. For **RECORD** and **MITIGATION**, specified action will be performed on client authentication failure.
 :::
