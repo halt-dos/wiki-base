@@ -27,14 +27,14 @@ In addition to DDoS mitigation, the Offload mechanism can be used for features l
 
 ### Description
 
-#### Server IP
+#### **Server IP**
 
 Specify the IP address
 
-#### Listening IP
+#### **Listening IP**
 
 Specify listening port for offloading
 
-#### Forwarding IP
+#### **Forwarding IP**
 
 Specify forwarding port for offloading

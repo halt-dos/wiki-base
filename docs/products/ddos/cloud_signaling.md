@@ -5,7 +5,7 @@ sidebar_position: 6
 # Cloud Signaling
 
 ---
-
+### Overview
 A faster, automated approach to comprehensive DDoS Mitigation Enterprises need comprehensive, integrated protection from the data center edge to the service provider cloud. For example, when data center operators discover they are under a service-disrupting DDoS attack, they should be able to quickly mitigate the attack in the cloud by triggering a signal to upstream infrastructure of their provider’s network. 
 
 ![signaling_settings](\img\ddos\v2\cloudsignaling.png)
@@ -30,34 +30,34 @@ A faster, automated approach to comprehensive DDoS Mitigation Enterprises need c
 
 ### Description
 
-#### Enabled
+#### **Enabled**
 
 Enable to allow the signaling to operate.
 
-#### Provider Name
+#### **Provider Name**
 
 Specify the name of the upstream provider.
 
-#### Signaling URL
+#### **Signaling URL**
 
 Specify API endpoint of upstream provider for sending cloud signal
 
-#### Authentication User
+#### **Authentication User**
 
 Specify password user credentials for interactive with upstream cloud signaling API
 
-#### Authentication password
+#### **Authentication password**
 
 Specify password credentials for interactive with upstream cloud signaling API
 
-#### Signaling Trigger
+#### **Signaling Trigger**
 
 Specify the bandwidth threshold (in Mbps) beyond with a cloud signal that will be sent to the upstream provider
 
-#### Managed Object ID
+#### **Managed Object ID**
 
 Specify unique customer ID provided by the upstream providers for further authentication
 
-#### IP Range
+#### **IP Range**
 
 Specify the IP range

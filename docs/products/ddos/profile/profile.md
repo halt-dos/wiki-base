@@ -3,7 +3,7 @@
 Configure profile level configurations
 
 ---
-
+### Overview
 DDos Profile helps to differentiate the network by dividing the network into different segments based on IP address. This division helps you configure each segment as per your requirement and monitor the stats on particular network segment. By default, Root profile is created.
 
 ![network_profile](/img/ddos/v2/profiles.png)
@@ -26,34 +26,33 @@ DDos Profile helps to differentiate the network by dividing the network into dif
 
 ### Description
 
-#### Profile Name
+#### **Profile Name**
 
 Specify a name for the security profile
 
-#### Mode
+#### **Mode**
 
 Specify the mode for the profile i.e. Mitigation or Bypass etc
 
-#### Parent
+#### **Parent**
 
 Select the parent for the profile created
 
-#### Destination IP
+#### **Destination IP**
 
 Specify the destination IP for the profile
 
-#### Operational Modes
+#### **Operational Modes**
 
 There are four operational modes to select
 
-- **Bypass Mode**  
+#### **Bypass Mode**  
 After selecting this mode all the DDoS mitigations for that profile will be bypassed.
 
-- **Record Mode**  
+#### **Record Mode**  
 In this mode, all the mitigations & rule sets will monitor the traffic. If any request is about to drop, then it gets captured and forwarded in the form of a Record Event.
 
-- **Learning Mode**  
+#### **Learning Mode**  
 After selecting this mode, HaltDos will Learn the traffic pattern through its Machine Learning based mechanism. All the static mitigation as configured by the user will be in active mode.
-
-- **Mitigation Mode**  
+#### **Mitigation Mode**  
 In this mode, all DDoS mitigations will be turned on including both Static and Dynamic mitigation.

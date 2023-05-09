@@ -5,7 +5,7 @@ sidebar_position: 2
 # Detection
 
 ---
-
+### Overview 
 Haltdos Anti-DDos Device supports flood detection in which is default mechanism for alarm creation.
 
 ![ddos_detection_alaram_type](/img/ddos/v2/detection.png)
