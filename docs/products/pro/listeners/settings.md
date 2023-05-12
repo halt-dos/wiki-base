@@ -7,14 +7,14 @@ Make WAF listen on specific ports to accept connections and distribute across on
 
 ---
 
-## Overview 
+### Overview 
 Listeners are used for configuring websites and servers appropriately that it can help to reduce response time, increase throughput, optimize resource use and overload of any single resource.
 
 ![Listener](/img/waf/listener.png)
 
 ![Listener](/img/waf/addlistener.png)
 
-## How to Use :
+### How to Use :
 1. Log into the Haltdos WAF Professional edition web UI console.
 2. Click on listeners option on the side menu and select **Add Listener button** to add a new listener.
 3. Configure your settings.
@@ -27,15 +27,15 @@ Listeners are used for configuring websites and servers appropriately that it ca
 Service Type|Drop-down|HTTP
 Origin Servers & port|Server IP’s with listening port(Ex. 8.8.8.8:80)|Blank
 
-## Description 
-1.**Sub Domain** :
+### Description 
+##### **Sub Domain** :
 This option allows user to specify fully qualified domain name of the website. Whenever adding the root domain, ensure it is empty.
 
-2.**Reference** :
+##### **Reference** :
 This option allows user to create new listener with different sub-domain by modifying an existing listener. It clones the same configuration in the new listener.
 
-3.**Service Type**:
+##### **Service Type**:
 This option allows user to specify service type based on the protocol of backend application. By default, service type is selected to HTTP which indicates HTTP application can be added here.
 
-4.**Origin Servers**:
+##### **Origin Servers**:
 This option allows user to specify IP and listening port of the backend server wherein load balancing occurs. There can be combination of multiple IP and listening port.
