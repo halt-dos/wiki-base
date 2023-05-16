@@ -15,7 +15,7 @@ If a user wants to extract or set a custom variable, then it can be done using V
 
 Note: Any parameter from the Request/Response can be stored in a variable.
 
-### How to use:
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Rules > Variable Rules**
 

@@ -2,9 +2,11 @@
 
 Load Balancing mechanism used for WAF
 
+---
+
 ## Overview 
 
-Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault‑tolerant configurations.
+Load balancing across multiple application instances is a commonly used technique for optimizing resource utilization, maximizing throughput, reducing latency, and ensuring fault-tolerant configurations.
 
 ![Load Balancing](/img/waf/v2/loadbalancing.png)
 
@@ -36,7 +38,7 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
 
 ![Load Balancing](/img/waf/v2/loadbalancing1.png)
 
-### How to use:
+### How to Use:
 1. Go to **WAF** > **Listeners** > **Server Groups** > **Load Balancing**
 
 2. Set the configurations and **Save Changes**.
@@ -52,18 +54,18 @@ This algorithm is a dynamic load balancing algorithm. It forwards client request
 
 ### Description
 
-1. **Upstream Retries**
+##### **Upstream Retries**
 
-This option specify the upstream retries. By default, the value is set to 1.
+This option used to specify the upstream retries. By default, the value is set to 1.
 
-2. **Fail-over Threshold**
+##### **Fail-over Threshold**
 This option specify the fail-over threshold in percentage of (active/total) primary servers for switching to backup servers. By default, the value is set to 50%.
 
-3. **CLIENT IP POOL:**
+##### **Client IP Pool**
 Specify list of client IP to use when connecting to upstream. Leave blank for auto
 
-4. **Algorithm**
-This drop-down specify the algorithm used by the server group. By default, the value is selected as Round Robin.
+##### **Algorithm**
+This option is used to specify the algorithm used by the server group. By default, the value is selected as Round Robin.
 
-5. **STICKY SESSION COOKIE:**
+##### **Sticky Session Cookie**
 Specify enabling sticky session based on specified cookie

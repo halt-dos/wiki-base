@@ -33,7 +33,7 @@ The behavior of the script may vary for the following configurations:
 
 3. If multiple scripts are matched for the request URI, then the first matched script will be executed and other scripts will be ignored.
 
-### How to use
+### How to Use:
 
 1. Go to **WAF > Zones > Listeners > Security Profiles > Rules > Developer Script Rules**
 

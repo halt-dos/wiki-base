@@ -9,20 +9,20 @@ The session table show the connection details for the listener configured on the
 
 ![](/img/adc/v2/sessional_table_2.png)
 
-## **How to reach**
+### **How to reach**
 
-Go to **Apps** > **SLB** > **Session Table**
+1. Go to **Apps** > **SLB** > **Session Table**
 
-## Description
+### Description
 
-#### **Date Range**
+##### **Date Range**
 
-In this section you can select date range for which user wants see the logs.
+In this section you can select date range for which user wants to see the logs.
 
-#### **Search**
+##### **Search**
 
-In this section user can search the session id according to the requirement.
+In this section user can search the session ID according to the requirement.
 
-#### **Listner**
+##### **Listener**
 
-In this section user can select the Listner for which logs are required.
+In this section user can select the Listener for which logs are required.

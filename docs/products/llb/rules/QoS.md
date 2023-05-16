@@ -10,7 +10,7 @@ Traffic Shaper Rules & Setings
 
 Traffic shaping (also known as packet shaping) is a bandwidth management technique that delays the flow of certain types of network packets in order to ensure network performance for higher priority applications. Traffic shaping essentially limits the amount of bandwidth that can be consumed by certain types of applications. It is primarily used to ensure a high quality of service for business-related network traffic.
 
-![traffic_shaper](/img/llb/llb20.png)
+![traffic_shaper](/img/llb/v2/qos.png)
 
 ### **How to Use:**
 
@@ -24,7 +24,6 @@ Traffic shaping (also known as packet shaping) is a bandwidth management techniq
 
 5. Click Save.
 
-![traffic_shaper_rule_condition](/img/llb/llb21.png)
 
 | Settings           | Text                           | Text             |
 |--------------------|--------------------------------|------------------|

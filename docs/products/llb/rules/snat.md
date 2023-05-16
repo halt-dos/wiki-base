@@ -12,7 +12,7 @@ Source NAT is the translation of the source IP address of a packet. It changes t
 
 In static SNAT all internal IP addresses are always mapped to the same public IP address.
 
-![source_net](/img/llb/llb11.png)
+![source_net](/img/llb/v2/snat.png)
 
 ### **How to Use:**
 

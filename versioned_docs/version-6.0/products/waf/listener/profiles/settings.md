@@ -9,7 +9,7 @@ Profile Setting specifies all the operational settings for user different applic
 
 ![Profile_settings](/img/waf/profilesetting.png)
    
-### How to Use
+### How to Use:
 1. Go to WAF > Listener > Security Profiles > Settings.
 2. Configure your settings.
 3. Click on Save Changes.

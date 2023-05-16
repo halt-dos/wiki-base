@@ -13,7 +13,7 @@ Haltdos Cloud provides multi-level RBAC access control over Stack. This allows o
 
 ![User Group](/img/waf/v2/usergroup.png)
 
-### How to Use
+### How to Use:
 
 1. Go to **WAF** > **User Group**
 2. Click on **Add Group** 
@@ -49,7 +49,7 @@ Lightweight Directory Access Protocol (LDAP) is an internet protocol that works 
 
 Users can customize the user group settings and add/delete/change credentials for the users added to the user group.
 
-![User Group](/img/waf/usergroup(1).png)
+![User Group](/img/platform/v2/usergroup.png)
 
 ### How To Use:
 1. Go to **Waf** > **User Group** > Click on the group name
@@ -66,7 +66,7 @@ Users can customize the user group settings and add/delete/change credentials fo
 
 ### Description 
    1. **Hide Credentials**:
-   Users can specify either to enable it to strip the credential from the request (i.e. the Authorization header) before proxying it.
+   Users can specify either to enable it to strip the credential from the request (i.e. the Authorization header) before proxying it. Click on Group Name that has been added by user then Hide Credentials Boolean will be visible.
 
    2. **User enabled**:
    Users can enable or disable users as per the requirement.

@@ -4,8 +4,10 @@ sidebar_position: 4
 
 # SSL Certificates
 It provides functionality to support SSL offloading based on configurations.
-   
-### Overview
+
+---
+
+## Overview
 
 An SSL certificate is a few lines of code on your web server that provides security for online communications. When a web browser contacts your secured website, the SSL certificate enables an encrypted connection. It's kind of like sealing a letter in an envelope before sending it through the mail.
    
@@ -24,35 +26,37 @@ Users can either upload a certificate or generate a new certificate with Let's E
 - **HTTP Validation** for single domain certificate
 - **DNS Validation** for wildcard certificate
 
-### Generate Certificate
+#### Generate Certificate
 
 In order to generate a certificate, it's a three-step based process i.e.
    
-1. Order Certificate: Select the listener/zone for which you need to order the certificate.
-2. Verify Challenge: Verify the challenge for generating the certificate.
-3. Issue/Renew Certificate: Upon verifying the challenge, the user can click on the Issue/Renew certificate accordingly.
+1. **Order Certificate** : Select the listener/zone for which you need to order the certificate.
+2. **Verify Challenge** : Verify the challenge for generating the certificate.
+3. **Issue/Renew Certificate** : Upon verifying the challenge, the user can click on the Issue/Renew certificate accordingly.
 
 
-**Notes** : Let's Encrypt certificate are valid for 3 months only. In order to renew, we have to re-issue the certificate with the same steps as mentioned above. This is applicable only for DNS validations. For certificates issued via HTTP validation, Haltdos automatically renews the certificates.
+:::note
+Let's Encrypt certificate are valid for 3 months only. In order to renew, we have to re-issue the certificate with the same steps as mentioned above.
+:::
    
-#### **Step 1: Order Certificate**
+##### **Step 1: Order Certificate**
 1. Select the domain that we are aiming to issue for it.
 2. Click on Generate.
    
-#### **Step 2: Verify Challenge**
+##### **Step 2: Verify Challenge**
 1. Select appropriate challenge option i.e. **HTTP Challenge** or **DNS Challenge**.
 2. Click on **Verify Challenge**.
 3. We have to wait at least 5 minutes duration in order to re-verify the certificate to change the status to update status.  
 4. After 5 minutes, click on **Verify Challenge**.
    
-#### Step 3: Issue/Renew Certificate
+##### Step 3: Issue/Renew Certificate
 1. Click on Issue/Renew Certificate.
    
 :::note 
-Certificate verification can fail if verification is not completed within stipulated time.  For any issues, please contact support. 
+Certificate verification can fail if verification is not completed within stipulated time.
 :::
    
-### Upload Certificate
+#### Upload Certificate
 To upload custom certificates, follow the steps below:
 
 | Parameters  | Accepted value |  Default                    |
@@ -65,18 +69,18 @@ To upload custom certificates, follow the steps below:
 
 ### Description
 
-#### Certificate Name
+**Certificate Name**  
 Users are allowed to specify the name for the certification.
 
-#### Certificate Domain
+**Certificate Domain**  
 Users are allowed to specify the domain name fo the certifiate.
 
-#### App Option
+**App Option**  
 Users are allowed to select the certificate generate options.
 
-#### Public Key
+**Public Key**  
 User can specify the public key of certificate.
 
-#### Private key
+**Private key**  
 User can specify the private key of certificate.
 

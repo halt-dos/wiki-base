@@ -34,16 +34,15 @@ Further to detailing the incident through Incidents, users can perform various a
 
 1. Go to **WAF** > **Incidents**.
 2. Choose Type of Incidents that you want to view.
-
     - You may also check the previous incidents by changing the date.
 
+### Description
 
-
-#### Filter
+**Filter**
 Users can filter out the events based on type of incidents.
 
-#### Refresh
+**Refresh**
 Users can enable auto-refresh in order to refresh the real-time alerts for requests. The details will be displayed in events for the specific type of request.
 
-#### Date Range
+**Date Range**
 Users are allowed to select an appropriate date range no longer than 1 month.

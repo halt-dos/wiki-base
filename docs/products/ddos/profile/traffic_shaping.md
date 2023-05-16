@@ -7,20 +7,20 @@ sidebar_position: 5
 Traffic shaping is a powerful and flexible way to ensure quality of service and defend against bandwidth-abusing distributed denial-of- service (DDoS) attacks.
 
 ---
-
+### Overview 
 Traffic shaping is a computer network bandwidth management technique that delays some or all data-gram in line with a traffic profile to improve latency, optimize performance, or increase usable bandwidth for certain types of packets by delaying other types.
 
 It support protocols IPv4, IPv6, TCP, UDP, ICMP, IGMP, DNS, SIP, SNMP, NTP, SMTP, IRC, FTP.
 
 ![traffic_shaping](/img/ddos/v2/traffic_shaping.png)
 
-### **How to Use:**
+### How to Use
 
-1. **Stack > Resource > DDoS > Profile > Traffic Shaping**
+1. Go to **Apps > DDoS > Profile > Traffic Shaping**
 
 2. Configure the settings.
 
-3. Click on Save Changes
+3. Click on **Save Changes**
 
 | Settings       | Accepted Values | Default |
 |----------------|-----------------|---------|
@@ -29,20 +29,20 @@ It support protocols IPv4, IPv6, TCP, UDP, ICMP, IGMP, DNS, SIP, SNMP, NTP, SMTP
 | Outbound Rate  | Integer(Mbps)   | 0       |
 | Outbound Burst | Integer(Mbps)   | 0       |
 
-### **Description:**
+### Description
 
-##### **Inbound Rate**
+#### **Inbound Rate**
 
 Specify allowed overall inbound traffic rate
 
-##### **Inbound Burst**
+#### **Inbound Burst**
 
 Specify allowed overall inbound traffic burst
 
-##### **Outbound Rate**
+#### **Outbound Rate**
 
 Specify allowed overall outbound traffic rate
 
-##### **Outbound Burst**
+#### **Outbound Burst**
 
 Specify allowed overall outbound traffic burst

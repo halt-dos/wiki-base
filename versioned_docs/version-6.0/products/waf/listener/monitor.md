@@ -10,62 +10,61 @@ Monitoring provides a comprehensive overview of the status and performance of th
 
 ![Monitors](/img/waf/Monitors.png)
 
-### How to you Use:
+### How to you use:
 
-1. Go t WAF > Listeners > Monitors
+1. Go to WAF > Listeners > Monitors
 2. Click on Add Monitor
 3. Click on the monitor name to configure the Health Check and click on Save changes
 4. Now go to WAF > Listener > Server Group 
-5. Add the Monitor to the server group and /or server as required 
+5. Add the Monitor to the server group / or server as required  
 
 
-  
-  | Parameter | Accepted Values  | Default Values |
+| Parameter | Accepted Values  | Default Values |
 | ----------- | ----------- | ----------- |
 | Monitor Name| String | Blank |
 | Enabled Health Check | Enabled/Disabled | Disabled |  
 | Health Check Type | TCP/HTTP/SSL Hello/HTTPS/etc | TCP |
-|Port | Port Number | 80 |
-| Check URI | URI | GET /|
+| Port | Port Number | 80 |
+| Check URI | URI | GET |
 | Match Status | Response Code | 200|
 | Match Content | Content to be matched in header/body | Blank |
 | Fail Threshold | Integer | 1|
 | Pass Threshold | Integer | 1|
 
-## Description
+### Description
 
-1.**Monitor Name:** 
+1. **Monitor Name:** 
 Specify a user friendly name to monitor.
 
-2.**Enable Health Check:**
+2. **Enable Health Check:**
 Enable to periodically check the health of upstream servers by sending special health‑check requests to each server and verifying the correct response.
 
-3.**Health Check Interval:**
+3. **Health Check Interval:**
 Set the seconds, say 10, then every 10 seconds WAF sends a request for “/” to each server/server group. If any communication error or timeout occurs (the server responds with a status code other than the expected code) the health check fails. The server is marked as unhealthy, and WAF does not send client requests to it (if attached to server group) until it once again passes a health check.
 
-4.**Fail Threshold:**
+4. **Fail Threshold:**
 Sets the number of failed attempts that must occur during the heath check interval period for the server to be marked unavailable (default is 1 attempt).
   
-5.**Pass Threshold:**
+5. **Pass Threshold:**
 Sets the number of passes that must occur during the heath check interval period for the server to be marked available (default is 1 attempt). If set as 2, then the server must pass two consecutive checks to be marked as healthy again instead of the default one.
 
-6.**Health Check Type:**
-1. **TCP**: 
+6. **Health Check Type:**
+ - **TCP**: 
 Health check attempts to open a TCP connection to the server on the specified port (which are specified in the configuration file).
-2.  **SSL HELLO**:
+ - **SSL HELLO**:
 Health check sends SSL handshake with the server, if failed to do SSL handshake then we make that server as unhealthy.
-3.  **HTTP**: 
+ - **HTTP**: 
 Health check sends HTTP request, if unable to receive response, then we make that server unhealthy.
-4.  **HTTPS**: 
+ - **HTTPS**: 
 Health check sends HTTPS request, if unable to receive response, then we make that server as unhealthy
-5.  **DNS**: 
+ - **DNS**: 
 Health check sends DNS query, if unable to receive response, then we make that server as unhealthy
-6.  **ICMP**: 
+ - **ICMP**: 
 Health check sends ICMP ping, if unable to receive response, then we make that server as unhealthy
-7.  **SNMP**: 
+ - **SNMP**: 
 Health check sends SNMP query, if unable to receive response, then we make that server as unhealthy. For SNMP, measurement can be based on CPU, RAM or both. User will also need to specify maximum threshold (percentage) for marking the health of the server as up. SNMP v2,v2c and v3 are supported.
-8.  **Custom Script**: 
+ - **Custom Script**: 
 Health check runs custom script (shell script, perl script or Lua script). The script is executed with parameters of server IP and server Port. If the script responds with 1, heath check is passed. If the script responds with 0, we make that server as unhealthy
 
-**Port**: 
+7. **Port**: 
  Specify a new port with the port parameter

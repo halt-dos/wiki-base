@@ -18,7 +18,7 @@ sidebar_label: Features
     Users can configure WAF to determine, manage and mitigate automated requests / bot attacks. Enterprise can specify the action to take against this malicious traffic.
 
 - #### **Built-in Signatures**  
-    Haltdos CE Signatures offer protection from many different types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application.  
+    Haltdos CE Signatures offer protection from many types of attacks for Web Service/API including OWASP top 10 as well as it can help users to specify the behavior for their application.  
 
 - #### **Custom Signatures**  
     Users can configure Haltdos CE by creating rules such as regulations on particular requests, rate limiting, redirecting requests to another site etc. 

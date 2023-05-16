@@ -8,7 +8,7 @@ The Behavior rule is a feature of Haltdos WAF that that allows application owner
    
 ![Behavior Rule](/img/waf/behavior_rule.png)
    
-### How to Use
+### How to Use:
 1. Follow the links: **WAF** > **Listener** > ** Profiles** > **Rules** > **Behavior Rules**
 2. Click on Add Rule and set relevant parameters described in the table below.
 3. Click on save changes.

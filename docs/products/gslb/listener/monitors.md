@@ -21,7 +21,7 @@ If any of the server are monitored and marked as down, the traffic will not redi
 5. Now go to **GSLB** > **Listeners** > **Zones** > Click on **Zone**
 6. Add the monitor to the Zone Server as required
 
-![monitors](/img/gslb/monitors.png)
+![monitors](/img/gslb/v2/monitor.png)
 
 
 #### Description

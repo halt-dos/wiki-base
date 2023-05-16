@@ -15,7 +15,7 @@ Users are allowed to set network related configurations.
 ![vpngroup](/img/gslb/networking2.png)  
 
 
-### How to use:
+### How to Use:
 1. Go to **Stack** > **VPN** > **Settings** > **Networking**.  
 2. Configure the settings as per the requirement.  
 3. Click on **Save Changes**.  

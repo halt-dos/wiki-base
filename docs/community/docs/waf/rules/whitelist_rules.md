@@ -4,14 +4,14 @@ sidebar_position: 5
 
 # Whitelist Rules
 
-### Overview
+## Overview
 A whitelist is "the cybersecurity list," granting only programs, IP, and email addresses access to the network, which is approved by the administrator. It blocks something that is not on the list.
 Whitelist Rules help to list services that access your site regularly (APIs, crawlers, payment providers, etc.). Whitelists are not one-size-fits-all; whitelists are tailor-made managers based on their particular needs and desires. YouTube, for example, has released a whitelisted YouTube Kids version that goes off of handpicked, age-appropriate videos rather than algorithmic recommendations.
 Here’s another use case: To reduce insider threat, a cyber attack caused behind company doors businesses with BYOL policies whitelist websites, they consider safe for employees to visit when using their private network.
    
 ![Whitelist Rule](/img/community-waf/whitelisting_rule.png)
 
-### How to use
+### How to Use:
 1. Log onto the Haltdos Community WAF portal.
 2. Go to **WAF** > **Rules** > **Whitelist Rules**.
 3. Click on the Add Rule button and a pop-up box will open.

@@ -49,11 +49,11 @@ Users are allowed to select the HTTP method for the rule to extract when matched
 #### Rule Action
 The following actions are available to the User-
 
-1. DROP & RECORD REQUEST - If the Request to the subscribed domain matches the Firewall Rule, an event is generated but the request will not be allowed through the WAF.
-2. RECORD REQUEST - An event is generated whenever the Request satisfies the Rule, but whenever the request passes through other rules its events are logged by Haltdos.
-3. BYPASS REQUEST - If the Request tests positive for the rule, no other rule is tested and the Request will be allowed through the WAF.
-4. REDIRECT - If the request satisfies the rule, then the user is redirected to another page.
-5. NO ACTION - If the request satisfies the rule, then no action will be performed on the current request.
+1. **DROP & RECORD REQUEST** - If the Request to the subscribed domain matches the Firewall Rule, an event is generated but the request will not be allowed through the WAF.
+2. **RECORD REQUEST** - An event is generated whenever the Request satisfies the Rule, but whenever the request passes through other rules its events are logged by Haltdos.
+3. **BYPASS REQUEST** - If the Request tests positive for the rule, no other rule is tested and the Request will be allowed through the WAF.
+4. **REDIRECT** - If the request satisfies the rule, then the user is redirected to another page.
+5. **NO ACTION** - If the request satisfies the rule, then no action will be performed on the current request.
 
 
 #### Add Rule Condition

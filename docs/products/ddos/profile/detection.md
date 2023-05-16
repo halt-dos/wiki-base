@@ -4,11 +4,9 @@ sidebar_position: 2
 
 # Detection
 
-DDoS Alaram
-
 ---
 
-Haltdos Device supports flood detection in which is default mechanism for alarm creation.
+Haltdos Anti-DDos Device supports flood detection in which is default mechanism for alarm creation.
 
 ![ddos_detection_alaram_type](/img/ddos/v2/detection.png)
 
@@ -18,7 +16,7 @@ Haltdos Device supports flood detection in which is default mechanism for alarm 
 
 ![ddos_detection_alaram_type](/img/ddos/v2/detection3.png)
 
-| Alarms Types                         |
+| Alarm Types                         |
 |--------------------------------------|
 | Inbound Connection Flood (cps)       |
 | Inbound DNS Flood (bps)              |

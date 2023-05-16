@@ -9,7 +9,7 @@ Users can changes the current account settings using **Account** option. Users a
 
 ![Account](/img/community-waf/account.png)
 
-### How to Use
+### How to Use:
 1. Log into the Haltdos community portal
 2. Select **Account** from the side menu.
 3. Fill in the details you want to update.

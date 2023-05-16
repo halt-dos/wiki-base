@@ -11,10 +11,10 @@ The Tamper rule is a feature of Haltdos WAF that provides encryption for the use
    
 ![Tamper Rule](/img/waf/tamper_rule.png)
    
-### How to Use
+### How to Use:
 1. Follow the links: **WAF** > **Listener** >  **Profiles** > **Rules** > **Tamper Rules**
 2. Click on Add Rule and set relevant parameters described in the table below.
-3. Click on save changes.
+3. Click on Save Changes.
 
 | Parameters       | Accepted value |  Default       |
 |------------------|----------------|----------------|
@@ -29,7 +29,8 @@ The Tamper rule is a feature of Haltdos WAF that provides encryption for the use
 | Extract From     | Drop-down      | Body Name      |
 | Parameter        | String         | Blank          |
 
-![Tamper Rule](/img/waf/tamper_rule2.png)
+![Tamper Rule](/img/waf/tamper_rule2.png)  
+
 ### Description 
 
 #### Rule Name
@@ -38,15 +39,14 @@ Users are allowe to specify the rule name to identify the rule which is to be cr
 #### Rule Message
 Users are allowed to specify a rule message containing a detailed description to identify the rule which is to be created.
 
-#### Rule Pririty
+#### Rule Priority
 It is a numeric field that specifies the priority of the rule in which the rule will be executed while evaluating the request. The lower value of priority means it will be executed first while executing the type of rule. The default value Is 0. 
 
 #### Tamper Action
 Users are allowed to specify the tamper action to be taken for the request matched.
 
 #### Rule Action
-pecify the action to be taken for the request matched i.e. Drop & Record Request, Record Request, Bypass Request, Temporary Blacklist Src IP, Redirect, Send Challenge, Send Response, Tarpit Src IP, No Action, Skip Learning, Send Empty Response.
-
+Specify the action to be taken for the request matched i.e. Drop & Record Request, Record Request, Bypass Request, Temporary Blacklist Src IP, Redirect, Send Challenge, Send Response, Tarpit Src IP, No Action, Skip Learning, Send Empty Response.
 
 ### Attribute Extraction
 
