@@ -20,6 +20,19 @@ const config = {
 
   presets: [
     [
+      'redocusaurus',
+      {
+        specs: [{
+          route: '/api',
+          spec: 'api/api.json',
+        }],
+        theme: {
+          // Change with your site colors
+          primaryColor: '#1890ff',
+        },
+      }
+    ],
+    [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
@@ -70,7 +83,7 @@ const config = {
         },
         items:[
           {to: 'kb', label: 'Knowledge Base', position: 'left'},
-          //{to: 'api', label: 'API', position: 'left'},
+          {to: 'api', label: 'API', position: 'left'},
           {
             type: 'docsVersionDropdown',
             position: 'right',
